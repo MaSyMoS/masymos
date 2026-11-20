@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.cellml.org/cellml/2.0#" name="declared-base-demo">
+  <!-- An empty units element is a new irreducible unit in CellML 2.0 (3.3.2). -->
+  <units name="cell"/>
+  <units name="cells_per_second">
+    <unit units="cell"/>
+    <unit units="second" exponent="-1"/>
+  </units>
+  <component name="main">
+    <variable name="count" units="cell" initial_value="0"/>
+    <variable name="rate" units="cells_per_second"/>
+  </component>
+</model>

@@ -1,0 +1,2 @@
+GET https://data.bioontology.org/ontologies/GO
+# captured 2026-11-13T22:52:46Z

@@ -1,0 +1,155 @@
+{
+  "appearsIn" : [ "go" ],
+  "curie" : "GO:0000005",
+  "definedBy" : [ "go" ],
+  "definition" : [ "This term was made obsolete because it refers to a class of gene products and a biological process rather than a molecular function.", {
+    "type" : [ "reification" ],
+    "value" : "OBSOLETE. Assists in the correct assembly of ribosomes or ribosomal subunits in vivo, but is not a component of the assembled ribosome when performing its normal biological function.",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ "GOC:jl", "PMID:12150913" ]
+    } ]
+  } ],
+  "definitionProperty" : [ "http://purl.obolibrary.org/obo/IAO_0000115", "http://www.w3.org/2000/01/rdf-schema#comment" ],
+  "hasDirectChildren" : false,
+  "hasDirectParents" : false,
+  "hasHierarchicalChildren" : false,
+  "hasHierarchicalParents" : false,
+  "imported" : false,
+  "iri" : "http://purl.obolibrary.org/obo/GO_0000005",
+  "isDefiningOntology" : true,
+  "isObsolete" : true,
+  "isPreferredRoot" : false,
+  "label" : [ "obsolete ribosomal chaperone activity" ],
+  "linkedEntities" : {
+    "GO:0000005" : {
+      "iri" : "http://purl.obolibrary.org/obo/GO_0000005",
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "obsolete ribosomal chaperone activity" ],
+      "curie" : "GO:0000005",
+      "type" : [ "class", "entity" ],
+      "url" : "http://amigo.geneontology.org/amigo/term/GO:0000005",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "PMID:12150913" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/12150913",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml",
+      "curie" : "PMID:12150913"
+    },
+    "http://purl.obolibrary.org/obo/GO_0042254" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 20.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ribosome biogenesis" ],
+      "curie" : "GO:0042254",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0044183" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 5.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "protein folding chaperone" ],
+      "curie" : "GO:0044183",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0140309" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "unfolded protein holdase activity" ],
+      "curie" : "GO:0140309",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000115" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 235.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "definition" ],
+      "curie" : "IAO:0000115",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#consider" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "consider" ],
+      "curie" : "OIO:consider",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 216.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "database_cross_reference", "has_dbxref" ],
+      "curie" : "OIO:hasDbXref",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 212.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_exact_synonym" ],
+      "curie" : "OIO:hasExactSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 172.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_obo_namespace" ],
+      "curie" : "OIO:hasOBONamespace",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#id" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 184.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "id" ],
+      "curie" : "OIO:id",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#comment" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 181.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "comment" ],
+      "curie" : "RDFS:comment",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 204.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    }
+  },
+  "linksTo" : [ "http://purl.obolibrary.org/obo/GO_0000005", "http://purl.obolibrary.org/obo/GO_0042254", "http://purl.obolibrary.org/obo/GO_0044183", "http://purl.obolibrary.org/obo/GO_0140309", "http://purl.obolibrary.org/obo/IAO_0000115", "http://www.geneontology.org/formats/oboInOwl#consider", "http://www.geneontology.org/formats/oboInOwl#hasDbXref", "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace", "http://www.geneontology.org/formats/oboInOwl#id", "http://www.w3.org/2000/01/rdf-schema#comment", "http://www.w3.org/2000/01/rdf-schema#label" ],
+  "numDescendants" : 0.0,
+  "numHierarchicalDescendants" : 0.0,
+  "ontologyId" : "go",
+  "ontologyIri" : "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+  "ontologyPreferredPrefix" : "GO",
+  "searchableAnnotationValues" : [ false ],
+  "shortForm" : "GO_0000005",
+  "synonym" : [ "ribosomal chaperone activity" ],
+  "synonymProperty" : "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym",
+  "type" : [ "class", "entity" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : {
+    "type" : [ "reification" ],
+    "value" : "OBSOLETE. Assists in the correct assembly of ribosomes or ribosomal subunits in vivo, but is not a component of the assembled ribosome when performing its normal biological function.",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ "GOC:jl", "PMID:12150913" ]
+    } ]
+  },
+  "http://www.geneontology.org/formats/oboInOwl#consider" : [ "http://purl.obolibrary.org/obo/GO_0042254", "http://purl.obolibrary.org/obo/GO_0044183", "http://purl.obolibrary.org/obo/GO_0140309" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ "ribosomal chaperone activity" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : "molecular_function",
+  "http://www.geneontology.org/formats/oboInOwl#id" : "GO:0000005",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : "This term was made obsolete because it refers to a class of gene products and a biological process rather than a molecular function.",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "obsolete ribosomal chaperone activity",
+  "http://www.w3.org/2002/07/owl#deprecated" : true
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.cellml.org/cellml/1.1#" name="base-units-demo">
+  <!-- CellML 1.x declares a new base unit with base_units="yes" (5.2.3). -->
+  <units name="ph" base_units="yes"/>
+  <!-- 1.x carries celsius and per-reference offsets, both removed in 2.0. -->
+  <units name="degC">
+    <unit units="celsius" offset="273.15"/>
+  </units>
+  <component name="main">
+    <variable name="phValue" units="ph" initial_value="7.4"/>
+    <variable name="temperature" units="degC"/>
+  </component>
+</model>

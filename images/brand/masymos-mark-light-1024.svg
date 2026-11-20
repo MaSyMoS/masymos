@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1000 1000" role="img" aria-label="MaSyMoS light primary network mark">
+<rect x="0" y="0" width="1000" height="1000" rx="0" fill="#F7F9FB"/>
+<g>
+<path d="M 265 685 L 326 292 L 500 604 L 674 292 L 735 685" fill="none" stroke="#1B2430" stroke-width="39" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="265" cy="685" r="46" fill="#F5B23E" stroke="#1B2430" stroke-width="10"/>
+<circle cx="326" cy="292" r="46" fill="#2DBFAE" stroke="#1B2430" stroke-width="10"/>
+<circle cx="500" cy="604" r="46" fill="#2F6BFF" stroke="#1B2430" stroke-width="10"/>
+<circle cx="674" cy="292" r="46" fill="#2DBFAE" stroke="#1B2430" stroke-width="10"/>
+<circle cx="735" cy="685" r="46" fill="#B49BFF" stroke="#1B2430" stroke-width="10"/>
+</g>
+</svg>

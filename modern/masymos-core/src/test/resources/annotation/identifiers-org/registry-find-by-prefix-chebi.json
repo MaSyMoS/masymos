@@ -1,0 +1,37 @@
+{
+  "prefix" : "chebi",
+  "mirId" : "MIR:00000002",
+  "name" : "ChEBI",
+  "pattern" : "^CHEBI:\\d+$",
+  "description" : "Chemical Entities of Biological Interest (ChEBI) is a freely available dictionary of molecular entities focused on 'small' chemical compounds.",
+  "created" : "2019-06-11T14:15:26.925+00:00",
+  "modified" : "2019-06-11T14:15:26.925+00:00",
+  "deprecated" : false,
+  "deprecationDate" : null,
+  "deprecationOfflineDate" : null,
+  "renderDeprecatedLanding" : false,
+  "deprecationStatement" : null,
+  "infoOnPostmortemAccess" : null,
+  "sampleId" : "36927",
+  "namespaceEmbeddedInLui" : true,
+  "_links" : {
+    "self" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/1"
+    },
+    "namespace" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/1"
+    },
+    "successor" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/1/successor"
+    },
+    "resources" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/1/resources"
+    },
+    "contactPerson" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/1/contactPerson"
+    },
+    "curationWarnings" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/1/curationWarnings"
+    }
+  }
+}

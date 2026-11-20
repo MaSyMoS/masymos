@@ -1,0 +1,431 @@
+{
+  "appearsIn" : [ "chebi", "efo", "go", "oba", "pride", "slm", "upheno", "wbphenotype" ],
+  "curatedFrom" : [ {
+    "text" : "mRNA",
+    "source" : "hca",
+    "subjectCategories" : [ "input_nucleic_acid_molecule" ]
+  }, {
+    "text" : "mRNA",
+    "source" : "atlas",
+    "subjectCategories" : [ "RNA" ]
+  }, {
+    "text" : "mRNA",
+    "source" : "cbi",
+    "subjectCategories" : [ "CBI-plant" ]
+  } ],
+  "curatedFromSources" : [ "atlas", "cbi", "hca" ],
+  "curie" : "CHEBI:33699",
+  "definedBy" : [ "chebi" ],
+  "definition" : [ "An RNA molecule that transfers the coding information for protein synthesis from the chromosomes to the ribosomes mRNA is formed from a DNA template by transcription. It may be a copy of a single gene or of several adjacent genes (polycistronic mRNA). On the ribosome, the sequence is converted into the programmed amino acid sequence through translation." ],
+  "definitionProperty" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "directAncestor" : [ "http://purl.obolibrary.org/obo/CHEBI_15986", "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_24532", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33302", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33595", "http://purl.obolibrary.org/obo/CHEBI_33655", "http://purl.obolibrary.org/obo/CHEBI_33659", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_33694", "http://purl.obolibrary.org/obo/CHEBI_33695", "http://purl.obolibrary.org/obo/CHEBI_33696", "http://purl.obolibrary.org/obo/CHEBI_33697", "http://purl.obolibrary.org/obo/CHEBI_33832", "http://purl.obolibrary.org/obo/CHEBI_33833", "http://purl.obolibrary.org/obo/CHEBI_33839", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_51143", "http://purl.obolibrary.org/obo/CHEBI_5686", "http://purl.obolibrary.org/obo/CHEBI_61120", "http://purl.obolibrary.org/obo/CHEBI_72695" ],
+  "directParent" : [ "http://purl.obolibrary.org/obo/CHEBI_33697" ],
+  "hasDirectChildren" : true,
+  "hasDirectParents" : true,
+  "hasHierarchicalChildren" : true,
+  "hasHierarchicalParents" : true,
+  "hierarchicalAncestor" : [ "http://purl.obolibrary.org/obo/CHEBI_15986", "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_24532", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33302", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33595", "http://purl.obolibrary.org/obo/CHEBI_33655", "http://purl.obolibrary.org/obo/CHEBI_33659", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_33694", "http://purl.obolibrary.org/obo/CHEBI_33695", "http://purl.obolibrary.org/obo/CHEBI_33696", "http://purl.obolibrary.org/obo/CHEBI_33697", "http://purl.obolibrary.org/obo/CHEBI_33832", "http://purl.obolibrary.org/obo/CHEBI_33833", "http://purl.obolibrary.org/obo/CHEBI_33839", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_51143", "http://purl.obolibrary.org/obo/CHEBI_5686", "http://purl.obolibrary.org/obo/CHEBI_61120", "http://purl.obolibrary.org/obo/CHEBI_72695" ],
+  "hierarchicalParent" : [ "http://purl.obolibrary.org/obo/CHEBI_33697" ],
+  "hierarchicalProperty" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "imported" : false,
+  "iri" : "http://purl.obolibrary.org/obo/CHEBI_33699",
+  "isDefiningOntology" : true,
+  "isObsolete" : false,
+  "isPreferredRoot" : false,
+  "label" : [ "messenger RNA" ],
+  "linkedEntities" : {
+    "CHEBI:33699" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_33699",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "messenger RNA" ],
+      "curie" : "CHEBI:33699",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:33699",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_15986" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 33.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "polynucleotide" ],
+      "curie" : "CHEBI:15986",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_23367" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 94.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "molecular entity" ],
+      "curie" : "CHEBI:23367",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_24431" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 74.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "chemical entity" ],
+      "curie" : "CHEBI:24431",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_24532" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 51.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic heterocyclic compound" ],
+      "curie" : "CHEBI:24532",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25367" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 54.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "molecule" ],
+      "curie" : "CHEBI:25367",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33285" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 55.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heteroorganic entity" ],
+      "curie" : "CHEBI:33285",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33302" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 51.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "pnictogen molecular entity" ],
+      "curie" : "CHEBI:33302",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33579" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "main group molecular entity" ],
+      "curie" : "CHEBI:33579",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33582" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "carbon group molecular entity" ],
+      "curie" : "CHEBI:33582",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33595" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 53.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "cyclic compound" ],
+      "curie" : "CHEBI:33595",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33655" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 46.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "aromatic compound" ],
+      "curie" : "CHEBI:33655",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33659" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 48.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic aromatic compound" ],
+      "curie" : "CHEBI:33659",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33675" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 57.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "p-block molecular entity" ],
+      "curie" : "CHEBI:33675",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33694" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "biomacromolecule" ],
+      "curie" : "CHEBI:33694",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33695" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 41.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "information biomacromolecule" ],
+      "curie" : "CHEBI:33695",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33696" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 58.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "nucleic acid" ],
+      "curie" : "CHEBI:33696",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33697" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ribonucleic acid" ],
+      "curie" : "CHEBI:33697",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33832" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic cyclic compound" ],
+      "curie" : "CHEBI:33832",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33833" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 49.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heteroarene" ],
+      "curie" : "CHEBI:33833",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33839" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 70.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "macromolecule" ],
+      "curie" : "CHEBI:33839",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36357" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 59.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "polyatomic entity" ],
+      "curie" : "CHEBI:36357",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_50860" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 59.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic molecular entity" ],
+      "curie" : "CHEBI:50860",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_51143" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 53.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "nitrogen molecular entity" ],
+      "curie" : "CHEBI:51143",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_5686" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heterocyclic compound" ],
+      "curie" : "CHEBI:5686",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_61120" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 40.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "nucleobase-containing molecular entity" ],
+      "curie" : "CHEBI:61120",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_72695" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 57.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic molecule" ],
+      "curie" : "CHEBI:72695",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000115" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 233.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "definition" ],
+      "curie" : "IAO:0000115",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/chebi/3_STAR" : {
+      "numAppearsIn" : 18.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "3_STAR" ],
+      "curie" : "3_STAR",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME" : {
+      "numAppearsIn" : 9.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "IUPAC NAME" ],
+      "curie" : "IUPAC_NAME",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 214.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "database_cross_reference", "has_dbxref" ],
+      "curie" : "OIO:hasDbXref",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 211.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_exact_synonym" ],
+      "curie" : "OIO:hasExactSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 170.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_obo_namespace" ],
+      "curie" : "OIO:hasOBONamespace",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 200.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_related_synonym" ],
+      "curie" : "OIO:hasRelatedSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 92.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_synonym_type" ],
+      "curie" : "OIO:hasSynonymType",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#id" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 182.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "id" ],
+      "curie" : "OIO:id",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#inSubset" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 134.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "in_subset" ],
+      "curie" : "OIO:inSubset",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "subClassOf" ],
+      "curie" : "RDFS:subClassOf",
+      "type" : [ "entity", "property" ]
+    }
+  },
+  "linksTo" : [ "http://purl.obolibrary.org/obo/CHEBI_15986", "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_24532", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33302", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33595", "http://purl.obolibrary.org/obo/CHEBI_33655", "http://purl.obolibrary.org/obo/CHEBI_33659", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_33694", "http://purl.obolibrary.org/obo/CHEBI_33695", "http://purl.obolibrary.org/obo/CHEBI_33696", "http://purl.obolibrary.org/obo/CHEBI_33697", "http://purl.obolibrary.org/obo/CHEBI_33699", "http://purl.obolibrary.org/obo/CHEBI_33832", "http://purl.obolibrary.org/obo/CHEBI_33833", "http://purl.obolibrary.org/obo/CHEBI_33839", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_51143", "http://purl.obolibrary.org/obo/CHEBI_5686", "http://purl.obolibrary.org/obo/CHEBI_61120", "http://purl.obolibrary.org/obo/CHEBI_72695", "http://purl.obolibrary.org/obo/IAO_0000115", "http://purl.obolibrary.org/obo/chebi/3_STAR", "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME", "http://www.geneontology.org/formats/oboInOwl#hasDbXref", "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym", "http://www.geneontology.org/formats/oboInOwl#hasSynonymType", "http://www.geneontology.org/formats/oboInOwl#id", "http://www.geneontology.org/formats/oboInOwl#inSubset", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#subClassOf" ],
+  "numDescendants" : 2.0,
+  "numHierarchicalDescendants" : 2.0,
+  "ontologyId" : "chebi",
+  "ontologyIri" : "http://purl.obolibrary.org/obo/chebi.owl",
+  "ontologyPreferredPrefix" : "CHEBI",
+  "searchableAnnotationValues" : [ false ],
+  "shortForm" : "CHEBI_33699",
+  "synonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "mRNA",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac"
+    }, {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "uniprot_ft"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "messenger RNA",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "messenger RNA",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "template RNA",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi"
+    } ]
+  } ],
+  "synonymProperty" : [ "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" ],
+  "type" : [ "class", "entity" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : "An RNA molecule that transfers the coding information for protein synthesis from the chromosomes to the ribosomes mRNA is formed from a DNA template by transcription. It may be a copy of a single gene or of several adjacent genes (polycistronic mRNA). On the ribosome, the sequence is converted into the programmed amino acid sequence through translation.",
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "messenger RNA",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : "chebi_ontology",
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "mRNA",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac"
+    }, {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "uniprot_ft"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "messenger RNA",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "template RNA",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : "CHEBI:33699",
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : "http://purl.obolibrary.org/obo/chebi/3_STAR",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "messenger RNA",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : "http://purl.obolibrary.org/obo/CHEBI_33697"
+}

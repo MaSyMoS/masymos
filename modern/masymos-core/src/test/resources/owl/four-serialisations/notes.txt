@@ -1,0 +1,26 @@
+Four-serialisation fixtures for OWL-2.
+
+sbo.ofn is the source of truth: one small ontology, written by hand in OWL functional syntax.
+sbo.rdf, sbo.ttl and sbo.owlxml are GENERATED from it by OwlSerialisationFixtureWriter (same package,
+test scope) and must never be hand-edited:
+
+  OwlSerialisationFixtureWriter <this directory>
+
+OwlOntologyParserTest.parsesAllFourSerialisationsToTheSameGraph fails when they drift apart, and
+theCanonicalRdfXmlFixtureCarriesTheAxiomsTheOthersAreComparedTo anchors the set against the code
+(all four files derive from one source and one renderer, so without that anchor a silent axiom loss
+in OWLAPI would make all four agree).
+
+sbo.ofn deliberately carries one DisjointClasses and one EquivalentClasses axiom. The reader models
+neither, so they pin the contract that an axiom the graph does not express is dropped identically in
+all four serialisations — including the nested someValuesFrom inside the EquivalentClasses, which
+restrictions() does not reach because it only walks children of owl:Class.
+
+Why not reuse owl/serialisation/: those three fixtures name their own syntax in the ontology comment
+("in Turtle", "in OWL/XML", "in functional syntax") and two of them omit the @en language tags, so
+they already disagree with each other and cannot carry an equality test. They stay as detection
+inputs only.
+
+imports.ttl and sibling-must-not-be-read.owl are the import-isolation pair. imports.ttl declares an
+unreachable http import and a relative import to the sibling beside it; the sibling exists so that
+"a relative import is resolvable but must never be read" is a real assertion instead of a tautology.

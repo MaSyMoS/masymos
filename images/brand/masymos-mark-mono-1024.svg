@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1000 1000" role="img" aria-label="MaSyMoS monochrome graph silhouette">
+<g>
+<path d="M 265 685 L 326 292 L 500 604 L 674 292 L 735 685" fill="none" stroke="#1B2430" stroke-width="70" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="265" cy="685" r="69" fill="#1B2430"/>
+<circle cx="326" cy="292" r="69" fill="#1B2430"/>
+<circle cx="500" cy="604" r="69" fill="#1B2430"/>
+<circle cx="674" cy="292" r="69" fill="#1B2430"/>
+<circle cx="735" cy="685" r="69" fill="#1B2430"/>
+</g>
+</svg>

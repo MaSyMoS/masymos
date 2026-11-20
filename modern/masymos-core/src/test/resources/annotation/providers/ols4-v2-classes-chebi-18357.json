@@ -1,0 +1,1766 @@
+{
+  "appearsIn" : [ "aism", "chebi", "dron", "ecao", "flopo", "fovt", "go", "hcao", "mp", "oba", "pato", "pcl", "prefer", "rbo", "slm", "uberon", "upheno" ],
+  "curie" : "CHEBI:18357",
+  "definedBy" : [ "chebi" ],
+  "definition" : [ "The <i>R</i>-enantiomer of noradrenaline." ],
+  "definitionProperty" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "directAncestor" : [ "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_24651", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_25375", "http://purl.obolibrary.org/obo/CHEBI_25806", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33302", "http://purl.obolibrary.org/obo/CHEBI_33304", "http://purl.obolibrary.org/obo/CHEBI_33566", "http://purl.obolibrary.org/obo/CHEBI_33567", "http://purl.obolibrary.org/obo/CHEBI_33569", "http://purl.obolibrary.org/obo/CHEBI_33570", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33595", "http://purl.obolibrary.org/obo/CHEBI_33608", "http://purl.obolibrary.org/obo/CHEBI_33655", "http://purl.obolibrary.org/obo/CHEBI_33659", "http://purl.obolibrary.org/obo/CHEBI_33674", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_33822", "http://purl.obolibrary.org/obo/CHEBI_33832", "http://purl.obolibrary.org/obo/CHEBI_33853", "http://purl.obolibrary.org/obo/CHEBI_35352", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_37577", "http://purl.obolibrary.org/obo/CHEBI_50047", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_51143", "http://purl.obolibrary.org/obo/CHEBI_63534", "http://purl.obolibrary.org/obo/CHEBI_64365", "http://purl.obolibrary.org/obo/CHEBI_72695" ],
+  "directParent" : [ "http://purl.obolibrary.org/obo/CHEBI_33569" ],
+  "hasDirectChildren" : false,
+  "hasDirectParents" : true,
+  "hasHierarchicalChildren" : false,
+  "hasHierarchicalParents" : true,
+  "hierarchicalAncestor" : [ "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_24651", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_25375", "http://purl.obolibrary.org/obo/CHEBI_25806", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33302", "http://purl.obolibrary.org/obo/CHEBI_33304", "http://purl.obolibrary.org/obo/CHEBI_33566", "http://purl.obolibrary.org/obo/CHEBI_33567", "http://purl.obolibrary.org/obo/CHEBI_33569", "http://purl.obolibrary.org/obo/CHEBI_33570", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33595", "http://purl.obolibrary.org/obo/CHEBI_33608", "http://purl.obolibrary.org/obo/CHEBI_33655", "http://purl.obolibrary.org/obo/CHEBI_33659", "http://purl.obolibrary.org/obo/CHEBI_33674", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_33822", "http://purl.obolibrary.org/obo/CHEBI_33832", "http://purl.obolibrary.org/obo/CHEBI_33853", "http://purl.obolibrary.org/obo/CHEBI_35352", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_37577", "http://purl.obolibrary.org/obo/CHEBI_50047", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_51143", "http://purl.obolibrary.org/obo/CHEBI_63534", "http://purl.obolibrary.org/obo/CHEBI_64365", "http://purl.obolibrary.org/obo/CHEBI_72695" ],
+  "hierarchicalParent" : [ "http://purl.obolibrary.org/obo/CHEBI_33569" ],
+  "hierarchicalProperty" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "imported" : false,
+  "iri" : "http://purl.obolibrary.org/obo/CHEBI_18357",
+  "isDefiningOntology" : true,
+  "isObsolete" : false,
+  "isPreferredRoot" : false,
+  "label" : [ "(R)-noradrenaline" ],
+  "linkedEntities" : {
+    "CHEBI:1" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_1",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_1" ],
+      "curie" : "CHEBI:1",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:1",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:14668" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_14668",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_14668" ],
+      "curie" : "CHEBI:14668",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:14668",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:18357" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_18357",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 17.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "(R)-noradrenaline" ],
+      "curie" : "CHEBI:18357",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:18357",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:25592" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_25592",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_25592" ],
+      "curie" : "CHEBI:25592",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:25592",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:258884" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_258884",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_258884" ],
+      "curie" : "CHEBI:258884",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:258884",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:43725" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_43725",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_43725" ],
+      "curie" : "CHEBI:43725",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:43725",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "cas:51-41-2" : {
+      "url" : "https://commonchemistry.cas.org/detail?cas_rn=51-41-2",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "cas:51-41-2"
+    },
+    "drugbank:DB00368" : {
+      "url" : "https://go.drugbank.com/drugs/DB00368",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "drugbank:DB00368"
+    },
+    "drugcentral:1960" : {
+      "url" : "http://drugcentral.org/drugcard/1960",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "drugcentral:1960"
+    },
+    "hmdb:HMDB0000216" : {
+      "url" : "http://www.hmdb.ca/metabolites/HMDB0000216",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "hmdb:HMDB0000216"
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_23367" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 94.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "molecular entity" ],
+      "curie" : "CHEBI:23367",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_24431" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 74.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "chemical entity" ],
+      "curie" : "CHEBI:24431",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_24651" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "hydroxides" ],
+      "curie" : "CHEBI:24651",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25367" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 54.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "molecule" ],
+      "curie" : "CHEBI:25367",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25375" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 25.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "monoamine molecular messenger" ],
+      "curie" : "CHEBI:25375",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25512" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 38.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "neurotransmitter" ],
+      "curie" : "CHEBI:25512",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25806" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "oxygen molecular entity" ],
+      "curie" : "CHEBI:25806",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33285" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 55.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heteroorganic entity" ],
+      "curie" : "CHEBI:33285",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33302" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 51.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "pnictogen molecular entity" ],
+      "curie" : "CHEBI:33302",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33304" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 54.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "chalcogen molecular entity" ],
+      "curie" : "CHEBI:33304",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33566" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 28.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "catechols" ],
+      "curie" : "CHEBI:33566",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33567" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 26.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "catecholamine" ],
+      "curie" : "CHEBI:33567",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33569" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 23.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "noradrenaline" ],
+      "curie" : "CHEBI:33569",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33570" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 32.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "benzenediols" ],
+      "curie" : "CHEBI:33570",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33571" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 17.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "(S)-noradrenaline" ],
+      "curie" : "CHEBI:33571",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33579" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "main group molecular entity" ],
+      "curie" : "CHEBI:33579",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33582" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "carbon group molecular entity" ],
+      "curie" : "CHEBI:33582",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33595" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 53.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "cyclic compound" ],
+      "curie" : "CHEBI:33595",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33608" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 48.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "hydrogen molecular entity" ],
+      "curie" : "CHEBI:33608",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33655" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 46.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "aromatic compound" ],
+      "curie" : "CHEBI:33655",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33659" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 48.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic aromatic compound" ],
+      "curie" : "CHEBI:33659",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33674" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 51.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "s-block molecular entity" ],
+      "curie" : "CHEBI:33674",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33675" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 57.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "p-block molecular entity" ],
+      "curie" : "CHEBI:33675",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33822" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 45.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic hydroxy compound" ],
+      "curie" : "CHEBI:33822",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33832" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic cyclic compound" ],
+      "curie" : "CHEBI:33832",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33853" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 46.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "phenols" ],
+      "curie" : "CHEBI:33853",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35352" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organonitrogen compound" ],
+      "curie" : "CHEBI:35352",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35469" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 32.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "antidepressant" ],
+      "curie" : "CHEBI:35469",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35524" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 27.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "sympathomimetic agent" ],
+      "curie" : "CHEBI:35524",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35554" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 42.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "cardiovascular drug" ],
+      "curie" : "CHEBI:35554",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35569" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 27.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "alpha-adrenergic agonist" ],
+      "curie" : "CHEBI:35569",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36357" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 59.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "polyatomic entity" ],
+      "curie" : "CHEBI:36357",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_37577" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 55.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heteroatomic molecular entity" ],
+      "curie" : "CHEBI:37577",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_50047" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 47.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic amino compound" ],
+      "curie" : "CHEBI:50047",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_50177" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 31.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "dermatologic drug" ],
+      "curie" : "CHEBI:50177",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_50514" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 32.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "vasoconstrictor agent" ],
+      "curie" : "CHEBI:50514",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_50860" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 59.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic molecular entity" ],
+      "curie" : "CHEBI:50860",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_51143" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 53.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "nitrogen molecular entity" ],
+      "curie" : "CHEBI:51143",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_63534" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 27.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "monoamine" ],
+      "curie" : "CHEBI:63534",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_63726" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 29.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "neuroprotective agent" ],
+      "curie" : "CHEBI:63726",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_64365" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 26.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "aralkylamino compound" ],
+      "curie" : "CHEBI:64365",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_67079" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 37.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "anti-inflammatory agent" ],
+      "curie" : "CHEBI:67079",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_72587" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 19.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "(R)-noradrenaline(1+)" ],
+      "curie" : "CHEBI:72587",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_72695" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 57.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic molecule" ],
+      "curie" : "CHEBI:72695",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_74518" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 23.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "anti-obesity agent" ],
+      "curie" : "CHEBI:74518",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_75771" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 42.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "mouse metabolite" ],
+      "curie" : "CHEBI:75771",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000115" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 235.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "definition" ],
+      "curie" : "IAO:0000115",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/RO_0000087" : {
+      "definedBy" : [ "ro" ],
+      "numAppearsIn" : 124.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has role" ],
+      "curie" : "RO:0000087",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/RO_0018033" : {
+      "definedBy" : [ "ro" ],
+      "numAppearsIn" : 28.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "is deprotonated form of" ],
+      "curie" : "RO:0018033",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/RO_0018039" : {
+      "definedBy" : [ "ro" ],
+      "numAppearsIn" : 26.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "is enantiomer of" ],
+      "curie" : "RO:0018039",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/chebi/3_STAR" : {
+      "numAppearsIn" : 18.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "3_STAR" ],
+      "curie" : "3_STAR",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/chebi/INN" : {
+      "numAppearsIn" : 9.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "INN" ],
+      "curie" : "INN",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME" : {
+      "numAppearsIn" : 9.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "IUPAC NAME" ],
+      "curie" : "IUPAC_NAME",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 146.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_alternative_id" ],
+      "curie" : "OIO:hasAlternativeId",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 216.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "database_cross_reference", "has_dbxref" ],
+      "curie" : "OIO:hasDbXref",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 212.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_exact_synonym" ],
+      "curie" : "OIO:hasExactSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 172.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_obo_namespace" ],
+      "curie" : "OIO:hasOBONamespace",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_related_synonym" ],
+      "curie" : "OIO:hasRelatedSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 92.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_synonym_type" ],
+      "curie" : "OIO:hasSynonymType",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#id" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 184.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "id" ],
+      "curie" : "OIO:id",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#inSubset" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 134.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "in_subset" ],
+      "curie" : "OIO:inSubset",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#source" : {
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "source" ],
+      "curie" : "source",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 204.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "subClassOf" ],
+      "curie" : "RDFS:subClassOf",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2001/XMLSchema#decimal" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : false,
+      "type" : [ "class", "entity" ],
+      "label" : [ "decimal" ],
+      "curie" : "decimal"
+    },
+    "https://w3id.org/chemrof/charge" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "charge" ],
+      "curie" : "charge",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/generalized_empirical_formula" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "generalized_empirical_formula" ],
+      "curie" : "generalized_empirical_formula",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/inchi_key_string" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "inchi_key_string" ],
+      "curie" : "inchi_key_string",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/inchi_string" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "inchi_string" ],
+      "curie" : "inchi_string",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/mass" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "mass" ],
+      "curie" : "mass",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/monoisotopic_mass" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "monoisotopic_mass" ],
+      "curie" : "monoisotopic_mass",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/smiles_string" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "smiles_string" ],
+      "curie" : "smiles_string",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "knapsack:C00001424" : {
+      "url" : "http://www.knapsackfamily.com/knapsack_core/information.php?word=C00001424",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "knapsack:C00001424"
+    },
+    "pubmed:10196521" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/10196521/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:10196521"
+    },
+    "pubmed:10447956" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/10447956/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:10447956"
+    },
+    "pubmed:10454528" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/10454528/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:10454528"
+    },
+    "pubmed:10476872" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/10476872/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:10476872"
+    },
+    "pubmed:10780918" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/10780918/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:10780918"
+    },
+    "pubmed:11160873" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/11160873/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:11160873"
+    },
+    "pubmed:11859002" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/11859002/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:11859002"
+    },
+    "pubmed:12089365" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/12089365/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:12089365"
+    },
+    "pubmed:1271416" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/1271416/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:1271416"
+    },
+    "pubmed:1313109" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/1313109/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:1313109"
+    },
+    "pubmed:1346652" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/1346652/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:1346652"
+    },
+    "pubmed:191614" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/191614/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:191614"
+    },
+    "pubmed:2066997" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/2066997/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:2066997"
+    },
+    "pubmed:2308146" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/2308146/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:2308146"
+    },
+    "pubmed:2836587" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/2836587/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:2836587"
+    },
+    "pubmed:2845082" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/2845082/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:2845082"
+    },
+    "pubmed:2870187" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/2870187/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:2870187"
+    },
+    "pubmed:2884313" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/2884313/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:2884313"
+    },
+    "pubmed:2903243" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/2903243/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:2903243"
+    },
+    "pubmed:2982020" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/2982020/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:2982020"
+    },
+    "pubmed:3005570" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/3005570/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:3005570"
+    },
+    "pubmed:3009812" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/3009812/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:3009812"
+    },
+    "pubmed:31486" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/31486/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:31486"
+    },
+    "pubmed:3156993" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/3156993/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:3156993"
+    },
+    "pubmed:3806598" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/3806598/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:3806598"
+    },
+    "pubmed:6094812" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/6094812/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:6094812"
+    },
+    "pubmed:6105214" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/6105214/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:6105214"
+    },
+    "pubmed:6120238" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/6120238/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:6120238"
+    },
+    "pubmed:6124637" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/6124637/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:6124637"
+    },
+    "pubmed:619150" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/619150/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:619150"
+    },
+    "pubmed:6296387" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/6296387/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:6296387"
+    },
+    "pubmed:6694163" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/6694163/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:6694163"
+    },
+    "pubmed:671451" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/671451/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:671451"
+    },
+    "pubmed:7154001" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/7154001/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:7154001"
+    },
+    "pubmed:7328588" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/7328588/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:7328588"
+    },
+    "pubmed:7328589" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/7328589/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:7328589"
+    },
+    "pubmed:7562902" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/7562902/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:7562902"
+    },
+    "pubmed:7964801" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/7964801/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:7964801"
+    },
+    "pubmed:8064796" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/8064796/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:8064796"
+    },
+    "pubmed:8230093" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/8230093/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:8230093"
+    },
+    "pubmed:8254623" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/8254623/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:8254623"
+    },
+    "pubmed:8632409" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/8632409/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:8632409"
+    },
+    "pubmed:8632424" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/8632424/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:8632424"
+    },
+    "pubmed:8831777" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/8831777/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:8831777"
+    },
+    "pubmed:8898084" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/8898084/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:8898084"
+    },
+    "pubmed:9687576" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/9687576/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:9687576"
+    },
+    "pubmed:9767652" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/9767652/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:9767652"
+    },
+    "pubmed:9776363" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/9776363/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:9776363"
+    },
+    "pubmed:9812985" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/9812985/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:9812985"
+    },
+    "pubmed:9830022" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/9830022/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:9830022"
+    }
+  },
+  "linksTo" : [ "http://purl.obolibrary.org/obo/CHEBI_1", "http://purl.obolibrary.org/obo/CHEBI_14668", "http://purl.obolibrary.org/obo/CHEBI_18357", "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_24651", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_25375", "http://purl.obolibrary.org/obo/CHEBI_25512", "http://purl.obolibrary.org/obo/CHEBI_25592", "http://purl.obolibrary.org/obo/CHEBI_25806", "http://purl.obolibrary.org/obo/CHEBI_258884", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33302", "http://purl.obolibrary.org/obo/CHEBI_33304", "http://purl.obolibrary.org/obo/CHEBI_33566", "http://purl.obolibrary.org/obo/CHEBI_33567", "http://purl.obolibrary.org/obo/CHEBI_33569", "http://purl.obolibrary.org/obo/CHEBI_33570", "http://purl.obolibrary.org/obo/CHEBI_33571", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33595", "http://purl.obolibrary.org/obo/CHEBI_33608", "http://purl.obolibrary.org/obo/CHEBI_33655", "http://purl.obolibrary.org/obo/CHEBI_33659", "http://purl.obolibrary.org/obo/CHEBI_33674", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_33822", "http://purl.obolibrary.org/obo/CHEBI_33832", "http://purl.obolibrary.org/obo/CHEBI_33853", "http://purl.obolibrary.org/obo/CHEBI_35352", "http://purl.obolibrary.org/obo/CHEBI_35469", "http://purl.obolibrary.org/obo/CHEBI_35524", "http://purl.obolibrary.org/obo/CHEBI_35554", "http://purl.obolibrary.org/obo/CHEBI_35569", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_37577", "http://purl.obolibrary.org/obo/CHEBI_43725", "http://purl.obolibrary.org/obo/CHEBI_50047", "http://purl.obolibrary.org/obo/CHEBI_50177", "http://purl.obolibrary.org/obo/CHEBI_50514", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_51143", "http://purl.obolibrary.org/obo/CHEBI_63534", "http://purl.obolibrary.org/obo/CHEBI_63726", "http://purl.obolibrary.org/obo/CHEBI_64365", "http://purl.obolibrary.org/obo/CHEBI_67079", "http://purl.obolibrary.org/obo/CHEBI_72587", "http://purl.obolibrary.org/obo/CHEBI_72695", "http://purl.obolibrary.org/obo/CHEBI_74518", "http://purl.obolibrary.org/obo/CHEBI_75771", "http://purl.obolibrary.org/obo/IAO_0000115", "http://purl.obolibrary.org/obo/RO_0000087", "http://purl.obolibrary.org/obo/RO_0018033", "http://purl.obolibrary.org/obo/RO_0018039", "http://purl.obolibrary.org/obo/chebi/3_STAR", "http://purl.obolibrary.org/obo/chebi/INN", "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME", "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId", "http://www.geneontology.org/formats/oboInOwl#hasDbXref", "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym", "http://www.geneontology.org/formats/oboInOwl#hasSynonymType", "http://www.geneontology.org/formats/oboInOwl#id", "http://www.geneontology.org/formats/oboInOwl#inSubset", "http://www.geneontology.org/formats/oboInOwl#source", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#subClassOf", "http://www.w3.org/2001/XMLSchema#decimal", "https://w3id.org/chemrof/charge", "https://w3id.org/chemrof/generalized_empirical_formula", "https://w3id.org/chemrof/inchi_key_string", "https://w3id.org/chemrof/inchi_string", "https://w3id.org/chemrof/mass", "https://w3id.org/chemrof/monoisotopic_mass", "https://w3id.org/chemrof/smiles_string" ],
+  "numDescendants" : 0.0,
+  "numHierarchicalDescendants" : 0.0,
+  "ontologyId" : "chebi",
+  "ontologyIri" : "http://purl.obolibrary.org/obo/chebi.owl",
+  "ontologyPreferredPrefix" : "CHEBI",
+  "relatedTo" : [ {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_25512",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_25512",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_35469",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35469",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_35524",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35524",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_35554",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35554",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_35569",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35569",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_50177",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_50177",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_50514",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_50514",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_63726",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_63726",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_67079",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_67079",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_74518",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_74518",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_75771",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_75771",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0018033",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_72587",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0018033",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_72587",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0018039",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_33571",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0018039",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_33571",
+    "isObsolete" : false
+  } ],
+  "searchableAnnotationValues" : [ 0.0, false ],
+  "shortForm" : "CHEBI_18357",
+  "synonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "(-)-arterenol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "(-)-noradrenaline",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iuphar"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "(-)-norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "(R)-(-)-norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "(R)-4-(2-amino-1-hydroxyethyl)-1,2-benzenediol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "(R)-norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "4-[(1R)-2-Amino-1-hydroxyethyl]-1,2-benzenediol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "4-[(1R)-2-amino-1-hydroxyethyl]benzene-1,2-diol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "4-[(1R)-2-amino-1-hydroxyethyl]benzene-1,2-diol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Arterenol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "L-NOREPINEPHRINE",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "pdb-ccd"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "L-Noradrenaline",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "NSC-757246",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Nor adrenalin",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Noradrenaline",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "R-norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "norepinefrina",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/INN",
+      "oboSynonymTypeName" : "INN"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    }, {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/INN",
+      "oboSynonymTypeName" : "INN"
+    }, {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "who_mednet",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/INN",
+      "oboSynonymTypeName" : "INN"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "norepinephrinum",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/INN",
+      "oboSynonymTypeName" : "INN"
+    } ]
+  } ],
+  "synonymProperty" : [ "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" ],
+  "type" : [ "class", "entity" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : "The <i>R</i>-enantiomer of noradrenaline.",
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ "CHEBI:1", "CHEBI:14668", "CHEBI:25592", "CHEBI:258884", "CHEBI:43725" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "type" : [ "reification" ],
+    "value" : "beilstein:4231961",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "beilstein"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "cas:51-41-2",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "cas"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "drugbank:DB00368",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "drugbank"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "drugcentral:1960",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "drugcentral"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "hmdb:HMDB0000216",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "hmdb"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "kegg.compound:C00547",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "kegg.drug:D00076",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "kegg.drug"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "knapsack:C00001424",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "knapsack"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pdb-ccd:LNR",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pdb-ccd"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:10196521",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:10447956",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:10454528",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:10476872",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:10780918",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:11160873",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:11859002",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:12089365",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:1271416",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:1313109",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:1346652",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:191614",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:2066997",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:2308146",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:2836587",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:2845082",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:2870187",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:2884313",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:2903243",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:2982020",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:3005570",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:3009812",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:31486",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:3156993",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:3806598",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:6094812",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:6105214",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:6120238",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:6124637",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:619150",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:6296387",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:6694163",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:671451",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:7154001",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:7328588",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:7328589",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:7562902",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:7964801",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:8064796",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:8230093",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:8254623",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:8632409",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:8632424",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:8831777",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:8898084",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:9687576",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:9767652",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:9776363",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:9812985",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:9830022",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "reaxys:2804840",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "reaxys"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "wikipedia.en:Norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "wikipedia.en"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "4-[(1R)-2-amino-1-hydroxyethyl]benzene-1,2-diol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : "chebi_ontology",
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "(-)-arterenol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "(-)-noradrenaline",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iuphar"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "(-)-norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "(R)-(-)-norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "(R)-4-(2-amino-1-hydroxyethyl)-1,2-benzenediol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "(R)-norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "4-[(1R)-2-Amino-1-hydroxyethyl]-1,2-benzenediol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "4-[(1R)-2-amino-1-hydroxyethyl]benzene-1,2-diol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Arterenol",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "L-NOREPINEPHRINE",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "pdb-ccd"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "L-Noradrenaline",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "NSC-757246",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Nor adrenalin",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Noradrenaline",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "R-norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "norepinefrina",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/INN",
+      "oboSynonymTypeName" : "INN"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "norepinephrine",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    }, {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/INN",
+      "oboSynonymTypeName" : "INN"
+    }, {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "who_mednet",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/INN",
+      "oboSynonymTypeName" : "INN"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "norepinephrinum",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/INN",
+      "oboSynonymTypeName" : "INN"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : "CHEBI:18357",
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : "http://purl.obolibrary.org/obo/chebi/3_STAR",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "(R)-noradrenaline",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ "http://purl.obolibrary.org/obo/CHEBI_33569", {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_25512",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35469",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35524",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35554",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35569",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_50177",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_50514",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_63726",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_67079",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_74518",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_75771",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0018033",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_72587",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0018039",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_33571",
+    "isObsolete" : false
+  } ],
+  "https://w3id.org/chemrof/charge" : 0.0,
+  "https://w3id.org/chemrof/generalized_empirical_formula" : "C8H11NO3",
+  "https://w3id.org/chemrof/inchi_key_string" : "SFLSHLFXELFNJZ-QMMMGPOBSA-N",
+  "https://w3id.org/chemrof/inchi_string" : "InChI=1S/C8H11NO3/c9-4-8(12)5-1-2-6(10)7(11)3-5/h1-3,8,10-12H,4,9H2/t8-/m0/s1",
+  "https://w3id.org/chemrof/mass" : "169.18",
+  "https://w3id.org/chemrof/monoisotopic_mass" : "169.07389",
+  "https://w3id.org/chemrof/smiles_string" : "NC[C@H](O)c1ccc(O)c(O)c1"
+}

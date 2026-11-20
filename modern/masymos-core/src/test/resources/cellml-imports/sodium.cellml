@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.cellml.org/cellml/1.0#" xmlns:cmeta="http://www.cellml.org/metadata/1.0#"
+       xmlns:xlink="http://www.w3.org/1999/xlink" name="sodium">
+  <component name="sodium_channel" cmeta:id="sodium_channel_id">
+    <variable name="m" units="dimensionless" public_interface="out" private_interface="none"/>
+    <variable name="h" units="dimensionless" public_interface="none" private_interface="in"/>
+    <variable name="V" units="millivolt" public_interface="in" private_interface="in"/>
+  </component>
+</model>

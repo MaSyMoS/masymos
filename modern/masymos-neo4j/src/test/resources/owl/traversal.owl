@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- A three-class chain for OWL-4's traversal test: A hangs off the ontology root, B and C hang off
+     A, so depth(B) = 2 and the lowest common ancestor of B and C is A at depth 1. Ids are the local
+     names the parser's compactIdentifier keeps. -->
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#">
+    <owl:Ontology rdf:about="http://example.org/traversal/"/>
+
+    <owl:Class rdf:about="http://example.org/traversal#A">
+        <rdfs:label xml:lang="en">alpha</rdfs:label>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/traversal#B">
+        <rdfs:label xml:lang="en">beta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://example.org/traversal#A"/>
+    </owl:Class>
+
+    <owl:Class rdf:about="http://example.org/traversal#C">
+        <rdfs:label xml:lang="en">gamma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://example.org/traversal#A"/>
+    </owl:Class>
+</rdf:RDF>

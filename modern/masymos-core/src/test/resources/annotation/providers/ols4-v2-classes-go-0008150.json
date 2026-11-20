@@ -1,0 +1,327 @@
+{
+  "appearsIn" : [ "ado", "agro", "aism", "apollo_sv", "bao", "bcgo", "bcio", "bmont", "bspo", "caro", "cco", "ceph", "chiro", "chr", "cido", "cl", "clo", "cmpo", "cob", "coho", "covoc", "cteno", "dideo", "dpo", "dron", "ecao", "eco", "ecocore", "ecto", "efo", "emro", "envo", "epio", "eupath", "fbbi", "fbbt", "fbdv", "flopo", "foodon", "fovt", "fypo", "gallont", "gecko", "genepio", "geno", "gexo", "go", "gsso", "hcao", "hp", "htn", "iceo", "ido", "idocovid19", "idomal", "ino", "maxo", "mco", "mfmo", "micro", "mondo", "mp", "mpio", "mro", "msio", "nbo", "ncro", "oae", "oba", "obcs", "obi", "obib", "ogsf", "ohd", "ohmi", "ohpi", "omiabis", "omit", "omp", "omrse", "one", "ons", "ontoneo", "oostt", "opl", "pain", "pato", "pbpko", "pcl", "pco", "peco", "phipo", "plana", "planp", "po", "poro", "ppo", "pr", "prefer", "pride", "psdo", "pso", "rbo", "reto", "rexo", "ro", "sepio", "slso", "stato", "swo", "tao", "to", "uberon", "upa", "upheno", "valuesets", "vbo", "vo", "vsao", "wbbt", "wbls", "wbphenotype", "xpo", "zp" ],
+  "curie" : "GO:0008150",
+  "definedBy" : [ "go" ],
+  "definition" : [ "Note that, in addition to forming the root of the biological process ontology, this term is recommended for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.", {
+    "type" : [ "reification" ],
+    "value" : "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "GOC:pdt"
+    } ]
+  } ],
+  "definitionProperty" : [ "http://purl.obolibrary.org/obo/IAO_0000115", "http://www.w3.org/2000/01/rdf-schema#comment" ],
+  "directAncestor" : [ "http://purl.obolibrary.org/obo/BFO_0000003", "http://purl.obolibrary.org/obo/BFO_0000015" ],
+  "directParent" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ],
+  "hasDirectChildren" : true,
+  "hasDirectParents" : true,
+  "hasHierarchicalChildren" : true,
+  "hasHierarchicalParents" : true,
+  "hierarchicalAncestor" : [ "http://purl.obolibrary.org/obo/BFO_0000003", "http://purl.obolibrary.org/obo/BFO_0000015" ],
+  "hierarchicalParent" : [ "http://purl.obolibrary.org/obo/BFO_0000015" ],
+  "hierarchicalProperty" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "imported" : false,
+  "iri" : "http://purl.obolibrary.org/obo/GO_0008150",
+  "isDefiningOntology" : true,
+  "isObsolete" : false,
+  "isPreferredRoot" : true,
+  "label" : [ "biological_process" ],
+  "linkedEntities" : {
+    "GO:0000004" : {
+      "iri" : "http://purl.obolibrary.org/obo/GO_0000004",
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "GO_0000004" ],
+      "curie" : "GO:0000004",
+      "type" : [ "class", "entity" ],
+      "url" : "http://amigo.geneontology.org/amigo/term/GO:0000004",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "GO:0007582" : {
+      "iri" : "http://purl.obolibrary.org/obo/GO_0007582",
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "GO_0007582" ],
+      "curie" : "GO:0007582",
+      "type" : [ "class", "entity" ],
+      "url" : "http://amigo.geneontology.org/amigo/term/GO:0007582",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "GO:0008150" : {
+      "iri" : "http://purl.obolibrary.org/obo/GO_0008150",
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 124.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "biological_process" ],
+      "curie" : "GO:0008150",
+      "type" : [ "class", "entity" ],
+      "url" : "http://amigo.geneontology.org/amigo/term/GO:0008150",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "GO:0044699" : {
+      "iri" : "http://purl.obolibrary.org/obo/GO_0044699",
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 15.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "GO_0044699" ],
+      "curie" : "GO:0044699",
+      "type" : [ "class", "entity" ],
+      "url" : "http://amigo.geneontology.org/amigo/term/GO:0044699",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "Wikipedia:Biological_process" : {
+      "url" : "http://en.wikipedia.org/wiki/Biological_process",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml",
+      "curie" : "Wikipedia:Biological_process"
+    },
+    "http://purl.obolibrary.org/obo/BFO_0000003" : {
+      "definedBy" : [ "bfo" ],
+      "numAppearsIn" : 130.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "occurrent" ],
+      "curie" : "BFO:0000003",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/BFO_0000015" : {
+      "definedBy" : [ "bfo" ],
+      "numAppearsIn" : 142.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "process" ],
+      "curie" : "BFO:0000015",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/BFO_0000051" : {
+      "numAppearsIn" : 157.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has part" ],
+      "curie" : "BFO:0000051",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0003674" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 89.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "molecular_function" ],
+      "curie" : "GO:0003674",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000115" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 233.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "definition" ],
+      "curie" : "IAO:0000115",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000233" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 105.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "term tracker item" ],
+      "curie" : "IAO:0000233",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/go#goslim_candida" : {
+      "numAppearsIn" : 31.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "goslim_candida" ],
+      "curie" : "goslim_candida",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/go#goslim_chembl" : {
+      "numAppearsIn" : 30.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "goslim_chembl" ],
+      "curie" : "goslim_chembl",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/go#goslim_metagenomics" : {
+      "numAppearsIn" : 31.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "goslim_metagenomics" ],
+      "curie" : "goslim_metagenomics",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/go#goslim_pir" : {
+      "numAppearsIn" : 31.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "goslim_pir" ],
+      "curie" : "goslim_pir",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/go#goslim_plant" : {
+      "numAppearsIn" : 31.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "goslim_plant" ],
+      "curie" : "goslim_plant",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/go#goslim_pombe" : {
+      "numAppearsIn" : 31.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "goslim_pombe" ],
+      "curie" : "goslim_pombe",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/go#goslim_yeast" : {
+      "numAppearsIn" : 31.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "goslim_yeast" ],
+      "curie" : "goslim_yeast",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#created_by" : {
+      "numAppearsIn" : 163.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "created by" ],
+      "curie" : "created_by",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#creation_date" : {
+      "numAppearsIn" : 164.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "creation date" ],
+      "curie" : "creation_date",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 145.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_alternative_id" ],
+      "curie" : "OIO:hasAlternativeId",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 214.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "database_cross_reference", "has_dbxref" ],
+      "curie" : "OIO:hasDbXref",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 211.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_exact_synonym" ],
+      "curie" : "OIO:hasExactSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 170.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_obo_namespace" ],
+      "curie" : "OIO:hasOBONamespace",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 200.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_related_synonym" ],
+      "curie" : "OIO:hasRelatedSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#id" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 182.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "id" ],
+      "curie" : "OIO:id",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#inSubset" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 134.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "in_subset" ],
+      "curie" : "OIO:inSubset",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#comment" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 179.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "comment" ],
+      "curie" : "RDFS:comment",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "subClassOf" ],
+      "curie" : "RDFS:subClassOf",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2001/XMLSchema#anyURI" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : false,
+      "type" : [ "class", "entity" ],
+      "label" : [ "anyURI" ],
+      "curie" : "anyURI"
+    },
+    "https://github.com/geneontology/go-ontology/issues/24968" : {
+      "url" : "https://github.com/geneontology/go-ontology/issues/24968",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "go.issue:24968"
+    }
+  },
+  "linksTo" : [ "http://purl.obolibrary.org/obo/BFO_0000003", "http://purl.obolibrary.org/obo/BFO_0000015", "http://purl.obolibrary.org/obo/BFO_0000051", "http://purl.obolibrary.org/obo/GO_0000004", "http://purl.obolibrary.org/obo/GO_0003674", "http://purl.obolibrary.org/obo/GO_0007582", "http://purl.obolibrary.org/obo/GO_0008150", "http://purl.obolibrary.org/obo/GO_0044699", "http://purl.obolibrary.org/obo/IAO_0000115", "http://purl.obolibrary.org/obo/IAO_0000233", "http://purl.obolibrary.org/obo/go#goslim_candida", "http://purl.obolibrary.org/obo/go#goslim_chembl", "http://purl.obolibrary.org/obo/go#goslim_metagenomics", "http://purl.obolibrary.org/obo/go#goslim_pir", "http://purl.obolibrary.org/obo/go#goslim_plant", "http://purl.obolibrary.org/obo/go#goslim_pombe", "http://purl.obolibrary.org/obo/go#goslim_yeast", "http://www.geneontology.org/formats/oboInOwl#created_by", "http://www.geneontology.org/formats/oboInOwl#creation_date", "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId", "http://www.geneontology.org/formats/oboInOwl#hasDbXref", "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym", "http://www.geneontology.org/formats/oboInOwl#id", "http://www.geneontology.org/formats/oboInOwl#inSubset", "http://www.w3.org/2000/01/rdf-schema#comment", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#subClassOf", "http://www.w3.org/2001/XMLSchema#anyURI" ],
+  "numDescendants" : 23973.0,
+  "numHierarchicalDescendants" : 25989.0,
+  "ontologyId" : "go",
+  "ontologyIri" : "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+  "ontologyPreferredPrefix" : "GO",
+  "relatedTo" : [ {
+    "property" : "http://purl.obolibrary.org/obo/BFO_0000051",
+    "value" : "http://purl.obolibrary.org/obo/GO_0003674",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/BFO_0000051",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/GO_0003674",
+    "isObsolete" : false
+  } ],
+  "searchableAnnotationValues" : [ false ],
+  "shortForm" : "GO_0008150",
+  "synonym" : [ "biological process", "physiological process", "single organism process", "single-organism process" ],
+  "synonymProperty" : [ "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" ],
+  "type" : [ "class", "entity" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : {
+    "type" : [ "reification" ],
+    "value" : "A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "GOC:pdt"
+    } ]
+  },
+  "http://purl.obolibrary.org/obo/IAO_0000233" : "https://github.com/geneontology/go-ontology/issues/24968",
+  "http://www.geneontology.org/formats/oboInOwl#created_by" : "jl",
+  "http://www.geneontology.org/formats/oboInOwl#creation_date" : "2012-09-19T15:05:24Z",
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ "GO:0000004", "GO:0007582", "GO:0044699" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "Wikipedia:Biological_process",
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ "biological process", "physiological process" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : "biological_process",
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ "single organism process", "single-organism process" ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : "GO:0008150",
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : [ "http://purl.obolibrary.org/obo/go#goslim_candida", "http://purl.obolibrary.org/obo/go#goslim_chembl", "http://purl.obolibrary.org/obo/go#goslim_metagenomics", "http://purl.obolibrary.org/obo/go#goslim_pir", "http://purl.obolibrary.org/obo/go#goslim_plant", "http://purl.obolibrary.org/obo/go#goslim_pombe", "http://purl.obolibrary.org/obo/go#goslim_yeast" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : "Note that, in addition to forming the root of the biological process ontology, this term is recommended for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "biological_process",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ "http://purl.obolibrary.org/obo/BFO_0000015", {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/BFO_0000051",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/GO_0003674",
+    "isObsolete" : false
+  } ]
+}

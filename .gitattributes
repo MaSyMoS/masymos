@@ -1,0 +1,13 @@
+# Keep text normalised in the repository; workers have repeatedly written CRLF or BOMs.
+* text=auto eol=lf
+
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Binaries
+*.jar binary
+*.zip binary
+*.omex binary
+*.png binary
+*.pdf binary

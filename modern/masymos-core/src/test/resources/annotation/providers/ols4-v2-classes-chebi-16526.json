@@ -1,0 +1,1477 @@
+{
+  "appearsIn" : [ "afo", "agro", "chebi", "dpo", "dron", "ecocore", "ecto", "efo", "envo", "eupath", "foodon", "go", "hp", "mco", "micro", "mondo", "mp", "oba", "obi", "peco", "pr", "pride", "rbo", "rxno", "slm", "slso", "uberon", "upheno", "wbphenotype" ],
+  "curie" : "CHEBI:16526",
+  "definedBy" : [ "chebi" ],
+  "definition" : [ "A one-carbon compound with formula CO<small><sub>2</sub></small> in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food." ],
+  "definitionProperty" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "directAncestor" : [ "http://purl.obolibrary.org/obo/CHEBI_138675", "http://purl.obolibrary.org/obo/CHEBI_23014", "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_25701", "http://purl.obolibrary.org/obo/CHEBI_25741", "http://purl.obolibrary.org/obo/CHEBI_25806", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33304", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_36962", "http://purl.obolibrary.org/obo/CHEBI_36963", "http://purl.obolibrary.org/obo/CHEBI_37577", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_64708", "http://purl.obolibrary.org/obo/CHEBI_72695" ],
+  "directParent" : [ "http://purl.obolibrary.org/obo/CHEBI_138675", "http://purl.obolibrary.org/obo/CHEBI_23014", "http://purl.obolibrary.org/obo/CHEBI_64708" ],
+  "hasDirectChildren" : false,
+  "hasDirectParents" : true,
+  "hasHierarchicalChildren" : false,
+  "hasHierarchicalParents" : true,
+  "hierarchicalAncestor" : [ "http://purl.obolibrary.org/obo/CHEBI_138675", "http://purl.obolibrary.org/obo/CHEBI_23014", "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_25701", "http://purl.obolibrary.org/obo/CHEBI_25741", "http://purl.obolibrary.org/obo/CHEBI_25806", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33304", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_36962", "http://purl.obolibrary.org/obo/CHEBI_36963", "http://purl.obolibrary.org/obo/CHEBI_37577", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_64708", "http://purl.obolibrary.org/obo/CHEBI_72695" ],
+  "hierarchicalParent" : [ "http://purl.obolibrary.org/obo/CHEBI_138675", "http://purl.obolibrary.org/obo/CHEBI_23014", "http://purl.obolibrary.org/obo/CHEBI_64708" ],
+  "hierarchicalProperty" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "imported" : false,
+  "iri" : "http://purl.obolibrary.org/obo/CHEBI_16526",
+  "isDefiningOntology" : true,
+  "isObsolete" : false,
+  "isPreferredRoot" : false,
+  "label" : [ "carbon dioxide" ],
+  "linkedEntities" : {
+    "CHEBI:13282" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_13282",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_13282" ],
+      "curie" : "CHEBI:13282",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:13282",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:13283" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_13283",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_13283" ],
+      "curie" : "CHEBI:13283",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:13283",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:13284" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_13284",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_13284" ],
+      "curie" : "CHEBI:13284",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:13284",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:13285" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_13285",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_13285" ],
+      "curie" : "CHEBI:13285",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:13285",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:16526" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_16526",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 29.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "carbon dioxide" ],
+      "curie" : "CHEBI:16526",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16526",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:23011" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_23011",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_23011" ],
+      "curie" : "CHEBI:23011",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:23011",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:3283" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_3283",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_3283" ],
+      "curie" : "CHEBI:3283",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:3283",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:48829" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_48829",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_48829" ],
+      "curie" : "CHEBI:48829",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:48829",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "cas:124-38-9" : {
+      "url" : "https://commonchemistry.cas.org/detail?cas_rn=124-38-9",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "cas:124-38-9"
+    },
+    "drugcentral:4256" : {
+      "url" : "http://drugcentral.org/drugcard/4256",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "drugcentral:4256"
+    },
+    "hmdb:HMDB0001967" : {
+      "url" : "http://www.hmdb.ca/metabolites/HMDB0001967",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "hmdb:HMDB0001967"
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_138675" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 47.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "gas molecular entity" ],
+      "curie" : "CHEBI:138675",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_23014" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 27.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "carbon oxide" ],
+      "curie" : "CHEBI:23014",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_23367" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 94.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "molecular entity" ],
+      "curie" : "CHEBI:23367",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_24431" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 74.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "chemical entity" ],
+      "curie" : "CHEBI:24431",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25367" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 54.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "molecule" ],
+      "curie" : "CHEBI:25367",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25701" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 23.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic oxide" ],
+      "curie" : "CHEBI:25701",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25741" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 47.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "oxide" ],
+      "curie" : "CHEBI:25741",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25806" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "oxygen molecular entity" ],
+      "curie" : "CHEBI:25806",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33285" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 55.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heteroorganic entity" ],
+      "curie" : "CHEBI:33285",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33304" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 54.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "chalcogen molecular entity" ],
+      "curie" : "CHEBI:33304",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33579" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "main group molecular entity" ],
+      "curie" : "CHEBI:33579",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33582" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "carbon group molecular entity" ],
+      "curie" : "CHEBI:33582",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33675" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 57.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "p-block molecular entity" ],
+      "curie" : "CHEBI:33675",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35469" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 32.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "antidepressant" ],
+      "curie" : "CHEBI:35469",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35480" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 32.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "analgesic" ],
+      "curie" : "CHEBI:35480",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35554" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 42.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "cardiovascular drug" ],
+      "curie" : "CHEBI:35554",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35620" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 40.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "vasodilator agent" ],
+      "curie" : "CHEBI:35620",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36357" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 59.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "polyatomic entity" ],
+      "curie" : "CHEBI:36357",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36962" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 51.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organochalcogen compound" ],
+      "curie" : "CHEBI:36962",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36963" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organooxygen compound" ],
+      "curie" : "CHEBI:36963",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_37577" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 55.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heteroatomic molecular entity" ],
+      "curie" : "CHEBI:37577",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_38867" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 27.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "anaesthetic" ],
+      "curie" : "CHEBI:38867",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_46787" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 44.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "solvent" ],
+      "curie" : "CHEBI:46787",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_48706" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 31.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "antagonist" ],
+      "curie" : "CHEBI:48706",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_50857" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 22.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "anti-allergic agent" ],
+      "curie" : "CHEBI:50857",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_50860" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 59.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic molecular entity" ],
+      "curie" : "CHEBI:50860",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_64708" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 47.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "one-carbon compound" ],
+      "curie" : "CHEBI:64708",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_72695" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 57.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic molecule" ],
+      "curie" : "CHEBI:72695",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_75771" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 42.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "mouse metabolite" ],
+      "curie" : "CHEBI:75771",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_75772" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 41.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Saccharomyces cerevisiae metabolite" ],
+      "curie" : "CHEBI:75772",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_76413" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 29.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "greenhouse gas" ],
+      "curie" : "CHEBI:76413",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_76971" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 41.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Escherichia coli metabolite" ],
+      "curie" : "CHEBI:76971",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_77746" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 42.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "human metabolite" ],
+      "curie" : "CHEBI:77746",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_77974" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 31.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "food packaging gas" ],
+      "curie" : "CHEBI:77974",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_78017" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 25.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "food propellant" ],
+      "curie" : "CHEBI:78017",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_78433" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 41.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "refrigerant" ],
+      "curie" : "CHEBI:78433",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000115" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 233.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "definition" ],
+      "curie" : "IAO:0000115",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/RO_0000087" : {
+      "definedBy" : [ "ro" ],
+      "numAppearsIn" : 124.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has role" ],
+      "curie" : "RO:0000087",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/chebi/3_STAR" : {
+      "numAppearsIn" : 18.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "3_STAR" ],
+      "curie" : "3_STAR",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME" : {
+      "numAppearsIn" : 9.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "IUPAC NAME" ],
+      "curie" : "IUPAC_NAME",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 145.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_alternative_id" ],
+      "curie" : "OIO:hasAlternativeId",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 214.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "database_cross_reference", "has_dbxref" ],
+      "curie" : "OIO:hasDbXref",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 211.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_exact_synonym" ],
+      "curie" : "OIO:hasExactSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 170.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_obo_namespace" ],
+      "curie" : "OIO:hasOBONamespace",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 200.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_related_synonym" ],
+      "curie" : "OIO:hasRelatedSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 92.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_synonym_type" ],
+      "curie" : "OIO:hasSynonymType",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#id" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 182.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "id" ],
+      "curie" : "OIO:id",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#inSubset" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 134.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "in_subset" ],
+      "curie" : "OIO:inSubset",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#source" : {
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "source" ],
+      "curie" : "source",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "subClassOf" ],
+      "curie" : "RDFS:subClassOf",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2001/XMLSchema#decimal" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : false,
+      "type" : [ "class", "entity" ],
+      "label" : [ "decimal" ],
+      "curie" : "decimal"
+    },
+    "https://w3id.org/chemrof/charge" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "charge" ],
+      "curie" : "charge",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/generalized_empirical_formula" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "generalized_empirical_formula" ],
+      "curie" : "generalized_empirical_formula",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/inchi_key_string" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "inchi_key_string" ],
+      "curie" : "inchi_key_string",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/inchi_string" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "inchi_string" ],
+      "curie" : "inchi_string",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/mass" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "mass" ],
+      "curie" : "mass",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/monoisotopic_mass" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "monoisotopic_mass" ],
+      "curie" : "monoisotopic_mass",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/smiles_string" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "smiles_string" ],
+      "curie" : "smiles_string",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "molbase:752" : {
+      "url" : "http://www.molbase.com/en/index.php?app=search&search_keyword=752",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "molbase:752"
+    },
+    "ppdb:119" : {
+      "url" : "https://sitem.herts.ac.uk/aeru/ppdb/en/Reports/119.htm",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "ppdb:119"
+    },
+    "pubmed:10826146" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/10826146/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:10826146"
+    },
+    "pubmed:11094503" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/11094503/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:11094503"
+    },
+    "pubmed:11584085" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/11584085/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:11584085"
+    },
+    "pubmed:11802652" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/11802652/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:11802652"
+    },
+    "pubmed:14639145" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/14639145/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:14639145"
+    },
+    "pubmed:15050588" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/15050588/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:15050588"
+    },
+    "pubmed:16591971" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/16591971/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:16591971"
+    },
+    "pubmed:16656478" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/16656478/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:16656478"
+    },
+    "pubmed:16659660" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/16659660/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:16659660"
+    },
+    "pubmed:17190796" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/17190796/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:17190796"
+    },
+    "pubmed:17448243" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/17448243/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:17448243"
+    },
+    "pubmed:17878298" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/17878298/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:17878298"
+    },
+    "pubmed:17884085" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/17884085/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:17884085"
+    },
+    "pubmed:19043767" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/19043767/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:19043767"
+    },
+    "pubmed:19259576" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/19259576/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:19259576"
+    },
+    "pubmed:19854893" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/19854893/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:19854893"
+    },
+    "pubmed:21251841" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/21251841/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:21251841"
+    },
+    "pubmed:23384758" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/23384758/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:23384758"
+    },
+    "pubmed:23828359" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/23828359/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:23828359"
+    },
+    "pubmed:24258718" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/24258718/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:24258718"
+    },
+    "pubmed:8482095" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/8482095/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:8482095"
+    },
+    "pubmed:8818713" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/8818713/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:8818713"
+    },
+    "pubmed:8869828" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/8869828/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:8869828"
+    },
+    "pubmed:9611769" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/9611769/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:9611769"
+    },
+    "pubmed:9730350" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/9730350/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:9730350"
+    }
+  },
+  "linksTo" : [ "http://purl.obolibrary.org/obo/CHEBI_13282", "http://purl.obolibrary.org/obo/CHEBI_13283", "http://purl.obolibrary.org/obo/CHEBI_13284", "http://purl.obolibrary.org/obo/CHEBI_13285", "http://purl.obolibrary.org/obo/CHEBI_138675", "http://purl.obolibrary.org/obo/CHEBI_16526", "http://purl.obolibrary.org/obo/CHEBI_23011", "http://purl.obolibrary.org/obo/CHEBI_23014", "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_25701", "http://purl.obolibrary.org/obo/CHEBI_25741", "http://purl.obolibrary.org/obo/CHEBI_25806", "http://purl.obolibrary.org/obo/CHEBI_3283", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33304", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_35469", "http://purl.obolibrary.org/obo/CHEBI_35480", "http://purl.obolibrary.org/obo/CHEBI_35554", "http://purl.obolibrary.org/obo/CHEBI_35620", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_36962", "http://purl.obolibrary.org/obo/CHEBI_36963", "http://purl.obolibrary.org/obo/CHEBI_37577", "http://purl.obolibrary.org/obo/CHEBI_38867", "http://purl.obolibrary.org/obo/CHEBI_46787", "http://purl.obolibrary.org/obo/CHEBI_48706", "http://purl.obolibrary.org/obo/CHEBI_48829", "http://purl.obolibrary.org/obo/CHEBI_50857", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_64708", "http://purl.obolibrary.org/obo/CHEBI_72695", "http://purl.obolibrary.org/obo/CHEBI_75771", "http://purl.obolibrary.org/obo/CHEBI_75772", "http://purl.obolibrary.org/obo/CHEBI_76413", "http://purl.obolibrary.org/obo/CHEBI_76971", "http://purl.obolibrary.org/obo/CHEBI_77746", "http://purl.obolibrary.org/obo/CHEBI_77974", "http://purl.obolibrary.org/obo/CHEBI_78017", "http://purl.obolibrary.org/obo/CHEBI_78433", "http://purl.obolibrary.org/obo/IAO_0000115", "http://purl.obolibrary.org/obo/RO_0000087", "http://purl.obolibrary.org/obo/chebi/3_STAR", "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME", "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId", "http://www.geneontology.org/formats/oboInOwl#hasDbXref", "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym", "http://www.geneontology.org/formats/oboInOwl#hasSynonymType", "http://www.geneontology.org/formats/oboInOwl#id", "http://www.geneontology.org/formats/oboInOwl#inSubset", "http://www.geneontology.org/formats/oboInOwl#source", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#subClassOf", "http://www.w3.org/2001/XMLSchema#decimal", "https://w3id.org/chemrof/charge", "https://w3id.org/chemrof/generalized_empirical_formula", "https://w3id.org/chemrof/inchi_key_string", "https://w3id.org/chemrof/inchi_string", "https://w3id.org/chemrof/mass", "https://w3id.org/chemrof/monoisotopic_mass", "https://w3id.org/chemrof/smiles_string" ],
+  "numDescendants" : 0.0,
+  "numHierarchicalDescendants" : 0.0,
+  "ontologyId" : "chebi",
+  "ontologyIri" : "http://purl.obolibrary.org/obo/chebi.owl",
+  "ontologyPreferredPrefix" : "CHEBI",
+  "relatedTo" : [ {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_35469",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35469",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_35480",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35480",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_35554",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35554",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_35620",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35620",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_38867",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_38867",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_46787",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_46787",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_48706",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_48706",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_50857",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_50857",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_75771",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_75771",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_75772",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_75772",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_76413",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_76413",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_76971",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_76971",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_77746",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_77746",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_77974",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_77974",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_78017",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_78017",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_78433",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_78433",
+    "isObsolete" : false
+  } ],
+  "searchableAnnotationValues" : [ 0.0, false ],
+  "shortForm" : "CHEBI_16526",
+  "synonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "CARBON DIOXIDE",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "PDBeChem"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "CARBON DIOXIDE",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "pdb-ccd"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "CO(2)",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "uniprot_ft"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "CO2",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Carbon dioxide",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "KEGG_COMPOUND"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Carbon dioxide",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Dry ice (solid form)",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "E 290",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "E-290",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "E290",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "INS NO.290",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "INS-290",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "NSC-81688",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "R-744",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "[CO2]",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "molbase"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "carbon dioxide",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "carbon dioxide",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "carbonic anhydride",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "umbbd.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "dioxidocarbon",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "dioxidocarbon",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "methanedione",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "methanedione",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  } ],
+  "synonymProperty" : [ "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" ],
+  "type" : [ "class", "entity" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : "A one-carbon compound with formula CO<small><sub>2</sub></small> in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food.",
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ "CHEBI:13282", "CHEBI:13283", "CHEBI:13284", "CHEBI:13285", "CHEBI:23011", "CHEBI:3283", "CHEBI:48829" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "type" : [ "reification" ],
+    "value" : "cas:124-38-9",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "cas"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "drugcentral:4256",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "drugcentral"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "gmelin:989",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "gmelin"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "hmdb:HMDB0001967",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "hmdb"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "kegg.compound:C00011",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "kegg.drug:D00004",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "kegg.drug"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "metacyc.compound:CARBON-DIOXIDE",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "metacyc.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "molbase:752",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "molbase"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pdb-ccd:CO2",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pdb-ccd"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "ppdb:119",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "ppdb"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:10826146",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:11094503",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:11584085",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:11802652",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:14639145",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:15050588",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:16591971",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:16656478",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:16659660",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:17190796",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:17448243",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:17878298",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:17884085",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:19043767",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:19259576",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:19854893",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:21251841",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:23384758",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:23828359",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:24258718",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:8482095",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:8818713",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:8869828",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:9611769",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:9730350",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "reaxys:1900390",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "reaxys"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "umbbd.compound:c0131",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "umbbd.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "wikipedia.en:Carbon_dioxide",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "wikipedia.en"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "CARBON DIOXIDE",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "PDBeChem"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Carbon dioxide",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "KEGG_COMPOUND"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "carbon dioxide",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "dioxidocarbon",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "methanedione",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : "chebi_ontology",
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "CARBON DIOXIDE",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "pdb-ccd"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "CO(2)",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "uniprot_ft"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "CO2",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Carbon dioxide",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Dry ice (solid form)",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "E 290",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "E-290",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "E290",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "INS NO.290",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "INS-290",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "NSC-81688",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chembl"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "R-744",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chebi"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "[CO2]",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "molbase"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "carbon dioxide",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "carbonic anhydride",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "umbbd.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "dioxidocarbon",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "methanedione",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : "CHEBI:16526",
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : "http://purl.obolibrary.org/obo/chebi/3_STAR",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "carbon dioxide",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ "http://purl.obolibrary.org/obo/CHEBI_138675", "http://purl.obolibrary.org/obo/CHEBI_23014", "http://purl.obolibrary.org/obo/CHEBI_64708", {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35469",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35480",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35554",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_35620",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_38867",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_46787",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_48706",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_50857",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_75771",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_75772",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_76413",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_76971",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_77746",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_77974",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_78017",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_78433",
+    "isObsolete" : false
+  } ],
+  "https://w3id.org/chemrof/charge" : 0.0,
+  "https://w3id.org/chemrof/generalized_empirical_formula" : "CO2",
+  "https://w3id.org/chemrof/inchi_key_string" : "CURLTUGMZLYLDI-UHFFFAOYSA-N",
+  "https://w3id.org/chemrof/inchi_string" : "InChI=1S/CO2/c2-1-3",
+  "https://w3id.org/chemrof/mass" : "44.009",
+  "https://w3id.org/chemrof/monoisotopic_mass" : "43.98983",
+  "https://w3id.org/chemrof/smiles_string" : "O=C=O"
+}

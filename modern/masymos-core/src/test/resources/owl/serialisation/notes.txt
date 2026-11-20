@@ -1,0 +1,7 @@
+Model index for the example ontology.
+
+SBO_0000001 entity
+  SBO_0000002 child entity (has part some SBO_0000003)
+SBO_0000003 part entity
+
+This file is deliberately not an ontology in any RDF or OWL serialisation.

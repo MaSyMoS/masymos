@@ -1,0 +1,305 @@
+{
+  "appearsIn" : [ "aism", "caro", "cl", "ecao", "ecocore", "flopo", "fovt", "fypo", "go", "hcao", "hp", "maxo", "mondo", "mp", "oba", "pato", "pcl", "phipo", "prefer", "rbo", "uberon", "upheno", "wbphenotype", "xpo", "zp" ],
+  "curie" : "GO:0032984",
+  "definedBy" : [ "go" ],
+  "definition" : [ {
+    "type" : [ "reification" ],
+    "value" : "The disaggregation of a protein-containing macromolecular complex into its constituent components.",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "GOC:mah"
+    } ]
+  } ],
+  "definitionProperty" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "directAncestor" : [ "http://purl.obolibrary.org/obo/BFO_0000003", "http://purl.obolibrary.org/obo/BFO_0000015", "http://purl.obolibrary.org/obo/GO_0008150", "http://purl.obolibrary.org/obo/GO_0009987", "http://purl.obolibrary.org/obo/GO_0016043", "http://purl.obolibrary.org/obo/GO_0022411", "http://purl.obolibrary.org/obo/GO_0043933", "http://purl.obolibrary.org/obo/GO_0071840" ],
+  "directParent" : [ "http://purl.obolibrary.org/obo/GO_0022411", "http://purl.obolibrary.org/obo/GO_0043933" ],
+  "hasDirectChildren" : true,
+  "hasDirectParents" : true,
+  "hasHierarchicalChildren" : true,
+  "hasHierarchicalParents" : true,
+  "hierarchicalAncestor" : [ "http://purl.obolibrary.org/obo/BFO_0000003", "http://purl.obolibrary.org/obo/BFO_0000015", "http://purl.obolibrary.org/obo/GO_0008150", "http://purl.obolibrary.org/obo/GO_0009987", "http://purl.obolibrary.org/obo/GO_0016043", "http://purl.obolibrary.org/obo/GO_0022411", "http://purl.obolibrary.org/obo/GO_0043933", "http://purl.obolibrary.org/obo/GO_0071840" ],
+  "hierarchicalParent" : [ "http://purl.obolibrary.org/obo/GO_0022411", "http://purl.obolibrary.org/obo/GO_0043933" ],
+  "hierarchicalProperty" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "imported" : false,
+  "iri" : "http://purl.obolibrary.org/obo/GO_0032984",
+  "isDefiningOntology" : true,
+  "isObsolete" : false,
+  "isPreferredRoot" : false,
+  "label" : [ "protein-containing complex disassembly" ],
+  "linkedEntities" : {
+    "GO:0032984" : {
+      "iri" : "http://purl.obolibrary.org/obo/GO_0032984",
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 25.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "protein-containing complex disassembly" ],
+      "curie" : "GO:0032984",
+      "type" : [ "class", "entity" ],
+      "url" : "http://amigo.geneontology.org/amigo/term/GO:0032984",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "GO:0034623" : {
+      "iri" : "http://purl.obolibrary.org/obo/GO_0034623",
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "GO_0034623" ],
+      "curie" : "GO:0034623",
+      "type" : [ "class", "entity" ],
+      "url" : "http://amigo.geneontology.org/amigo/term/GO:0034623",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "GO:0043241" : {
+      "iri" : "http://purl.obolibrary.org/obo/GO_0043241",
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "GO_0043241" ],
+      "curie" : "GO:0043241",
+      "type" : [ "class", "entity" ],
+      "url" : "http://amigo.geneontology.org/amigo/term/GO:0043241",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "GO:0043624" : {
+      "iri" : "http://purl.obolibrary.org/obo/GO_0043624",
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "GO_0043624" ],
+      "curie" : "GO:0043624",
+      "type" : [ "class", "entity" ],
+      "url" : "http://amigo.geneontology.org/amigo/term/GO:0043624",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "http://purl.obolibrary.org/obo/BFO_0000003" : {
+      "definedBy" : [ "bfo" ],
+      "numAppearsIn" : 130.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "occurrent" ],
+      "curie" : "BFO:0000003",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/BFO_0000015" : {
+      "definedBy" : [ "bfo" ],
+      "numAppearsIn" : 142.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "process" ],
+      "curie" : "BFO:0000015",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0008150" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 124.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "biological_process" ],
+      "curie" : "GO:0008150",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0009987" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 61.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "cellular process" ],
+      "curie" : "GO:0009987",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0016043" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 42.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "cellular component organization" ],
+      "curie" : "GO:0016043",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0022411" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 29.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "cellular component disassembly" ],
+      "curie" : "GO:0022411",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0032991" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 70.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "protein-containing complex" ],
+      "curie" : "GO:0032991",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0043933" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 29.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "protein-containing complex organization" ],
+      "curie" : "GO:0043933",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0071840" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 39.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "cellular component organization or biogenesis" ],
+      "curie" : "GO:0071840",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000115" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 235.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "definition" ],
+      "curie" : "IAO:0000115",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000233" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 105.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "term tracker item" ],
+      "curie" : "IAO:0000233",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/RO_0002590" : {
+      "definedBy" : [ "ro" ],
+      "numAppearsIn" : 24.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "results in disassembly of" ],
+      "curie" : "RO:0002590",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://purl.org/dc/terms/conformsTo" : {
+      "definedBy" : [ "dcterms" ],
+      "numAppearsIn" : 20.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Conforms To" ],
+      "curie" : "DCTERMS:conformsTo",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 146.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_alternative_id" ],
+      "curie" : "OIO:hasAlternativeId",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 216.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "database_cross_reference", "has_dbxref" ],
+      "curie" : "OIO:hasDbXref",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 212.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_exact_synonym" ],
+      "curie" : "OIO:hasExactSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 172.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_obo_namespace" ],
+      "curie" : "OIO:hasOBONamespace",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_related_synonym" ],
+      "curie" : "OIO:hasRelatedSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#id" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 184.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "id" ],
+      "curie" : "OIO:id",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 204.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "subClassOf" ],
+      "curie" : "RDFS:subClassOf",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2001/XMLSchema#anyURI" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : false,
+      "type" : [ "class", "entity" ],
+      "label" : [ "anyURI" ],
+      "curie" : "anyURI"
+    },
+    "https://github.com/geneontology/go-ontology/issues/22580" : {
+      "url" : "https://github.com/geneontology/go-ontology/issues/22580",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "go.issue:22580"
+    }
+  },
+  "linksTo" : [ "http://purl.obolibrary.org/obo/BFO_0000003", "http://purl.obolibrary.org/obo/BFO_0000015", "http://purl.obolibrary.org/obo/GO_0008150", "http://purl.obolibrary.org/obo/GO_0009987", "http://purl.obolibrary.org/obo/GO_0016043", "http://purl.obolibrary.org/obo/GO_0022411", "http://purl.obolibrary.org/obo/GO_0032984", "http://purl.obolibrary.org/obo/GO_0032991", "http://purl.obolibrary.org/obo/GO_0034623", "http://purl.obolibrary.org/obo/GO_0043241", "http://purl.obolibrary.org/obo/GO_0043624", "http://purl.obolibrary.org/obo/GO_0043933", "http://purl.obolibrary.org/obo/GO_0071840", "http://purl.obolibrary.org/obo/IAO_0000115", "http://purl.obolibrary.org/obo/IAO_0000233", "http://purl.obolibrary.org/obo/RO_0002590", "http://purl.org/dc/terms/conformsTo", "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId", "http://www.geneontology.org/formats/oboInOwl#hasDbXref", "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym", "http://www.geneontology.org/formats/oboInOwl#id", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#subClassOf", "http://www.w3.org/2001/XMLSchema#anyURI" ],
+  "numDescendants" : 47.0,
+  "numHierarchicalDescendants" : 53.0,
+  "ontologyId" : "go",
+  "ontologyIri" : "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+  "ontologyPreferredPrefix" : "GO",
+  "relatedTo" : [ {
+    "property" : "http://purl.obolibrary.org/obo/RO_0002590",
+    "value" : "http://purl.obolibrary.org/obo/GO_0032991",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0002590",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/GO_0032991",
+    "isObsolete" : false
+  } ],
+  "searchableAnnotationValues" : [ false ],
+  "shortForm" : "GO_0032984",
+  "synonym" : [ "cellular macromolecule complex disassembly", "cellular protein complex disassembly", "macromolecule complex disassembly", "protein complex disassembly" ],
+  "synonymProperty" : [ "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" ],
+  "type" : [ "class", "entity" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : {
+    "type" : [ "reification" ],
+    "value" : "The disaggregation of a protein-containing macromolecular complex into its constituent components.",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "GOC:mah"
+    } ]
+  },
+  "http://purl.obolibrary.org/obo/IAO_0000233" : "https://github.com/geneontology/go-ontology/issues/22580",
+  "http://purl.org/dc/terms/conformsTo" : "http://purl.obolibrary.org/obo/go/patterns/cc_disassembly.yaml",
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ "GO:0034623", "GO:0043241", "GO:0043624" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ "protein complex disassembly" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : "biological_process",
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ "cellular macromolecule complex disassembly", "cellular protein complex disassembly", "macromolecule complex disassembly" ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : "GO:0032984",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "protein-containing complex disassembly",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ "http://purl.obolibrary.org/obo/GO_0022411", "http://purl.obolibrary.org/obo/GO_0043933", {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0002590",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/GO_0032991",
+    "isObsolete" : false
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+    "http://www.w3.org/2002/07/owl#intersectionOf" : [ "http://purl.obolibrary.org/obo/GO_0022411", {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+      "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0002590",
+      "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/GO_0032991",
+      "isObsolete" : false
+    } ]
+  }
+}

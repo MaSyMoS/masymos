@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="MaSyMoS social preview artwork without overlay text">
+<rect x="0" y="0" width="1280" height="640" rx="0" fill="#1F2A36"/>
+<path d="M 1100 130 L 1245 28 L 1370 132" fill="none" stroke="#7FDBE8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
+<path d="M 1100 130 L 1415 310" fill="none" stroke="#7FDBE8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.22"/>
+<path d="M 1020 490 L 1190 380 L 1350 470" fill="none" stroke="#7FDBE8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" opacity="0.18"/>
+<circle cx="1245" cy="28" r="17" fill="#2DBFAE" opacity="0.45"/>
+<circle cx="1190" cy="380" r="15" fill="#2F6BFF" opacity="0.45"/>
+<g transform="translate(365 -240) scale(1.25)"><g>
+<path d="M 265 685 L 326 292 L 500 604 L 674 292 L 735 685" fill="none" stroke="#7FDBE8" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="265" cy="685" r="43" fill="#F5B23E" stroke="#7FDBE8" stroke-width="10"/>
+<circle cx="326" cy="292" r="43" fill="#2DBFAE" stroke="#7FDBE8" stroke-width="10"/>
+<circle cx="500" cy="604" r="43" fill="#2F6BFF" stroke="#7FDBE8" stroke-width="10"/>
+<circle cx="674" cy="292" r="43" fill="#2DBFAE" stroke="#7FDBE8" stroke-width="10"/>
+<circle cx="735" cy="685" r="43" fill="#B49BFF" stroke="#7FDBE8" stroke-width="10"/>
+</g></g>
+</svg>

@@ -1,0 +1,2 @@
+GET https://www.ebi.ac.uk/ols4/api/v2/ontologies/kisao/properties/http%253A%252F%252Fwww.biomodels.net%252Fkisao%252FKISAO%2523KISAO_0000245
+# captured 2026-11-13T23:26:15Z

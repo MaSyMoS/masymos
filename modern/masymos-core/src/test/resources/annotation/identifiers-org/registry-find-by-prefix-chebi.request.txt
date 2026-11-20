@@ -1,0 +1,3 @@
+GET https://registry.api.identifiers.org/restApi/namespaces/search/findByPrefix?prefix=chebi
+# captured 2026-11-16T07:53:48Z
+# status 200

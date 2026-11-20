@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level1" level="1" version="2">
+  <model name="l1-volumes">
+    <listOfUnitDefinitions>
+      <unitDefinition name="substance">
+        <listOfUnits>
+          <unit kind="mole" scale="-3"/>
+        </listOfUnits>
+      </unitDefinition>
+      <unitDefinition name="volume">
+        <listOfUnits>
+          <unit kind="litre" scale="-3"/>
+        </listOfUnits>
+      </unitDefinition>
+    </listOfUnitDefinitions>
+    <listOfCompartments>
+      <compartment name="cell" volume="1"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species name="S1" compartment="cell" initialAmount="1"/>
+    </listOfSpecies>
+  </model>
+</sbml>

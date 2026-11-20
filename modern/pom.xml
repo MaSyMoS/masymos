@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>org.masymos</groupId>
+  <artifactId>masymos-modern</artifactId>
+  <version>2.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>MaSyMoS Modern Parent</name>
+  <description>Modernized MaSyMoS build and module structure.</description>
+
+  <modules>
+    <module>masymos-core</module>
+    <module>masymos-neo4j</module>
+    <module>masymos-service</module>
+    <module>masymos-cli</module>
+  </modules>
+
+  <properties>
+    <java.version>25</java.version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <maven.compiler.release>${java.version}</maven.compiler.release>
+    <dependency.check.version>12.2.2</dependency.check.version>
+    <spring.boot.version>4.0.9</spring.boot.version>
+    <mockito.version>5.20.0</mockito.version>
+    <picocli.version>4.7.7</picocli.version>
+    <springdoc.version>3.0.3</springdoc.version>
+    <jsbml.version>1.6.1</jsbml.version>
+    <owlapi.version>5.5.1</owlapi.version>
+    <woodstox.version>6.7.0</woodstox.version>
+    <xstream.version>1.4.21</xstream.version>
+    <testcontainers.version>1.20.4</testcontainers.version>
+    <maven.compiler.plugin.version>3.14.1</maven.compiler.plugin.version>
+    <maven.enforcer.plugin.version>3.6.2</maven.enforcer.plugin.version>
+    <maven.surefire.plugin.version>3.5.4</maven.surefire.plugin.version>
+    <maven.failsafe.plugin.version>3.5.4</maven.failsafe.plugin.version>
+    <spotless.maven.plugin.version>3.5.1</spotless.maven.plugin.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>${spring.boot.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+      <!-- The Neo4j Java driver version is deliberately not pinned here: the Spring Boot BOM above
+           manages it, and a second import only pretends to be a source of truth (it was inert for
+           that reason, QA-6). Read the resolved version with `mvn dependency:tree`. -->
+      <dependency>
+        <groupId>info.picocli</groupId>
+        <artifactId>picocli</artifactId>
+        <version>${picocli.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml</groupId>
+        <artifactId>jsbml-core</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <!-- CORP-6: the SBML reader must own every Level 3 package namespace it can meet. JSBML maps
+           a namespace with no registered package parser to its generic XML reader, so the package's
+           elements become opaque XMLNodes - and an <annotation> nested inside one of them aborts
+           the whole document with `ClassCastException: XMLNode cannot be cast to Annotation`
+           (SBMLReader.readXMLFromXMLEventReader). A curated BioModels archive whose FBC gene
+           products carry RDF annotations failed exactly there. All twelve jars ship from the same
+           release as jsbml-core, so the family follows that one property. Their content is still
+           not extracted: package entities remain a stated gap in sbml-parity.md. -->
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-arrays</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-comp</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-distrib</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-dyn</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-fbc</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-groups</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-layout</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-multi</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-qual</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-render</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-req</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.sbml.jsbml.ext</groupId>
+        <artifactId>jsbml-spatial</artifactId>
+        <version>${jsbml.version}</version>
+      </dependency>
+      <!-- OWL-2: the only Java library that reads OWL/XML and OWL functional syntax (Jena and RDF4J
+           are RDF-only). Full artifact on purpose: a future ontology must not fail for a syntax a
+           trimmed dependency set dropped. Not managed by the Spring Boot BOM, hence the pin. -->
+      <dependency>
+        <groupId>net.sourceforge.owlapi</groupId>
+        <artifactId>owlapi-distribution</artifactId>
+        <version>${owlapi.version}</version>
+      </dependency>
+      <!-- JSBML 1.6.1 still pulls woodstox-core 5.0.1 (CVE-2022-40152, CVSS 7.5) and
+           xstream 1.4.18 (CVE-2021-43859 and friends). Both are pinned here rather than
+           excluded from jsbml-core, because the SBML reader needs a StAX2 implementation
+           and JSBML's annotation handling still resolves the xstream classes at runtime
+           (SEC-2, SEC-3). -->
+      <dependency>
+        <groupId>com.fasterxml.woodstox</groupId>
+        <artifactId>woodstox-core</artifactId>
+        <version>${woodstox.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.thoughtworks.xstream</groupId>
+        <artifactId>xstream</artifactId>
+        <version>${xstream.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springdoc</groupId>
+        <artifactId>springdoc-openapi-starter-webmvc-api</artifactId>
+        <version>${springdoc.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.testcontainers</groupId>
+        <artifactId>testcontainers</artifactId>
+        <version>${testcontainers.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.testcontainers</groupId>
+        <artifactId>junit-jupiter</artifactId>
+        <version>${testcontainers.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.testcontainers</groupId>
+        <artifactId>neo4j</artifactId>
+        <version>${testcontainers.version}</version>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-compiler-plugin</artifactId>
+          <version>${maven.compiler.plugin.version}</version>
+          <configuration>
+            <release>${java.version}</release>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-enforcer-plugin</artifactId>
+          <version>${maven.enforcer.plugin.version}</version>
+          <executions>
+            <execution>
+              <id>enforce-toolchain</id>
+              <goals>
+                <goal>enforce</goal>
+              </goals>
+              <configuration>
+                <rules>
+                  <requireJavaVersion>
+                    <version>[25,)</version>
+                  </requireJavaVersion>
+                  <requireMavenVersion>
+                    <version>[3.9.16,)</version>
+                  </requireMavenVersion>
+                </rules>
+              </configuration>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-surefire-plugin</artifactId>
+          <version>${maven.surefire.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-failsafe-plugin</artifactId>
+          <version>${maven.failsafe.plugin.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-maven-plugin</artifactId>
+          <version>${spring.boot.version}</version>
+        </plugin>
+        <plugin>
+          <groupId>com.diffplug.spotless</groupId>
+          <artifactId>spotless-maven-plugin</artifactId>
+          <version>${spotless.maven.plugin.version}</version>
+          <configuration>
+            <java>
+              <importOrder/>
+              <removeUnusedImports/>
+              <formatAnnotations/>
+              <trimTrailingWhitespace/>
+              <endWithNewline/>
+            </java>
+            <pom>
+              <sortPom/>
+            </pom>
+          </configuration>
+          <executions>
+            <execution>
+              <id>spotless-check</id>
+              <goals>
+                <goal>check</goal>
+              </goals>
+            </execution>
+          </executions>
+        </plugin>
+        <plugin>
+          <groupId>org.owasp</groupId>
+          <artifactId>dependency-check-maven</artifactId>
+          <version>${dependency.check.version}</version>
+          <configuration>
+            <!-- The NVD feed now requires an API key for reliable access. It is deliberately NOT
+                 hardcoded here: pass it per run, e.g.
+                 mvn -Psecurity-audit -DskipTests verify -DnvdApiKey=$env:NVD_API_KEY
+                 The key is kept outside the project as the environment variable NVD_API_KEY. -->
+            <dataDirectory>${maven.multiModuleProjectDirectory}/target/dependency-check-data</dataDirectory>
+            <failBuildOnCVSS>7.0</failBuildOnCVSS>
+            <!-- First-party reactor artifacts are not third-party dependencies. dependency-check
+                 matched "masymos-neo4j-2.0.0-SNAPSHOT.jar" against the Neo4j *server* CPE and
+                 reported server CVEs (CVE-2021-34371 and friends) against a jar that contains no
+                 server code. Excluding our own groupId removes that class of false positive
+                 entirely; nothing we publish can appear in the NVD. -->
+            <excludes>
+              <exclude>org.masymos:*</exclude>
+            </excludes>
+            <formats>
+              <format>HTML</format>
+              <format>JSON</format>
+            </formats>
+            <nvdValidForHours>24</nvdValidForHours>
+            <skipProvidedScope>true</skipProvidedScope>
+            <skipRuntimeScope>false</skipRuntimeScope>
+            <skipTestScope>true</skipTestScope>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-enforcer-plugin</artifactId>
+      </plugin>
+      <plugin>
+        <groupId>com.diffplug.spotless</groupId>
+        <artifactId>spotless-maven-plugin</artifactId>
+      </plugin>
+    </plugins>
+  </build>
+
+  <profiles>
+    <profile>
+      <id>security-audit</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.owasp</groupId>
+            <artifactId>dependency-check-maven</artifactId>
+            <executions>
+              <execution>
+                <id>dependency-check</id>
+                <goals>
+                  <goal>check</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>testcontainers-it</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-failsafe-plugin</artifactId>
+            <configuration>
+              <includes>
+                <include>**/*ContainersIT.java</include>
+              </includes>
+            </configuration>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>integration-test</goal>
+                  <goal>verify</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>corpus</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-failsafe-plugin</artifactId>
+            <configuration>
+              <includes>
+                <include>**/CorpusCoverageContainersIT.java</include>
+              </includes>
+              <systemPropertyVariables>
+                <masymos.corpus.manifest>${project.basedir}/../../corpus/manifest.tsv</masymos.corpus.manifest>
+              </systemPropertyVariables>
+            </configuration>
+            <executions>
+              <execution>
+                <goals>
+                  <goal>integration-test</goal>
+                  <goal>verify</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+  </profiles>
+</project>

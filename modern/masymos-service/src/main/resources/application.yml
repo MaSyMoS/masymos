@@ -1,0 +1,41 @@
+spring:
+  application:
+    name: masymos-service
+
+server:
+  port: 8080
+
+masymos:
+  annotations:
+    # Ontology term providers of an annotation run. No URL is baked in and no key is stored here:
+    # an unset base URL means that provider is not configured, and the run says which variable to set.
+    providers:
+      bioportal:
+        # BioPortal is used only when both the base URL and the API key are set.
+        base-url: ${BIOPORTAL_BASE_URL:}
+        # Sent as an "Authorization: apikey ..." header, never in a URL or a query string.
+        api-key: ${BIOPORTAL_API_KEY:}
+      ols:
+        # OLS4 needs no key; a set base URL is enough to use it as the keyless fallback.
+        base-url: ${OLS_BASE_URL:}
+      batch:
+        # Maximum number of terms in one BioPortal batch request.
+        max: 20
+    # How long a cached ontology term stays fresh. Stated here because the resolver's default is
+    # otherwise invisible to an operator; a definitive answer is cached, a transient one never counts.
+    terms:
+      ttl: P30D
+  neo4j:
+    enabled: ${MASYMOS_NEO4J_ENABLED:true}
+    uri: ${MASYMOS_NEO4J_URI:bolt://localhost:7687}
+    username: ${MASYMOS_NEO4J_USERNAME:neo4j}
+    password: ${MASYMOS_NEO4J_PASSWORD:password}
+    database: ${MASYMOS_NEO4J_DATABASE:neo4j}
+  sedml:
+    links:
+      auto-link: ${MASYMOS_SEDML_AUTOLINK:true}
+  storage:
+    document:
+      # Ceiling for the stored source copy of one document, in bytes (10 MiB). Larger documents
+      # are stored up to this limit and flagged as truncated (STO-2).
+      max-bytes: ${MASYMOS_STORAGE_DOCUMENT_MAX_BYTES:10485760}
