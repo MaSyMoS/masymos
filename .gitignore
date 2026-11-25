@@ -1,0 +1,19 @@
+# Build output
+target/
+
+# IDE files
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local configuration and secrets (never commit)
+.env
+.env.*
+*.key
+*-key.txt

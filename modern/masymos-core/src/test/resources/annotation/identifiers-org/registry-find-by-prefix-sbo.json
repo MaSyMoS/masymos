@@ -1,0 +1,37 @@
+{
+  "prefix" : "sbo",
+  "mirId" : "MIR:00000024",
+  "name" : "Systems Biology Ontology",
+  "pattern" : "^SBO:\\d{7}$",
+  "description" : "The goal of the Systems Biology Ontology is to develop controlled vocabularies and ontologies tailored specifically for the kinds of problems being faced in Systems Biology, especially in the context of computational modeling. SBO is a project of the BioModels.net effort.",
+  "created" : "2019-06-11T14:15:37.756+00:00",
+  "modified" : "2019-06-11T14:15:37.756+00:00",
+  "deprecated" : false,
+  "deprecationDate" : null,
+  "deprecationOfflineDate" : null,
+  "renderDeprecatedLanding" : false,
+  "deprecationStatement" : null,
+  "infoOnPostmortemAccess" : null,
+  "sampleId" : "0000262",
+  "namespaceEmbeddedInLui" : true,
+  "_links" : {
+    "self" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/105"
+    },
+    "namespace" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/105"
+    },
+    "successor" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/105/successor"
+    },
+    "resources" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/105/resources"
+    },
+    "contactPerson" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/105/contactPerson"
+    },
+    "curationWarnings" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/105/curationWarnings"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+Prefix(:=<http://biomodels.net/SBO/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Ontology(<http://biomodels.net/SBO/>
+Annotation(rdfs:comment "Example ontology in functional syntax")
+Annotation(owl:versionInfo "1")
+
+Declaration(AnnotationProperty(:curatorNote))
+AnnotationAssertion(rdfs:label :curatorNote "curator note"@en)
+
+Declaration(ObjectProperty(:has_part))
+AnnotationAssertion(rdfs:label :has_part "has part"@en)
+ObjectPropertyDomain(:has_part :SBO_0000001)
+ObjectPropertyRange(:has_part :SBO_0000003)
+
+Declaration(DataProperty(:priority))
+DataPropertyRange(:priority xsd:string)
+
+Declaration(Class(:SBO_0000001))
+AnnotationAssertion(rdfs:label :SBO_0000001 "entity"@en)
+
+Declaration(Class(:SBO_0000003))
+AnnotationAssertion(rdfs:label :SBO_0000003 "part entity"@en)
+
+Declaration(Class(:SBO_0000002))
+AnnotationAssertion(rdfs:label :SBO_0000002 "child entity"@en)
+AnnotationAssertion(rdfs:comment :SBO_0000002 "child comment"@en)
+SubClassOf(:SBO_0000002 :SBO_0000001)
+SubClassOf(:SBO_0000002 ObjectSomeValuesFrom(:has_part :SBO_0000003))
+
+Declaration(NamedIndividual(:individual_1))
+ClassAssertion(:SBO_0000002 :individual_1)
+ObjectPropertyAssertion(:has_part :individual_1 :individual_2)
+DataPropertyAssertion(:priority :individual_1 "high")
+
+Declaration(NamedIndividual(:individual_2))
+ClassAssertion(:SBO_0000003 :individual_2)
+)

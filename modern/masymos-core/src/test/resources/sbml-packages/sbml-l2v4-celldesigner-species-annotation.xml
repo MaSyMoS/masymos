@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Reduced 2026-11-20 from BioModels BIOMD0000000899 (CORP-8). The measured trigger in that model:
+     six of its core <annotation> elements sit inside a <celldesigner:species>, i.e. inside an element
+     in a namespace JSBML has no reading parser for, and JSBML 1.6.1 then aborts the whole document
+     with "XMLNode cannot be cast to Annotation". Only the two shapes that matter are kept: a core
+     species that must still be extracted, and the CellDesigner species that used to abort it. -->
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="celldesigner_demo" name="CellDesigner demo">
+    <listOfCompartments>
+      <compartment id="default" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="s1" name="Activator" compartment="default" initialConcentration="1" constant="false"/>
+      <celldesigner:species xmlns:celldesigner="http://www.sbml.org/2001/ns/celldesigner"
+                            celldesigner:id="s1_alias">
+        <celldesigner:class>PROTEIN</celldesigner:class>
+        <celldesigner:speciesIdentity>
+          <celldesigner:proteinReference>pr1</celldesigner:proteinReference>
+        </celldesigner:speciesIdentity>
+        <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                   xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+            <rdf:Description rdf:about="#s1">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="https://identifiers.org/uniprot/P12345"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </celldesigner:species>
+    </listOfSpecies>
+  </model>
+</sbml>

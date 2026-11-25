@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://biomodels.net/SBO/"
+     xml:base="http://biomodels.net/SBO/"
+     xmlns:SBO="http://biomodels.net/SBO/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://biomodels.net/SBO/">
+        <rdfs:comment>Example ontology for the four-serialisation tests</rdfs:comment>
+        <owl:versionInfo>1</owl:versionInfo>
+    </owl:Ontology>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+
+    <!-- http://biomodels.net/SBO/curatorNote -->
+
+
+    <owl:AnnotationProperty rdf:about="http://biomodels.net/SBO/curatorNote">
+        <rdfs:label xml:lang="en">curator note</rdfs:label>
+    </owl:AnnotationProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+
+    <!-- http://biomodels.net/SBO/has_part -->
+
+
+    <owl:ObjectProperty rdf:about="http://biomodels.net/SBO/has_part">
+        <rdfs:domain rdf:resource="http://biomodels.net/SBO/SBO_0000001"/>
+        <rdfs:range rdf:resource="http://biomodels.net/SBO/SBO_0000003"/>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+    </owl:ObjectProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+
+    <!-- http://biomodels.net/SBO/priority -->
+
+
+    <owl:DatatypeProperty rdf:about="http://biomodels.net/SBO/priority">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000001 -->
+
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000001">
+        <owl:disjointWith rdf:resource="http://biomodels.net/SBO/SBO_0000003"/>
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000002 -->
+
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000002">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://biomodels.net/SBO/SBO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://biomodels.net/SBO/has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://biomodels.net/SBO/SBO_0000003"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://biomodels.net/SBO/SBO_0000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://biomodels.net/SBO/has_part"/>
+                <owl:someValuesFrom rdf:resource="http://biomodels.net/SBO/SBO_0000003"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">child comment</rdfs:comment>
+        <rdfs:label xml:lang="en">child entity</rdfs:label>
+    </owl:Class>
+
+
+
+    <!-- http://biomodels.net/SBO/SBO_0000003 -->
+
+
+    <owl:Class rdf:about="http://biomodels.net/SBO/SBO_0000003">
+        <rdfs:label xml:lang="en">part entity</rdfs:label>
+    </owl:Class>
+
+
+
+    <!--
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+
+
+
+    <!-- http://biomodels.net/SBO/individual_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://biomodels.net/SBO/individual_1">
+        <rdf:type rdf:resource="http://biomodels.net/SBO/SBO_0000002"/>
+        <has_part rdf:resource="http://biomodels.net/SBO/individual_2"/>
+        <priority>high</priority>
+    </owl:NamedIndividual>
+
+
+
+    <!-- http://biomodels.net/SBO/individual_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://biomodels.net/SBO/individual_2">
+        <rdf:type rdf:resource="http://biomodels.net/SBO/SBO_0000003"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.5.1.2024-09-07T21:41:32Z) https://github.com/owlcs/owlapi/ -->
+
+

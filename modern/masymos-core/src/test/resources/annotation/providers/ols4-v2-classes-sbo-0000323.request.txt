@@ -1,0 +1,2 @@
+GET https://www.ebi.ac.uk/ols4/api/v2/ontologies/sbo/classes/http%253A%252F%252Fbiomodels.net%252FSBO%252FSBO_0000323
+# captured 2026-11-13T23:26:15Z

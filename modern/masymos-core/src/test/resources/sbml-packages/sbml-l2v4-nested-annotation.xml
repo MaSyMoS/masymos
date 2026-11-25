@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4" level="2" version="4">
+  <model id="nested_demo" name="nested annotation demo">
+    <!-- The standard MIRIAM block: directly in the model's own annotation, must survive. -->
+    <annotation>
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+               xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+        <rdf:Description rdf:about="#nested_demo">
+          <bqmodel:isVersionOf>
+            <rdf:Bag>
+              <rdf:li rdf:resource="http://identifiers.org/biomodels.db/BIOMD0000000899"/>
+            </rdf:Bag>
+          </bqmodel:isVersionOf>
+        </rdf:Description>
+      </rdf:RDF>
+      <!-- A whole annotation inside an annotation: CellDesigner and COPASI write this, and it is
+           what makes JSBML 1.6.1 cast an XMLNode to Annotation. -->
+      <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:Copasi="http://www.copasi.org/static/sbml">
+          <rdf:Description rdf:about="#Copasi1">
+            <Copasi:modelName>nested demo</Copasi:modelName>
+          </rdf:Description>
+        </rdf:RDF>
+      </annotation>
+    </annotation>
+    <listOfCompartments>
+      <compartment id="default" size="1" spatialDimensions="3"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="s1" compartment="default" initialConcentration="1"/>
+    </listOfSpecies>
+  </model>
+</sbml>

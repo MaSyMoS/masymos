@@ -1,0 +1,113 @@
+{
+  "appearsIn" : [ "kisao" ],
+  "curie" : "KISAO:0000245",
+  "hasDirectChildren" : false,
+  "hasDirectParents" : false,
+  "hasHierarchicalChildren" : false,
+  "hasHierarchicalParents" : false,
+  "imported" : false,
+  "iri" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000245",
+  "isDefiningOntology" : false,
+  "isObsolete" : false,
+  "isPreferredRoot" : false,
+  "label" : [ "has characteristic" ],
+  "linkedEntities" : {
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000000" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "modelling and simulation algorithm" ],
+      "curie" : "KISAO:0000000",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000097" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "modelling and simulation algorithm characteristic" ],
+      "curie" : "KISAO:0000097",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000250" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "is parameter of" ],
+      "curie" : "KISAO:0000250",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000259" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has parameter" ],
+      "curie" : "KISAO:0000259",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000268" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "is characteristic of" ],
+      "curie" : "KISAO:0000268",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000359" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "is similar to" ],
+      "curie" : "KISAO:0000359",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000360" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "uses" ],
+      "curie" : "KISAO:0000360",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#domain" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 3.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "domain" ],
+      "curie" : "RDFS:domain",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#range" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 3.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "range" ],
+      "curie" : "RDFS:range",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2004/02/skos/core#definition" : {
+      "definedBy" : [ "skos" ],
+      "numAppearsIn" : 22.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "definition" ],
+      "curie" : "SKOS:definition",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    }
+  },
+  "linksTo" : [ "http://www.biomodels.net/kisao/KISAO#KISAO_0000000", "http://www.biomodels.net/kisao/KISAO#KISAO_0000097", "http://www.biomodels.net/kisao/KISAO#KISAO_0000250", "http://www.biomodels.net/kisao/KISAO#KISAO_0000259", "http://www.biomodels.net/kisao/KISAO#KISAO_0000268", "http://www.biomodels.net/kisao/KISAO#KISAO_0000359", "http://www.biomodels.net/kisao/KISAO#KISAO_0000360", "http://www.w3.org/2000/01/rdf-schema#domain", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#range", "http://www.w3.org/2004/02/skos/core#definition" ],
+  "numDescendants" : 0.0,
+  "numHierarchicalDescendants" : 0.0,
+  "ontologyId" : "kisao",
+  "ontologyIri" : "http://www.biomodels.net/kisao/KISAO#",
+  "ontologyPreferredPrefix" : "KISAO",
+  "searchableAnnotationValues" : [ false, "'has characteristic' links algorithms to the characteristics they possess." ],
+  "shortForm" : "KISAO_0000245",
+  "type" : [ "entity", "objectProperty", "property" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#ObjectProperty",
+  "http://www.w3.org/2000/01/rdf-schema#domain" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000000",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "has characteristic",
+  "http://www.w3.org/2000/01/rdf-schema#range" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000097",
+  "http://www.w3.org/2002/07/owl#inverseOf" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000268",
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ "http://www.biomodels.net/kisao/KISAO#KISAO_0000250", "http://www.biomodels.net/kisao/KISAO#KISAO_0000259", "http://www.biomodels.net/kisao/KISAO#KISAO_0000268", "http://www.biomodels.net/kisao/KISAO#KISAO_0000359", "http://www.biomodels.net/kisao/KISAO#KISAO_0000360" ],
+  "http://www.w3.org/2004/02/skos/core#definition" : "'has characteristic' links algorithms to the characteristics they possess."
+}

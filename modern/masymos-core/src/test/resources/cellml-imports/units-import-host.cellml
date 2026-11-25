@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.cellml.org/cellml/1.0#" xmlns:cmeta="http://www.cellml.org/metadata/1.0#"
+       xmlns:xlink="http://www.w3.org/1999/xlink" name="units-import-host">
+  <import xlink:href="units-lib.cellml">
+    <units units_ref="per_ms"/>
+  </import>
+  <component name="transporter">
+    <variable name="k" units="per_ms"/>
+  </component>
+</model>

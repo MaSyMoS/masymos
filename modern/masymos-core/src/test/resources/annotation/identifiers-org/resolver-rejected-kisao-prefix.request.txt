@@ -1,0 +1,3 @@
+GET https://resolver.api.identifiers.org/kisao:KISAO_0000019
+# captured 2026-11-16T07:53:48Z
+# status 400

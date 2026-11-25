@@ -1,0 +1,3 @@
+GET https://resolver.api.identifiers.org/biomodels.kisao:KISAO_0000019
+# captured 2026-11-16T07:53:57Z
+# status 200

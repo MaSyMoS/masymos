@@ -1,0 +1,2 @@
+GET https://www.ebi.ac.uk/ols4/api/search?q=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGO_0008150&exact=true&queryFields=iri
+# captured 2026-11-13T23:32:35Z

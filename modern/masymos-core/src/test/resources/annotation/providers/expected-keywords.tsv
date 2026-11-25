@@ -1,0 +1,86 @@
+# Expected keyword content per term, per ANNO-1b. Ground truth, not generated output.
+#
+# One row per expectation: termKey <TAB> kind <TAB> text, where kind is
+#   NAME        a published name of the term
+#   DEFINITION  a published definition of the term
+#   UNRESOLVED  the captured response is not a term (the provider answered 404); no names exist.
+#
+# Every value is transcribed from the published fields of the captured responses under
+# annotation/providers/. The rows were first transcribed on 2026-11-13 from the provider's v1
+# term endpoint (`label`, `synonyms`, `obo_synonym.name`, `description` and the `annotation` block);
+# the v2 bodies that replaced it carry the same content as flat, IRI-keyed fields (`label`,
+# `synonym[]`, `…/skos/core#altLabel[].value`, `definition`, `…/skos/core#definition`,
+# `IAO_0000115`), and the rows were re-checked against those on 2026-11-16. No v1 capture survives,
+# so the v1 field names above are history, not a fixture.
+# Since ANNO-1g the three `go:` rows are transcribed from the QuickGO captures
+# (quickgo-term-go-<id>.json: `name`, `definition.text`, `comment`, `synonyms[]`), because QuickGO
+# is what the term chain wires for the GO prefix; the OLS4 go captures are no longer read here.
+# Values are de-duplicated case-insensitively, first spelling kept, because that is
+# the rule the keyword text itself follows.
+#
+# Regenerate only from a fresh capture, by hand: a changed expectation is a decision, not a diff.
+chebi:16526	NAME	carbon dioxide
+chebi:16526	NAME	CO(2)
+chebi:16526	NAME	CO2
+chebi:16526	NAME	Dry ice (solid form)
+chebi:16526	NAME	E 290
+chebi:16526	NAME	E-290
+chebi:16526	NAME	E290
+chebi:16526	NAME	INS NO.290
+chebi:16526	NAME	INS-290
+chebi:16526	NAME	NSC-81688
+chebi:16526	NAME	R-744
+chebi:16526	NAME	[CO2]
+chebi:16526	NAME	carbonic anhydride
+chebi:16526	NAME	dioxidocarbon
+chebi:16526	NAME	methanedione
+chebi:16526	DEFINITION	A one-carbon compound with formula CO<small><sub>2</sub></small> in which the carbon is attached to each oxygen atom by a double bond. A colourless, odourless gas under normal conditions, it is produced during respiration by all animals, fungi and microorganisms that depend directly or indirectly on living or decaying plants for food.
+chebi:16761	NAME	ADP
+chebi:16761	NAME	5'-adenylphosphoric acid
+chebi:16761	NAME	ADENOSINE-5'-DIPHOSPHATE
+chebi:16761	NAME	Adenosine 5'-diphosphate
+chebi:16761	NAME	H3adp
+chebi:16761	NAME	adenosine 5'-(trihydrogen diphosphate)
+chebi:16761	DEFINITION	A purine ribonucleoside 5'-diphosphate having adenine as the nucleobase.
+chebi:33699	NAME	messenger RNA
+chebi:33699	NAME	mRNA
+chebi:33699	NAME	template RNA
+chebi:33699	DEFINITION	An RNA molecule that transfers the coding information for protein synthesis from the chromosomes to the ribosomes mRNA is formed from a DNA template by transcription. It may be a copy of a single gene or of several adjacent genes (polycistronic mRNA). On the ribosome, the sequence is converted into the programmed amino acid sequence through translation.
+fma:62387	NAME	Junctional sarcoplasmic reticulum of cardiac muscle cell
+fma:62390	NAME	Sarcoplasmic reticulum of cardiac muscle cell
+go:0008150	NAME	biological_process
+go:0008150	NAME	biological process
+go:0008150	NAME	physiological process
+go:0008150	NAME	single organism process
+go:0008150	NAME	single-organism process
+go:0008150	DEFINITION	Note that, in addition to forming the root of the biological process ontology, this term is recommended for the annotation of gene products whose biological process is unknown. When this term is used for annotation, it indicates that no information was available about the biological process of the gene product annotated as of the date the annotation was made; the evidence code 'no data' (ND), is used to indicate this.
+go:0008150	DEFINITION	A biological process is the execution of a genetically-encoded biological module or program. It consists of all the steps required to achieve the specific biological objective of the module. A biological process is accomplished by a particular set of molecular functions carried out by specific gene products (or macromolecular complexes), often in a highly regulated manner and in a particular temporal sequence.
+# Merged-id row (ANNO-1h). GO:0043241 was merged into GO:0032984: the QuickGO capture
+# quickgo-term-go-0043241.json answers under the successor's id and never names the cited one.
+# The provider therefore produces the D12 union — the cited id's own OBO label first, then the
+# successor's name, definition and synonyms — and the ground truth below is that union, not the
+# single old label the OLS4 capture carried. This is the only merged GO sample: GO:0000003 is
+# obsolete in place (its own id, an OBSOLETE. definition), not merged.
+go:0043241	NAME	GO_0043241
+go:0043241	NAME	protein-containing complex disassembly
+go:0043241	NAME	cellular macromolecule complex disassembly
+go:0043241	NAME	cellular protein complex disassembly
+go:0043241	NAME	macromolecule complex disassembly
+go:0043241	NAME	protein complex disassembly
+go:0043241	DEFINITION	The disaggregation of a protein-containing macromolecular complex into its constituent components.
+go:0051019	NAME	mitogen-activated protein kinase binding
+go:0051019	NAME	MAP kinase binding
+go:0051019	NAME	MAP-kinase anchoring activity
+go:0051019	NAME	MAPK binding
+go:0051019	DEFINITION	Binding to a mitogen-activated protein kinase.
+kisao:0000019	NAME	CVODE
+kisao:0000019	NAME	VODE
+kisao:0000019	NAME	VODEPK
+kisao:0000019	NAME	code value ordinary differential equation solver
+kisao:0000245	NAME	has characteristic
+kisao:0000245	DEFINITION	'has characteristic' links algorithms to the characteristics they possess.
+kisao:0000019	DEFINITION	The CVODE is a package written in C that solves ODE initial value problems, in real N-space, written as y'=f(t,y), y(t0)=y0. It is capable for stiff and non-stiff systems and uses two different linear multi-step methods, namely the Adam-Moulton [http://identifiers.org/biomodels.kisao/KISAO_0000280] method and the backward differentiation formula [http://identifiers.org/biomodels.kisao/KISAO_0000288].
+sbo:0000176	NAME	biochemical reaction
+sbo:0000176	DEFINITION	An event involving one or more chemical entities that modifies the electrochemical structure of at least one of the participants.
+sbo:0000323	NAME	Michaelis constant for product
+sbo:0000323	NAME	Kmp

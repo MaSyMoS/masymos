@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  FBC-2 review, M1: a Level 2 root that declares the fbc namespace, which is legal because FBC v1 is a
+  Level 2 package. What it pins is measured, not assumed (2026-11-24): jsbml-fbc 1.6.1 binds its
+  FBCModelPlugin here - for the level2 and the level3 namespace alike - but fills the gene-product list
+  only under the Level 3 core namespace, so this document parses to an empty list with or without the
+  parser's Level 3 guard. The test therefore pins the reader's answer (no entities) rather than the
+  guard's line: a future library that starts filling the list would make the guard load-bearing, and
+  this fixture is what would notice.
+-->
+<sbml xmlns="http://www.sbml.org/sbml/level2/version4"
+      xmlns:fbc="http://www.sbml.org/sbml/level2/version4/fbc/version2"
+      level="2" version="4" fbc:required="false">
+  <model id="fbc_on_level_2" name="FBC declared on a Level 2 document">
+    <listOfCompartments>
+      <compartment id="c" size="1"/>
+    </listOfCompartments>
+    <fbc:listOfGeneProducts>
+      <fbc:geneProduct fbc:id="G1" fbc:label="g1"/>
+    </fbc:listOfGeneProducts>
+  </model>
+</sbml>

@@ -1,0 +1,37 @@
+{
+  "prefix" : "go",
+  "mirId" : "MIR:00000022",
+  "name" : "Gene Ontology",
+  "pattern" : "^GO:\\d{7}$",
+  "description" : "The Gene Ontology project provides a controlled vocabulary to describe gene and gene product attributes in any organism.",
+  "created" : "2019-06-11T14:15:35.970+00:00",
+  "modified" : "2019-06-11T14:15:35.970+00:00",
+  "deprecated" : false,
+  "deprecationDate" : null,
+  "deprecationOfflineDate" : null,
+  "renderDeprecatedLanding" : false,
+  "deprecationStatement" : null,
+  "infoOnPostmortemAccess" : null,
+  "sampleId" : "0006915",
+  "namespaceEmbeddedInLui" : true,
+  "_links" : {
+    "self" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/87"
+    },
+    "namespace" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/87"
+    },
+    "successor" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/87/successor"
+    },
+    "resources" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/87/resources"
+    },
+    "contactPerson" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/87/contactPerson"
+    },
+    "curationWarnings" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/87/curationWarnings"
+    }
+  }
+}

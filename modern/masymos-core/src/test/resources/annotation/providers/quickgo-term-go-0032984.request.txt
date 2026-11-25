@@ -1,0 +1,2 @@
+GET https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:0032984
+# captured 2026-11-16T11:53:00Z

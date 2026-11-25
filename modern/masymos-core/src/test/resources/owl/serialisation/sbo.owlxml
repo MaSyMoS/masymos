@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+    xml:base="http://biomodels.net/SBO/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    ontologyIRI="http://biomodels.net/SBO/">
+  <Prefix name="" IRI="http://biomodels.net/SBO/"/>
+  <Comment>Example ontology in OWL/XML</Comment>
+  <VersionInfo>1</VersionInfo>
+  <AnnotationProperty abbreviatedIRI=":curatorNote">
+    <Annotation>
+      <AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <Literal>curator note</Literal>
+    </Annotation>
+  </AnnotationProperty>
+  <ObjectProperty abbreviatedIRI=":has_part">
+    <Annotation>
+      <AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <Literal>has part</Literal>
+    </Annotation>
+    <ObjectPropertyDomain>
+      <Class abbreviatedIRI=":SBO_0000001"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+      <Class abbreviatedIRI=":SBO_0000003"/>
+    </ObjectPropertyRange>
+  </ObjectProperty>
+  <DataProperty abbreviatedIRI=":priority">
+    <DataPropertyRange>
+      <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+  </DataProperty>
+  <Class abbreviatedIRI=":SBO_0000001">
+    <Annotation>
+      <AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <Literal>entity</Literal>
+    </Annotation>
+  </Class>
+  <Class abbreviatedIRI=":SBO_0000003">
+    <Annotation>
+      <AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <Literal>part entity</Literal>
+    </Annotation>
+  </Class>
+  <Class abbreviatedIRI=":SBO_0000002">
+    <Annotation>
+      <AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#label"/>
+      <Literal>child entity</Literal>
+    </Annotation>
+    <Annotation>
+      <AnnotationProperty IRI="http://www.w3.org/2000/01/rdf-schema#comment"/>
+      <Literal>child comment</Literal>
+    </Annotation>
+    <SubClassOf>
+      <Class abbreviatedIRI=":SBO_0000001"/>
+    </SubClassOf>
+    <SubClassOf>
+      <ObjectSomeValuesFrom>
+        <ObjectProperty abbreviatedIRI=":has_part"/>
+        <Class abbreviatedIRI=":SBO_0000003"/>
+      </ObjectSomeValuesFrom>
+    </SubClassOf>
+  </Class>
+  <NamedIndividual abbreviatedIRI=":individual_1">
+    <ClassAssertion>
+      <Class abbreviatedIRI=":SBO_0000002"/>
+      <NamedIndividual abbreviatedIRI=":individual_1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+      <ObjectProperty abbreviatedIRI=":has_part"/>
+      <NamedIndividual abbreviatedIRI=":individual_1"/>
+      <NamedIndividual abbreviatedIRI=":individual_2"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+      <DataProperty abbreviatedIRI=":priority"/>
+      <NamedIndividual abbreviatedIRI=":individual_1"/>
+      <Literal>high</Literal>
+    </DataPropertyAssertion>
+  </NamedIndividual>
+  <NamedIndividual abbreviatedIRI=":individual_2">
+    <ClassAssertion>
+      <Class abbreviatedIRI=":SBO_0000003"/>
+      <NamedIndividual abbreviatedIRI=":individual_2"/>
+    </ClassAssertion>
+  </NamedIndividual>
+</Ontology>

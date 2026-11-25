@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  CORP-6, reduced: a Level 3 document whose annotation hangs off an FBC gene product rather than
+  off a core element, written with the SBML namespace as a redundant prefix (the shape FROG emits
+  in BIOMD0000001081's member iMsOB3b.xml). A JSBML build without the FBC package parser turns
+  <fbc:geneProduct> into an opaque XMLNode and then aborts the whole read at its </annotation>.
+-->
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core"
+      xmlns:fbc="http://www.sbml.org/sbml/level3/version1/fbc/version2"
+      level="3" version="1" fbc:required="false">
+  <model id="fbc_demo" name="FBC demo" fbc:strict="true">
+    <listOfCompartments>
+      <compartment id="c" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="s1" compartment="c" hasOnlySubstanceUnits="false"
+               boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <fbc:listOfGeneProducts>
+      <fbc:geneProduct fbc:id="G1" fbc:label="g1">
+        <sbml:annotation xmlns:sbml="http://www.sbml.org/sbml/level3/version1/core">
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#G1">
+              <bqbiol:is xmlns:bqbiol="http://biomodels.net/biology-qualifiers/">
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/uniprot/P0A9J8"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </sbml:annotation>
+      </fbc:geneProduct>
+    </fbc:listOfGeneProducts>
+  </model>
+</sbml>

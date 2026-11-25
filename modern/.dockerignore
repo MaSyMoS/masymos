@@ -1,0 +1,16 @@
+# Build context is modern/. Keep the context small, but the service jar MUST
+# stay reachable or the Dockerfile COPY fails. Order matters: the negation must
+# come after the exclusion that it overrides.
+**/target/*
+!masymos-service/target/masymos-service-2.0.0-SNAPSHOT.jar
+
+# Build metadata and local noise
+.mvn
+*.log
+.git
+.gitignore
+.env
+
+# Docs / non-runtime sources are not needed at image build time
+README.md
+**/src/

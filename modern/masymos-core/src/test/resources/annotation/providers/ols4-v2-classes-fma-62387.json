@@ -1,0 +1,165 @@
+{
+  "appearsIn" : [ "fma" ],
+  "curie" : "fma62387",
+  "directAncestor" : [ "http://purl.org/sig/ont/fma/fma305751", "http://purl.org/sig/ont/fma/fma61764", "http://purl.org/sig/ont/fma/fma61775", "http://purl.org/sig/ont/fma/fma62391", "http://purl.org/sig/ont/fma/fma62955", "http://purl.org/sig/ont/fma/fma67135", "http://purl.org/sig/ont/fma/fma67165", "http://purl.org/sig/ont/fma/fma86455" ],
+  "directParent" : [ "http://purl.org/sig/ont/fma/fma62391" ],
+  "hasDirectChildren" : false,
+  "hasDirectParents" : true,
+  "hasHierarchicalChildren" : false,
+  "hasHierarchicalParents" : true,
+  "hierarchicalAncestor" : [ "http://purl.org/sig/ont/fma/fma305751", "http://purl.org/sig/ont/fma/fma61764", "http://purl.org/sig/ont/fma/fma61775", "http://purl.org/sig/ont/fma/fma62391", "http://purl.org/sig/ont/fma/fma62955", "http://purl.org/sig/ont/fma/fma67135", "http://purl.org/sig/ont/fma/fma67165", "http://purl.org/sig/ont/fma/fma86455" ],
+  "hierarchicalParent" : [ "http://purl.org/sig/ont/fma/fma62391" ],
+  "hierarchicalProperty" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "imported" : false,
+  "iri" : "http://purl.org/sig/ont/fma/fma62387",
+  "isDefiningOntology" : false,
+  "isObsolete" : false,
+  "isPreferredRoot" : false,
+  "label" : [ "Junctional sarcoplasmic reticulum of cardiac muscle cell" ],
+  "linkedEntities" : {
+    "http://purl.org/sig/ont/fma/Date_entered_modified" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "date entered modified" ],
+      "curie" : "Date_entered_modified",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.org/sig/ont/fma/FMAID" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "FMAID" ],
+      "curie" : "FMAID",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.org/sig/ont/fma/author" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "author" ],
+      "curie" : "author",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.org/sig/ont/fma/authority" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "authority" ],
+      "curie" : "authority",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.org/sig/ont/fma/fma305751" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Anatomical structure" ],
+      "curie" : "fma305751",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.org/sig/ont/fma/fma61764" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Cardinal cell part" ],
+      "curie" : "fma61764",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.org/sig/ont/fma/fma61775" : {
+      "numAppearsIn" : 3.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Physical anatomical entity" ],
+      "curie" : "fma61775",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.org/sig/ont/fma/fma62388" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Free sarcoplasmic reticulum of cardiac muscle cell" ],
+      "curie" : "fma62388",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.org/sig/ont/fma/fma62389" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Corbular sarcoplasmic reticulum of cardiac muscle cell" ],
+      "curie" : "fma62389",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.org/sig/ont/fma/fma62391" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Region of sarcoplasmic reticulum of cardiac muscle cell" ],
+      "curie" : "fma62391",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.org/sig/ont/fma/fma62955" : {
+      "numAppearsIn" : 4.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Anatomical entity" ],
+      "curie" : "fma62955",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.org/sig/ont/fma/fma67135" : {
+      "numAppearsIn" : 3.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Postnatal anatomical structure" ],
+      "curie" : "fma67135",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.org/sig/ont/fma/fma67165" : {
+      "numAppearsIn" : 3.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Material anatomical entity" ],
+      "curie" : "fma67165",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.org/sig/ont/fma/fma86455" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Region of cell component" ],
+      "curie" : "fma86455",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.org/sig/ont/fma/preferred_name" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "preferred name" ],
+      "curie" : "preferred_name",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "subClassOf" ],
+      "curie" : "RDFS:subClassOf",
+      "type" : [ "entity", "property" ]
+    }
+  },
+  "linksTo" : [ "http://purl.org/sig/ont/fma/Date_entered_modified", "http://purl.org/sig/ont/fma/FMAID", "http://purl.org/sig/ont/fma/author", "http://purl.org/sig/ont/fma/authority", "http://purl.org/sig/ont/fma/fma305751", "http://purl.org/sig/ont/fma/fma61764", "http://purl.org/sig/ont/fma/fma61775", "http://purl.org/sig/ont/fma/fma62388", "http://purl.org/sig/ont/fma/fma62389", "http://purl.org/sig/ont/fma/fma62391", "http://purl.org/sig/ont/fma/fma62955", "http://purl.org/sig/ont/fma/fma67135", "http://purl.org/sig/ont/fma/fma67165", "http://purl.org/sig/ont/fma/fma86455", "http://purl.org/sig/ont/fma/preferred_name", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#subClassOf" ],
+  "numDescendants" : 0.0,
+  "numHierarchicalDescendants" : 0.0,
+  "ontologyId" : "fma",
+  "ontologyIri" : "http://purl.org/sig/ont/fma.owl",
+  "ontologyPreferredPrefix" : "FMA",
+  "searchableAnnotationValues" : [ 62387.0, false ],
+  "shortForm" : "fma62387",
+  "type" : [ "class", "entity" ],
+  "http://purl.org/sig/ont/fma/FMAID" : 62387.0,
+  "http://purl.org/sig/ont/fma/preferred_name" : {
+    "type" : [ "reification" ],
+    "value" : "Junctional sarcoplasmic reticulum of cardiac muscle cell",
+    "axioms" : [ {
+      "http://purl.org/sig/ont/fma/Date_entered_modified" : "Fri Jul 13 13:35:47 PDT 2001",
+      "http://purl.org/sig/ont/fma/author" : "AUGUSTO V. AGONCILLO, MD",
+      "http://purl.org/sig/ont/fma/authority" : "Gray's 99:767"
+    } ]
+  },
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "Junctional sarcoplasmic reticulum of cardiac muscle cell",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : "http://purl.org/sig/ont/fma/fma62391",
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ "http://purl.org/sig/ont/fma/fma62388", "http://purl.org/sig/ont/fma/fma62389" ]
+}

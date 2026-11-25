@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="matrix20" version="2.0" xmlns="http://www.cellml.org/cellml/2.0#">
+  <component name="a">
+    <variable name="x" units="dimensionless"/>
+  </component>
+  <component name="b">
+    <variable name="x" units="dimensionless"/>
+  </component>
+  <connection component_1="a" component_2="b">
+    <map_variables variable_1="x" variable_2="x"/>
+  </connection>
+</model>

@@ -1,0 +1,61 @@
+spring:
+  application:
+    name: masymos-service
+  mvc:
+    # A framework exception the advice does not map (405, 415, 406) is a problem detail too, so the
+    # documented error shape has no hole. It is not a replacement for ApiExceptionHandler: the advice's
+    # own types are more specific and keep their type URIs (decision D4, task T-017). The key exists in
+    # spring-boot-webmvc 4.0.9 and defaults to false.
+    problemdetails:
+      enabled: true
+
+server:
+  port: 8080
+
+masymos:
+  annotations:
+    # Ontology term providers of an annotation run. No URL is baked in and no key is stored here:
+    # an unset base URL means that provider is not configured, and the run says which variable to set.
+    providers:
+      bioportal:
+        # BioPortal is used only when both the base URL and the API key are set.
+        base-url: ${BIOPORTAL_BASE_URL:}
+        # Sent as an "Authorization: apikey ..." header, never in a URL or a query string.
+        api-key: ${BIOPORTAL_API_KEY:}
+      ols:
+        # OLS4 needs no key; a set base URL is enough to use it as the keyless fallback.
+        base-url: ${OLS_BASE_URL:}
+      batch:
+        # Maximum number of terms in one BioPortal batch request.
+        max: 20
+    # How long a cached ontology term stays fresh. Stated here because the resolver's default is
+    # otherwise invisible to an operator; a definitive answer is cached, a transient one never counts.
+    terms:
+      ttl: P30D
+  index:
+    # One index request is bounded at its boundary, before the first document is written (task T-018):
+    # a longer source list is refused whole with 400 invalid-argument, never partially executed.
+    max-sources-per-request: ${MASYMOS_INDEX_MAX_SOURCES_PER_REQUEST:100}
+    # Ceiling for a response body a caller dumps to disk - the CLI's --dump-path. The service does not
+    # enforce it; declared here so both halves of the surface state the bound in the same place.
+    max-response-bytes: ${MASYMOS_INDEX_MAX_RESPONSE_BYTES:52428800}
+  neo4j:
+    enabled: ${MASYMOS_NEO4J_ENABLED:true}
+    uri: ${MASYMOS_NEO4J_URI:bolt://localhost:7687}
+    username: ${MASYMOS_NEO4J_USERNAME:neo4j}
+    password: ${MASYMOS_NEO4J_PASSWORD:password}
+    database: ${MASYMOS_NEO4J_DATABASE:neo4j}
+  security:
+    # The one credential the service can require (decision 48, finding C04-3). Empty means off: a
+    # loopback-bound local service needs no credential. When set, every request must carry it in
+    # the X-MaSyMoS-Token header, and it must be at least 16 characters and not blank, or the service
+    # refuses to start (the empty value is the off switch, whitespace is not).
+    shared-secret: ${MASYMOS_SECURITY_SHARED_SECRET:}
+  sedml:
+    links:
+      auto-link: ${MASYMOS_SEDML_AUTOLINK:true}
+  storage:
+    document:
+      # Ceiling for the stored source copy of one document, in bytes (10 MiB). Larger documents
+      # are stored up to this limit and flagged as truncated (STO-2).
+      max-bytes: ${MASYMOS_STORAGE_DOCUMENT_MAX_BYTES:10485760}
