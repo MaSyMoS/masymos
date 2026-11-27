@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.cellml.org/cellml/1.0#" xmlns:cmeta="http://www.cellml.org/metadata/1.0#"
+       xmlns:xlink="http://www.w3.org/1999/xlink" name="clash">
+  <import xlink:href="sodium.cellml">
+    <component component_ref="sodium_channel" name="sodium_channel"/>
+  </import>
+  <component name="sodium_channel">
+    <variable name="m" units="dimensionless" initial_value="0.05"/>
+    <variable name="x" units="dimensionless" initial_value="0.5"/>
+  </component>
+</model>

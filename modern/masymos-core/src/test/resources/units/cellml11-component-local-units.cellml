@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.cellml.org/cellml/1.1#" name="component-local-units">
+  <!-- 1.x allows units inside a component; there it shadows the model-level name. -->
+  <units name="pace">
+    <unit units="metre"/>
+    <unit units="second" exponent="-1"/>
+  </units>
+  <component name="slow">
+    <units name="pace">
+      <unit units="metre" multiplier="2"/>
+      <unit units="second" exponent="-1"/>
+    </units>
+    <variable name="stride" units="pace"/>
+  </component>
+  <component name="fast">
+    <variable name="stride" units="pace"/>
+  </component>
+</model>

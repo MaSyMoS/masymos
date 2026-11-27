@@ -1,0 +1,102 @@
+{
+  "appearsIn" : [ "sbo" ],
+  "curie" : "SBO:0000323",
+  "definition" : [ "Synonym: Kmp " ],
+  "definitionProperty" : "http://www.w3.org/2000/01/rdf-schema#comment",
+  "directAncestor" : [ "http://biomodels.net/SBO/SBO_0000000", "http://biomodels.net/SBO/SBO_0000002", "http://biomodels.net/SBO/SBO_0000027", "http://biomodels.net/SBO/SBO_0000193", "http://biomodels.net/SBO/SBO_0000308", "http://biomodels.net/SBO/SBO_0000545" ],
+  "directParent" : [ "http://biomodels.net/SBO/SBO_0000027" ],
+  "hasDirectChildren" : false,
+  "hasDirectParents" : true,
+  "hasHierarchicalChildren" : false,
+  "hasHierarchicalParents" : true,
+  "hierarchicalAncestor" : [ "http://biomodels.net/SBO/SBO_0000000", "http://biomodels.net/SBO/SBO_0000002", "http://biomodels.net/SBO/SBO_0000027", "http://biomodels.net/SBO/SBO_0000193", "http://biomodels.net/SBO/SBO_0000308", "http://biomodels.net/SBO/SBO_0000545" ],
+  "hierarchicalParent" : [ "http://biomodels.net/SBO/SBO_0000027" ],
+  "hierarchicalProperty" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "imported" : false,
+  "iri" : "http://biomodels.net/SBO/SBO_0000323",
+  "isDefiningOntology" : false,
+  "isObsolete" : false,
+  "isPreferredRoot" : false,
+  "label" : [ "Michaelis constant for product" ],
+  "linkedEntities" : {
+    "http://biomodels.net/SBO/SBO_0000000" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "systems biology representation" ],
+      "curie" : "SBO:0000000",
+      "type" : [ "class", "entity" ]
+    },
+    "http://biomodels.net/SBO/SBO_0000002" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "quantitative systems description parameter" ],
+      "curie" : "SBO:0000002",
+      "type" : [ "class", "entity" ]
+    },
+    "http://biomodels.net/SBO/SBO_0000027" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Michaelis constant" ],
+      "curie" : "SBO:0000027",
+      "type" : [ "class", "entity" ]
+    },
+    "http://biomodels.net/SBO/SBO_0000193" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "equilibrium or steady-state constant" ],
+      "curie" : "SBO:0000193",
+      "type" : [ "class", "entity" ]
+    },
+    "http://biomodels.net/SBO/SBO_0000308" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "equilibrium or steady-state characteristic" ],
+      "curie" : "SBO:0000308",
+      "type" : [ "class", "entity" ]
+    },
+    "http://biomodels.net/SBO/SBO_0000545" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "systems description parameter" ],
+      "curie" : "SBO:0000545",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#comment" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 179.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "comment" ],
+      "curie" : "RDFS:comment",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "subClassOf" ],
+      "curie" : "RDFS:subClassOf",
+      "type" : [ "entity", "property" ]
+    }
+  },
+  "linksTo" : [ "http://biomodels.net/SBO/SBO_0000000", "http://biomodels.net/SBO/SBO_0000002", "http://biomodels.net/SBO/SBO_0000027", "http://biomodels.net/SBO/SBO_0000193", "http://biomodels.net/SBO/SBO_0000308", "http://biomodels.net/SBO/SBO_0000545", "http://www.w3.org/2000/01/rdf-schema#comment", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#subClassOf" ],
+  "numDescendants" : 0.0,
+  "numHierarchicalDescendants" : 0.0,
+  "ontologyId" : "sbo",
+  "ontologyIri" : "http://biomodels.net/SBO/",
+  "ontologyPreferredPrefix" : "SBO",
+  "searchableAnnotationValues" : false,
+  "shortForm" : "SBO_0000323",
+  "type" : [ "class", "entity" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : "Synonym: Kmp ",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "Michaelis constant for product",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : "http://biomodels.net/SBO/SBO_0000027"
+}

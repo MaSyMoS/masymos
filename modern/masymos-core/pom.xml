@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.masymos</groupId>
+    <artifactId>masymos-modern</artifactId>
+    <version>2.0.0-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>masymos-core</artifactId>
+  <name>MaSyMoS Core</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.sbml.jsbml</groupId>
+      <artifactId>jsbml-core</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.apache.logging.log4j</groupId>
+          <artifactId>log4j-slf4j-impl</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <!-- CORP-6: without a parser for a package namespace JSBML reads the package's elements as
+           opaque XML, and an annotation nested in one of them aborts the whole document. Versions
+           live in the parent's dependencyManagement so the family follows one property. -->
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-arrays</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-comp</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-distrib</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-dyn</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-fbc</artifactId>
+      <exclusions>
+        <!-- jsbml-fbc is the only artifact that declares the tidy utility module, and that module is
+             what drags jtidy r938 into the tree (CVE-2023-34623, CVSS 7.5). Nothing in the reader
+             path references it: no class in jsbml-core or in any of the twelve package jars mentions
+             org/sbml/jsbml/modules/tidy, and JSBML's own HTML tidying is a writer-side helper. It is
+             excluded rather than pinned because jtidy has no fixed release to pin to. -->
+        <exclusion>
+          <groupId>org.sbml.jsbml.modules</groupId>
+          <artifactId>jsbml-tidy</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-groups</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-layout</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-multi</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-qual</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-render</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-req</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.sbml.jsbml.ext</groupId>
+      <artifactId>jsbml-spatial</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>net.sourceforge.owlapi</groupId>
+      <artifactId>owlapi-distribution</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

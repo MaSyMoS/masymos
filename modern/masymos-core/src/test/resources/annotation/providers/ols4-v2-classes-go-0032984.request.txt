@@ -1,0 +1,3 @@
+GET https://www.ebi.ac.uk/ols4/api/v2/ontologies/go/classes/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0032984
+# captured 2026-11-16T08:15:08Z
+# status 200

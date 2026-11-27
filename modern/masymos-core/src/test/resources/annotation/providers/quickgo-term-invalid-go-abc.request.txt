@@ -1,0 +1,2 @@
+GET https://www.ebi.ac.uk/QuickGO/services/ontology/go/terms/GO:abc
+# captured 2026-11-23T16:43:06Z - HTTP 400, Content-Type application/json

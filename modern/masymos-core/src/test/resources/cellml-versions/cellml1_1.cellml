@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="matrix11" xmlns="http://www.cellml.org/cellml/1.1#">
+  <component name="a">
+    <variable name="x" units="dimensionless"/>
+  </component>
+  <component name="b">
+    <variable name="x" units="dimensionless"/>
+  </component>
+  <connection>
+    <map_components component_1="a" component_2="b"/>
+    <map_variables variable_1="x" variable_2="x"/>
+  </connection>
+</model>

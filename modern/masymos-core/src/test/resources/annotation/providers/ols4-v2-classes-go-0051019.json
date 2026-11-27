@@ -1,0 +1,241 @@
+{
+  "appearsIn" : [ "cco", "gexo", "go", "oba", "reto", "rexo" ],
+  "curie" : "GO:0051019",
+  "definedBy" : [ "go" ],
+  "definition" : [ {
+    "type" : [ "reification" ],
+    "value" : "Binding to a mitogen-activated protein kinase.",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "GOC:ai"
+    } ]
+  } ],
+  "definitionProperty" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "directAncestor" : [ "http://purl.obolibrary.org/obo/BFO_0000003", "http://purl.obolibrary.org/obo/BFO_0000015", "http://purl.obolibrary.org/obo/GO_0003674", "http://purl.obolibrary.org/obo/GO_0005488", "http://purl.obolibrary.org/obo/GO_0005515", "http://purl.obolibrary.org/obo/GO_0019899", "http://purl.obolibrary.org/obo/GO_0019900", "http://purl.obolibrary.org/obo/GO_0019901" ],
+  "directParent" : [ "http://purl.obolibrary.org/obo/GO_0019901" ],
+  "hasDirectChildren" : true,
+  "hasDirectParents" : true,
+  "hasHierarchicalChildren" : true,
+  "hasHierarchicalParents" : true,
+  "hierarchicalAncestor" : [ "http://purl.obolibrary.org/obo/BFO_0000003", "http://purl.obolibrary.org/obo/BFO_0000015", "http://purl.obolibrary.org/obo/GO_0003674", "http://purl.obolibrary.org/obo/GO_0005488", "http://purl.obolibrary.org/obo/GO_0005515", "http://purl.obolibrary.org/obo/GO_0019899", "http://purl.obolibrary.org/obo/GO_0019900", "http://purl.obolibrary.org/obo/GO_0019901" ],
+  "hierarchicalParent" : [ "http://purl.obolibrary.org/obo/GO_0019901" ],
+  "hierarchicalProperty" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "imported" : false,
+  "iri" : "http://purl.obolibrary.org/obo/GO_0051019",
+  "isDefiningOntology" : true,
+  "isObsolete" : false,
+  "isPreferredRoot" : false,
+  "label" : [ "mitogen-activated protein kinase binding" ],
+  "linkedEntities" : {
+    "GO:0051019" : {
+      "iri" : "http://purl.obolibrary.org/obo/GO_0051019",
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 6.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "mitogen-activated protein kinase binding" ],
+      "curie" : "GO:0051019",
+      "type" : [ "class", "entity" ],
+      "url" : "http://amigo.geneontology.org/amigo/term/GO:0051019",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "http://purl.obolibrary.org/obo/BFO_0000003" : {
+      "definedBy" : [ "bfo" ],
+      "numAppearsIn" : 130.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "occurrent" ],
+      "curie" : "BFO:0000003",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/BFO_0000015" : {
+      "definedBy" : [ "bfo" ],
+      "numAppearsIn" : 142.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "process" ],
+      "curie" : "BFO:0000015",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0003674" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 89.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "molecular_function" ],
+      "curie" : "GO:0003674",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0005488" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 32.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "binding" ],
+      "curie" : "GO:0005488",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0005515" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 30.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "protein binding" ],
+      "curie" : "GO:0005515",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0019899" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 10.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "enzyme binding" ],
+      "curie" : "GO:0019899",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0019900" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 9.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "kinase binding" ],
+      "curie" : "GO:0019900",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/GO_0019901" : {
+      "definedBy" : [ "go" ],
+      "numAppearsIn" : 9.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "protein kinase binding" ],
+      "curie" : "GO:0019901",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000115" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 233.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "definition" ],
+      "curie" : "IAO:0000115",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/PR_000000019" : {
+      "numAppearsIn" : 6.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "mitogen-activated protein kinase" ],
+      "curie" : "PR:000000019",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/RO_0004009" : {
+      "definedBy" : [ "ro" ],
+      "numAppearsIn" : 23.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has primary input" ],
+      "curie" : "RO:0004009",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://purl.org/dc/terms/conformsTo" : {
+      "definedBy" : [ "dcterms" ],
+      "numAppearsIn" : 20.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Conforms To" ],
+      "curie" : "DCTERMS:conformsTo",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 214.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "database_cross_reference", "has_dbxref" ],
+      "curie" : "OIO:hasDbXref",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 211.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_exact_synonym" ],
+      "curie" : "OIO:hasExactSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 170.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_obo_namespace" ],
+      "curie" : "OIO:hasOBONamespace",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 200.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_related_synonym" ],
+      "curie" : "OIO:hasRelatedSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#id" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 182.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "id" ],
+      "curie" : "OIO:id",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "subClassOf" ],
+      "curie" : "RDFS:subClassOf",
+      "type" : [ "entity", "property" ]
+    }
+  },
+  "linksTo" : [ "http://purl.obolibrary.org/obo/BFO_0000003", "http://purl.obolibrary.org/obo/BFO_0000015", "http://purl.obolibrary.org/obo/GO_0003674", "http://purl.obolibrary.org/obo/GO_0005488", "http://purl.obolibrary.org/obo/GO_0005515", "http://purl.obolibrary.org/obo/GO_0019899", "http://purl.obolibrary.org/obo/GO_0019900", "http://purl.obolibrary.org/obo/GO_0019901", "http://purl.obolibrary.org/obo/GO_0051019", "http://purl.obolibrary.org/obo/IAO_0000115", "http://purl.obolibrary.org/obo/PR_000000019", "http://purl.obolibrary.org/obo/RO_0004009", "http://purl.org/dc/terms/conformsTo", "http://www.geneontology.org/formats/oboInOwl#hasDbXref", "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym", "http://www.geneontology.org/formats/oboInOwl#id", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#subClassOf" ],
+  "numDescendants" : 1.0,
+  "numHierarchicalDescendants" : 1.0,
+  "ontologyId" : "go",
+  "ontologyIri" : "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+  "ontologyPreferredPrefix" : "GO",
+  "relatedTo" : [ {
+    "property" : "http://purl.obolibrary.org/obo/RO_0004009",
+    "value" : "http://purl.obolibrary.org/obo/PR_000000019",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0004009",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/PR_000000019",
+    "isObsolete" : false
+  } ],
+  "searchableAnnotationValues" : [ false ],
+  "shortForm" : "GO_0051019",
+  "synonym" : [ "MAP kinase binding", "MAP-kinase anchoring activity", "MAPK binding" ],
+  "synonymProperty" : [ "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" ],
+  "type" : [ "class", "entity" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : {
+    "type" : [ "reification" ],
+    "value" : "Binding to a mitogen-activated protein kinase.",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "GOC:ai"
+    } ]
+  },
+  "http://purl.org/dc/terms/conformsTo" : "http://purl.obolibrary.org/obo/go/patterns/binding.yaml",
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ "MAP kinase binding", "MAPK binding" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : "molecular_function",
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ "MAP-kinase anchoring activity" ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : "GO:0051019",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "mitogen-activated protein kinase binding",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ "http://purl.obolibrary.org/obo/GO_0019901", {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0004009",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/PR_000000019",
+    "isObsolete" : false
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+    "http://www.w3.org/2002/07/owl#intersectionOf" : [ "http://purl.obolibrary.org/obo/GO_0005488", {
+      "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+      "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0004009",
+      "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/PR_000000019",
+      "isObsolete" : false
+    } ]
+  }
+}

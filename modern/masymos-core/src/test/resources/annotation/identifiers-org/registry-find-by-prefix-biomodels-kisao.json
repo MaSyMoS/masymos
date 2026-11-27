@@ -1,0 +1,37 @@
+{
+  "prefix" : "biomodels.kisao",
+  "mirId" : "MIR:00000108",
+  "name" : "KiSAO",
+  "pattern" : "^KISAO_\\d+$",
+  "description" : "The Kinetic Simulation Algorithm Ontology (KiSAO) is an ontology that describes simulation algorithms and methods used for biological kinetic models, and the relationships between them. This provides a means to unambiguously refer to simulation algorithms when describing a simulation experiment.",
+  "created" : "2019-06-11T14:16:01.508+00:00",
+  "modified" : "2019-06-11T14:16:01.508+00:00",
+  "deprecated" : false,
+  "deprecationDate" : null,
+  "deprecationOfflineDate" : null,
+  "renderDeprecatedLanding" : false,
+  "deprecationStatement" : null,
+  "infoOnPostmortemAccess" : null,
+  "sampleId" : "KISAO_0000057",
+  "namespaceEmbeddedInLui" : false,
+  "_links" : {
+    "self" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/347"
+    },
+    "namespace" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/347"
+    },
+    "successor" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/347/successor"
+    },
+    "resources" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/347/resources"
+    },
+    "contactPerson" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/347/contactPerson"
+    },
+    "curationWarnings" : {
+      "href" : "https://registry.api.identifiers.org/restApi/namespaces/347/curationWarnings"
+    }
+  }
+}

@@ -1,0 +1,2 @@
+GET https://www.ebi.ac.uk/ols4/api/v2/ontologies/fma/classes/http%253A%252F%252Fpurl.org%252Fsig%252Font%252Ffma%252Ffma62387
+# captured 2026-11-13T23:26:15Z

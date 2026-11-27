@@ -1,0 +1,1147 @@
+{
+  "appearsIn" : [ "chebi", "dron", "ecto", "fypo", "go", "mco", "micro", "mp", "oba", "pcl", "slm", "txpo", "upheno", "valuesets", "zp" ],
+  "curie" : "CHEBI:16761",
+  "definedBy" : [ "chebi" ],
+  "definition" : [ "A purine ribonucleoside 5'-diphosphate having adenine as the nucleobase." ],
+  "definitionProperty" : "http://purl.obolibrary.org/obo/IAO_0000115",
+  "directAncestor" : [ "http://purl.obolibrary.org/obo/CHEBI_16701", "http://purl.obolibrary.org/obo/CHEBI_16862", "http://purl.obolibrary.org/obo/CHEBI_17668", "http://purl.obolibrary.org/obo/CHEBI_22256", "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_24532", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_25608", "http://purl.obolibrary.org/obo/CHEBI_25703", "http://purl.obolibrary.org/obo/CHEBI_25710", "http://purl.obolibrary.org/obo/CHEBI_25806", "http://purl.obolibrary.org/obo/CHEBI_25900", "http://purl.obolibrary.org/obo/CHEBI_26020", "http://purl.obolibrary.org/obo/CHEBI_26079", "http://purl.obolibrary.org/obo/CHEBI_26082", "http://purl.obolibrary.org/obo/CHEBI_26391", "http://purl.obolibrary.org/obo/CHEBI_26395", "http://purl.obolibrary.org/obo/CHEBI_26396", "http://purl.obolibrary.org/obo/CHEBI_26400", "http://purl.obolibrary.org/obo/CHEBI_26401", "http://purl.obolibrary.org/obo/CHEBI_26561", "http://purl.obolibrary.org/obo/CHEBI_26562", "http://purl.obolibrary.org/obo/CHEBI_26816", "http://purl.obolibrary.org/obo/CHEBI_27171", "http://purl.obolibrary.org/obo/CHEBI_29075", "http://purl.obolibrary.org/obo/CHEBI_33241", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33302", "http://purl.obolibrary.org/obo/CHEBI_33304", "http://purl.obolibrary.org/obo/CHEBI_33447", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33595", "http://purl.obolibrary.org/obo/CHEBI_33635", "http://purl.obolibrary.org/obo/CHEBI_33636", "http://purl.obolibrary.org/obo/CHEBI_33655", "http://purl.obolibrary.org/obo/CHEBI_33659", "http://purl.obolibrary.org/obo/CHEBI_33671", "http://purl.obolibrary.org/obo/CHEBI_33672", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_33832", "http://purl.obolibrary.org/obo/CHEBI_33833", "http://purl.obolibrary.org/obo/CHEBI_35131", "http://purl.obolibrary.org/obo/CHEBI_35352", "http://purl.obolibrary.org/obo/CHEBI_35701", "http://purl.obolibrary.org/obo/CHEBI_35875", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_36359", "http://purl.obolibrary.org/obo/CHEBI_36360", "http://purl.obolibrary.org/obo/CHEBI_36962", "http://purl.obolibrary.org/obo/CHEBI_36963", "http://purl.obolibrary.org/obo/CHEBI_36976", "http://purl.obolibrary.org/obo/CHEBI_37015", "http://purl.obolibrary.org/obo/CHEBI_37038", "http://purl.obolibrary.org/obo/CHEBI_37075", "http://purl.obolibrary.org/obo/CHEBI_37096", "http://purl.obolibrary.org/obo/CHEBI_37577", "http://purl.obolibrary.org/obo/CHEBI_37734", "http://purl.obolibrary.org/obo/CHEBI_38101", "http://purl.obolibrary.org/obo/CHEBI_38166", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_51143", "http://purl.obolibrary.org/obo/CHEBI_5686", "http://purl.obolibrary.org/obo/CHEBI_61120", "http://purl.obolibrary.org/obo/CHEBI_61293", "http://purl.obolibrary.org/obo/CHEBI_61296", "http://purl.obolibrary.org/obo/CHEBI_63299", "http://purl.obolibrary.org/obo/CHEBI_63367", "http://purl.obolibrary.org/obo/CHEBI_63409", "http://purl.obolibrary.org/obo/CHEBI_72695", "http://purl.obolibrary.org/obo/CHEBI_78616", "http://purl.obolibrary.org/obo/CHEBI_84055" ],
+  "directParent" : [ "http://purl.obolibrary.org/obo/CHEBI_37038", "http://purl.obolibrary.org/obo/CHEBI_37096" ],
+  "hasDirectChildren" : false,
+  "hasDirectParents" : true,
+  "hasHierarchicalChildren" : false,
+  "hasHierarchicalParents" : true,
+  "hierarchicalAncestor" : [ "http://purl.obolibrary.org/obo/CHEBI_16701", "http://purl.obolibrary.org/obo/CHEBI_16862", "http://purl.obolibrary.org/obo/CHEBI_17668", "http://purl.obolibrary.org/obo/CHEBI_22256", "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_24532", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_25608", "http://purl.obolibrary.org/obo/CHEBI_25703", "http://purl.obolibrary.org/obo/CHEBI_25710", "http://purl.obolibrary.org/obo/CHEBI_25806", "http://purl.obolibrary.org/obo/CHEBI_25900", "http://purl.obolibrary.org/obo/CHEBI_26020", "http://purl.obolibrary.org/obo/CHEBI_26079", "http://purl.obolibrary.org/obo/CHEBI_26082", "http://purl.obolibrary.org/obo/CHEBI_26391", "http://purl.obolibrary.org/obo/CHEBI_26395", "http://purl.obolibrary.org/obo/CHEBI_26396", "http://purl.obolibrary.org/obo/CHEBI_26400", "http://purl.obolibrary.org/obo/CHEBI_26401", "http://purl.obolibrary.org/obo/CHEBI_26561", "http://purl.obolibrary.org/obo/CHEBI_26562", "http://purl.obolibrary.org/obo/CHEBI_26816", "http://purl.obolibrary.org/obo/CHEBI_27171", "http://purl.obolibrary.org/obo/CHEBI_29075", "http://purl.obolibrary.org/obo/CHEBI_33241", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33302", "http://purl.obolibrary.org/obo/CHEBI_33304", "http://purl.obolibrary.org/obo/CHEBI_33447", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33595", "http://purl.obolibrary.org/obo/CHEBI_33635", "http://purl.obolibrary.org/obo/CHEBI_33636", "http://purl.obolibrary.org/obo/CHEBI_33655", "http://purl.obolibrary.org/obo/CHEBI_33659", "http://purl.obolibrary.org/obo/CHEBI_33671", "http://purl.obolibrary.org/obo/CHEBI_33672", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_33832", "http://purl.obolibrary.org/obo/CHEBI_33833", "http://purl.obolibrary.org/obo/CHEBI_35131", "http://purl.obolibrary.org/obo/CHEBI_35352", "http://purl.obolibrary.org/obo/CHEBI_35701", "http://purl.obolibrary.org/obo/CHEBI_35875", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_36359", "http://purl.obolibrary.org/obo/CHEBI_36360", "http://purl.obolibrary.org/obo/CHEBI_36962", "http://purl.obolibrary.org/obo/CHEBI_36963", "http://purl.obolibrary.org/obo/CHEBI_36976", "http://purl.obolibrary.org/obo/CHEBI_37015", "http://purl.obolibrary.org/obo/CHEBI_37038", "http://purl.obolibrary.org/obo/CHEBI_37075", "http://purl.obolibrary.org/obo/CHEBI_37096", "http://purl.obolibrary.org/obo/CHEBI_37577", "http://purl.obolibrary.org/obo/CHEBI_37734", "http://purl.obolibrary.org/obo/CHEBI_38101", "http://purl.obolibrary.org/obo/CHEBI_38166", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_51143", "http://purl.obolibrary.org/obo/CHEBI_5686", "http://purl.obolibrary.org/obo/CHEBI_61120", "http://purl.obolibrary.org/obo/CHEBI_61293", "http://purl.obolibrary.org/obo/CHEBI_61296", "http://purl.obolibrary.org/obo/CHEBI_63299", "http://purl.obolibrary.org/obo/CHEBI_63367", "http://purl.obolibrary.org/obo/CHEBI_63409", "http://purl.obolibrary.org/obo/CHEBI_72695", "http://purl.obolibrary.org/obo/CHEBI_78616", "http://purl.obolibrary.org/obo/CHEBI_84055" ],
+  "hierarchicalParent" : [ "http://purl.obolibrary.org/obo/CHEBI_37038", "http://purl.obolibrary.org/obo/CHEBI_37096" ],
+  "hierarchicalProperty" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "imported" : false,
+  "iri" : "http://purl.obolibrary.org/obo/CHEBI_16761",
+  "isDefiningOntology" : true,
+  "isObsolete" : false,
+  "isPreferredRoot" : false,
+  "label" : [ "ADP" ],
+  "linkedEntities" : {
+    "CHEBI:13222" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_13222",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_13222" ],
+      "curie" : "CHEBI:13222",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:13222",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:16761" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_16761",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 15.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ADP" ],
+      "curie" : "CHEBI:16761",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16761",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:22244" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_22244",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_22244" ],
+      "curie" : "CHEBI:22244",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:22244",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:2342" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_2342",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_2342" ],
+      "curie" : "CHEBI:2342",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:2342",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "CHEBI:40553" : {
+      "iri" : "http://purl.obolibrary.org/obo/CHEBI_40553",
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CHEBI_40553" ],
+      "curie" : "CHEBI:40553",
+      "type" : [ "class", "entity" ],
+      "url" : "http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:40553",
+      "source" : "https://raw.githubusercontent.com/geneontology/go-site/master/metadata/db-xrefs.yaml"
+    },
+    "cas:20398-34-9" : {
+      "url" : "https://commonchemistry.cas.org/detail?cas_rn=20398-34-9",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "cas:20398-34-9"
+    },
+    "cas:58-64-0" : {
+      "url" : "https://commonchemistry.cas.org/detail?cas_rn=58-64-0",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "cas:58-64-0"
+    },
+    "drugbank:DB03431" : {
+      "url" : "https://go.drugbank.com/drugs/DB03431",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "drugbank:DB03431"
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_16701" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 17.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "nucleoside 5'-phosphate" ],
+      "curie" : "CHEBI:16701",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_16862" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 13.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "nucleoside 5'-diphosphate" ],
+      "curie" : "CHEBI:16862",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_17668" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 14.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ribonucleoside diphosphat" ],
+      "curie" : "CHEBI:17668",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_22256" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 16.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "adenosine phosphate" ],
+      "curie" : "CHEBI:22256",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_23367" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 94.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "molecular entity" ],
+      "curie" : "CHEBI:23367",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_24431" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 74.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "chemical entity" ],
+      "curie" : "CHEBI:24431",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_24532" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 51.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic heterocyclic compound" ],
+      "curie" : "CHEBI:24532",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25367" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 54.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "molecule" ],
+      "curie" : "CHEBI:25367",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25608" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 22.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "nucleoside phosphate" ],
+      "curie" : "CHEBI:25608",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25703" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 28.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic phosphate" ],
+      "curie" : "CHEBI:25703",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25710" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 28.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organophosphorus compound" ],
+      "curie" : "CHEBI:25710",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25806" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "oxygen molecular entity" ],
+      "curie" : "CHEBI:25806",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_25900" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 19.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "aldopentose phosphate" ],
+      "curie" : "CHEBI:25900",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26020" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 34.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "phosphate" ],
+      "curie" : "CHEBI:26020",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26079" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 32.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "phosphoric acid derivative" ],
+      "curie" : "CHEBI:26079",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26082" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 34.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "phosphorus molecular entity" ],
+      "curie" : "CHEBI:26082",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26391" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 13.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "purine nucleoside diphosphate" ],
+      "curie" : "CHEBI:26391",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26395" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 20.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "purine nucleotide" ],
+      "curie" : "CHEBI:26395",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26396" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 14.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "purine ribonucleoside diphosphate" ],
+      "curie" : "CHEBI:26396",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26400" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 20.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "purine ribonucleotide" ],
+      "curie" : "CHEBI:26400",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26401" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 29.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "purines" ],
+      "curie" : "CHEBI:26401",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26561" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 20.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ribonucleotide" ],
+      "curie" : "CHEBI:26561",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26562" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 19.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ribose phosphate" ],
+      "curie" : "CHEBI:26562",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_26816" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 20.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "carbohydrate phosphate" ],
+      "curie" : "CHEBI:26816",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_27171" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 46.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic heterobicyclic compound" ],
+      "curie" : "CHEBI:27171",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_29075" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 17.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "mononucleotide" ],
+      "curie" : "CHEBI:29075",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33241" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 42.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "oxoacid derivative" ],
+      "curie" : "CHEBI:33241",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33285" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 55.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heteroorganic entity" ],
+      "curie" : "CHEBI:33285",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33302" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 51.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "pnictogen molecular entity" ],
+      "curie" : "CHEBI:33302",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33304" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 54.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "chalcogen molecular entity" ],
+      "curie" : "CHEBI:33304",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33447" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 19.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "phospho sugar" ],
+      "curie" : "CHEBI:33447",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33579" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "main group molecular entity" ],
+      "curie" : "CHEBI:33579",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33582" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "carbon group molecular entity" ],
+      "curie" : "CHEBI:33582",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33595" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 53.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "cyclic compound" ],
+      "curie" : "CHEBI:33595",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33635" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 44.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "polycyclic compound" ],
+      "curie" : "CHEBI:33635",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33636" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 43.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "bicyclic compound" ],
+      "curie" : "CHEBI:33636",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33655" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 46.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "aromatic compound" ],
+      "curie" : "CHEBI:33655",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33659" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 48.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic aromatic compound" ],
+      "curie" : "CHEBI:33659",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33671" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 45.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heteropolycyclic compound" ],
+      "curie" : "CHEBI:33671",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33672" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 44.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heterobicyclic compound" ],
+      "curie" : "CHEBI:33672",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33675" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 57.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "p-block molecular entity" ],
+      "curie" : "CHEBI:33675",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33832" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic cyclic compound" ],
+      "curie" : "CHEBI:33832",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_33833" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 49.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heteroarene" ],
+      "curie" : "CHEBI:33833",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35131" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 19.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "aldose phosphate" ],
+      "curie" : "CHEBI:35131",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35352" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organonitrogen compound" ],
+      "curie" : "CHEBI:35352",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35701" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 45.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ester" ],
+      "curie" : "CHEBI:35701",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_35875" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 28.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "imidazopyrimidine" ],
+      "curie" : "CHEBI:35875",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36357" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 59.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "polyatomic entity" ],
+      "curie" : "CHEBI:36357",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36359" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 31.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "phosphorus oxoacid derivative" ],
+      "curie" : "CHEBI:36359",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36360" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 32.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "phosphorus oxoacids and derivatives" ],
+      "curie" : "CHEBI:36360",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36962" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 51.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organochalcogen compound" ],
+      "curie" : "CHEBI:36962",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36963" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organooxygen compound" ],
+      "curie" : "CHEBI:36963",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_36976" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 24.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "nucleotide" ],
+      "curie" : "CHEBI:36976",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_37015" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 17.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ribonucleoside 5'-phosphate" ],
+      "curie" : "CHEBI:37015",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_37038" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 13.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "purine ribonucleoside 5'-diphosphate" ],
+      "curie" : "CHEBI:37038",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_37075" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 13.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ribonucleoside 5'-diphosphate" ],
+      "curie" : "CHEBI:37075",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_37096" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 15.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "adenosine 5'-phosphate" ],
+      "curie" : "CHEBI:37096",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_37577" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 55.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heteroatomic molecular entity" ],
+      "curie" : "CHEBI:37577",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_37734" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 28.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "phosphoric ester" ],
+      "curie" : "CHEBI:37734",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_38101" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 49.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organonitrogen heterocyclic compound" ],
+      "curie" : "CHEBI:38101",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_38166" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 46.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic heteropolycyclic compound" ],
+      "curie" : "CHEBI:38166",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_456216" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 13.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ADP(3-)" ],
+      "curie" : "CHEBI:456216",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_50860" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 59.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic molecular entity" ],
+      "curie" : "CHEBI:50860",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_51143" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 53.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "nitrogen molecular entity" ],
+      "curie" : "CHEBI:51143",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_5686" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "heterocyclic compound" ],
+      "curie" : "CHEBI:5686",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_61120" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 40.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "nucleobase-containing molecular entity" ],
+      "curie" : "CHEBI:61120",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_61293" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 17.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "adenyl nucleotide" ],
+      "curie" : "CHEBI:61293",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_61296" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 18.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "adenyl ribonucleotide" ],
+      "curie" : "CHEBI:61296",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_63299" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 41.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "carbohydrate derivative" ],
+      "curie" : "CHEBI:63299",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_63367" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 22.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "monosaccharide derivative" ],
+      "curie" : "CHEBI:63367",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_63409" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 19.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "pentose derivative" ],
+      "curie" : "CHEBI:63409",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_72695" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 57.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "organic molecule" ],
+      "curie" : "CHEBI:72695",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_77746" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 42.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "human metabolite" ],
+      "curie" : "CHEBI:77746",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_78616" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 43.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "carbohydrates and carbohydrate derivatives" ],
+      "curie" : "CHEBI:78616",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_78675" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 30.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "fundamental metabolite" ],
+      "curie" : "CHEBI:78675",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_84055" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 19.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "pentose phosphate" ],
+      "curie" : "CHEBI:84055",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/CHEBI_87518" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 12.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ADP(2-)" ],
+      "curie" : "CHEBI:87518",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000115" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 233.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "definition" ],
+      "curie" : "IAO:0000115",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/RO_0000087" : {
+      "definedBy" : [ "ro" ],
+      "numAppearsIn" : 124.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has role" ],
+      "curie" : "RO:0000087",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/RO_0018034" : {
+      "definedBy" : [ "ro" ],
+      "numAppearsIn" : 28.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "is protonated form of" ],
+      "curie" : "RO:0018034",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/chebi/3_STAR" : {
+      "numAppearsIn" : 18.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "3_STAR" ],
+      "curie" : "3_STAR",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME" : {
+      "numAppearsIn" : 9.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "IUPAC NAME" ],
+      "curie" : "IUPAC_NAME",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 145.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_alternative_id" ],
+      "curie" : "OIO:hasAlternativeId",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 214.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "database_cross_reference", "has_dbxref" ],
+      "curie" : "OIO:hasDbXref",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 211.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_exact_synonym" ],
+      "curie" : "OIO:hasExactSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 170.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_obo_namespace" ],
+      "curie" : "OIO:hasOBONamespace",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 200.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_related_synonym" ],
+      "curie" : "OIO:hasRelatedSynonym",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 92.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has_synonym_type" ],
+      "curie" : "OIO:hasSynonymType",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#id" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 182.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "id" ],
+      "curie" : "OIO:id",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#inSubset" : {
+      "definedBy" : [ "oio" ],
+      "numAppearsIn" : 134.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "in_subset" ],
+      "curie" : "OIO:inSubset",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.geneontology.org/formats/oboInOwl#source" : {
+      "numAppearsIn" : 56.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "source" ],
+      "curie" : "source",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "subClassOf" ],
+      "curie" : "RDFS:subClassOf",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2001/XMLSchema#decimal" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : false,
+      "type" : [ "class", "entity" ],
+      "label" : [ "decimal" ],
+      "curie" : "decimal"
+    },
+    "https://w3id.org/chemrof/charge" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "charge" ],
+      "curie" : "charge",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/generalized_empirical_formula" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "generalized_empirical_formula" ],
+      "curie" : "generalized_empirical_formula",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/inchi_key_string" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "inchi_key_string" ],
+      "curie" : "inchi_key_string",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/inchi_string" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "inchi_string" ],
+      "curie" : "inchi_string",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/mass" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "mass" ],
+      "curie" : "mass",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/monoisotopic_mass" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "monoisotopic_mass" ],
+      "curie" : "monoisotopic_mass",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "https://w3id.org/chemrof/smiles_string" : {
+      "numAppearsIn" : 7.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "smiles_string" ],
+      "curie" : "smiles_string",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "knapsack:C00019353" : {
+      "url" : "http://www.knapsackfamily.com/knapsack_core/information.php?word=C00019353",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "knapsack:C00019353"
+    },
+    "pubmed:16295522" : {
+      "url" : "https://pubmed.ncbi.nlm.nih.gov/16295522/",
+      "source" : "https://raw.githubusercontent.com/biopragmatics/bioregistry/main/exports/registry/registry.json",
+      "curie" : "pubmed:16295522"
+    }
+  },
+  "linksTo" : [ "http://purl.obolibrary.org/obo/CHEBI_13222", "http://purl.obolibrary.org/obo/CHEBI_16701", "http://purl.obolibrary.org/obo/CHEBI_16761", "http://purl.obolibrary.org/obo/CHEBI_16862", "http://purl.obolibrary.org/obo/CHEBI_17668", "http://purl.obolibrary.org/obo/CHEBI_22244", "http://purl.obolibrary.org/obo/CHEBI_22256", "http://purl.obolibrary.org/obo/CHEBI_23367", "http://purl.obolibrary.org/obo/CHEBI_2342", "http://purl.obolibrary.org/obo/CHEBI_24431", "http://purl.obolibrary.org/obo/CHEBI_24532", "http://purl.obolibrary.org/obo/CHEBI_25367", "http://purl.obolibrary.org/obo/CHEBI_25608", "http://purl.obolibrary.org/obo/CHEBI_25703", "http://purl.obolibrary.org/obo/CHEBI_25710", "http://purl.obolibrary.org/obo/CHEBI_25806", "http://purl.obolibrary.org/obo/CHEBI_25900", "http://purl.obolibrary.org/obo/CHEBI_26020", "http://purl.obolibrary.org/obo/CHEBI_26079", "http://purl.obolibrary.org/obo/CHEBI_26082", "http://purl.obolibrary.org/obo/CHEBI_26391", "http://purl.obolibrary.org/obo/CHEBI_26395", "http://purl.obolibrary.org/obo/CHEBI_26396", "http://purl.obolibrary.org/obo/CHEBI_26400", "http://purl.obolibrary.org/obo/CHEBI_26401", "http://purl.obolibrary.org/obo/CHEBI_26561", "http://purl.obolibrary.org/obo/CHEBI_26562", "http://purl.obolibrary.org/obo/CHEBI_26816", "http://purl.obolibrary.org/obo/CHEBI_27171", "http://purl.obolibrary.org/obo/CHEBI_29075", "http://purl.obolibrary.org/obo/CHEBI_33241", "http://purl.obolibrary.org/obo/CHEBI_33285", "http://purl.obolibrary.org/obo/CHEBI_33302", "http://purl.obolibrary.org/obo/CHEBI_33304", "http://purl.obolibrary.org/obo/CHEBI_33447", "http://purl.obolibrary.org/obo/CHEBI_33579", "http://purl.obolibrary.org/obo/CHEBI_33582", "http://purl.obolibrary.org/obo/CHEBI_33595", "http://purl.obolibrary.org/obo/CHEBI_33635", "http://purl.obolibrary.org/obo/CHEBI_33636", "http://purl.obolibrary.org/obo/CHEBI_33655", "http://purl.obolibrary.org/obo/CHEBI_33659", "http://purl.obolibrary.org/obo/CHEBI_33671", "http://purl.obolibrary.org/obo/CHEBI_33672", "http://purl.obolibrary.org/obo/CHEBI_33675", "http://purl.obolibrary.org/obo/CHEBI_33832", "http://purl.obolibrary.org/obo/CHEBI_33833", "http://purl.obolibrary.org/obo/CHEBI_35131", "http://purl.obolibrary.org/obo/CHEBI_35352", "http://purl.obolibrary.org/obo/CHEBI_35701", "http://purl.obolibrary.org/obo/CHEBI_35875", "http://purl.obolibrary.org/obo/CHEBI_36357", "http://purl.obolibrary.org/obo/CHEBI_36359", "http://purl.obolibrary.org/obo/CHEBI_36360", "http://purl.obolibrary.org/obo/CHEBI_36962", "http://purl.obolibrary.org/obo/CHEBI_36963", "http://purl.obolibrary.org/obo/CHEBI_36976", "http://purl.obolibrary.org/obo/CHEBI_37015", "http://purl.obolibrary.org/obo/CHEBI_37038", "http://purl.obolibrary.org/obo/CHEBI_37075", "http://purl.obolibrary.org/obo/CHEBI_37096", "http://purl.obolibrary.org/obo/CHEBI_37577", "http://purl.obolibrary.org/obo/CHEBI_37734", "http://purl.obolibrary.org/obo/CHEBI_38101", "http://purl.obolibrary.org/obo/CHEBI_38166", "http://purl.obolibrary.org/obo/CHEBI_40553", "http://purl.obolibrary.org/obo/CHEBI_456216", "http://purl.obolibrary.org/obo/CHEBI_50860", "http://purl.obolibrary.org/obo/CHEBI_51143", "http://purl.obolibrary.org/obo/CHEBI_5686", "http://purl.obolibrary.org/obo/CHEBI_61120", "http://purl.obolibrary.org/obo/CHEBI_61293", "http://purl.obolibrary.org/obo/CHEBI_61296", "http://purl.obolibrary.org/obo/CHEBI_63299", "http://purl.obolibrary.org/obo/CHEBI_63367", "http://purl.obolibrary.org/obo/CHEBI_63409", "http://purl.obolibrary.org/obo/CHEBI_72695", "http://purl.obolibrary.org/obo/CHEBI_77746", "http://purl.obolibrary.org/obo/CHEBI_78616", "http://purl.obolibrary.org/obo/CHEBI_78675", "http://purl.obolibrary.org/obo/CHEBI_84055", "http://purl.obolibrary.org/obo/CHEBI_87518", "http://purl.obolibrary.org/obo/IAO_0000115", "http://purl.obolibrary.org/obo/RO_0000087", "http://purl.obolibrary.org/obo/RO_0018034", "http://purl.obolibrary.org/obo/chebi/3_STAR", "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME", "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId", "http://www.geneontology.org/formats/oboInOwl#hasDbXref", "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym", "http://www.geneontology.org/formats/oboInOwl#hasSynonymType", "http://www.geneontology.org/formats/oboInOwl#id", "http://www.geneontology.org/formats/oboInOwl#inSubset", "http://www.geneontology.org/formats/oboInOwl#source", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#subClassOf", "http://www.w3.org/2001/XMLSchema#decimal", "https://w3id.org/chemrof/charge", "https://w3id.org/chemrof/generalized_empirical_formula", "https://w3id.org/chemrof/inchi_key_string", "https://w3id.org/chemrof/inchi_string", "https://w3id.org/chemrof/mass", "https://w3id.org/chemrof/monoisotopic_mass", "https://w3id.org/chemrof/smiles_string" ],
+  "numDescendants" : 0.0,
+  "numHierarchicalDescendants" : 0.0,
+  "ontologyId" : "chebi",
+  "ontologyIri" : "http://purl.obolibrary.org/obo/chebi.owl",
+  "ontologyPreferredPrefix" : "CHEBI",
+  "relatedTo" : [ {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_77746",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_77746",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_78675",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_78675",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0018034",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_456216",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0018034",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_456216",
+    "isObsolete" : false
+  }, {
+    "property" : "http://purl.obolibrary.org/obo/RO_0018034",
+    "value" : "http://purl.obolibrary.org/obo/CHEBI_87518",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0018034",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_87518",
+    "isObsolete" : false
+  } ],
+  "searchableAnnotationValues" : [ 0.0, false ],
+  "shortForm" : "CHEBI_16761",
+  "synonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "5'-adenylphosphoric acid",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "ADENOSINE-5'-DIPHOSPHATE",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "pdb-ccd"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "ADP",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Adenosine 5'-diphosphate",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "KEGG_COMPOUND"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Adenosine 5'-diphosphate",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "H3adp",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "adenosine 5'-(trihydrogen diphosphate)",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "adenosine 5'-(trihydrogen diphosphate)",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  } ],
+  "synonymProperty" : [ "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym", "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" ],
+  "type" : [ "class", "entity" ],
+  "http://purl.obolibrary.org/obo/IAO_0000115" : "A purine ribonucleoside 5'-diphosphate having adenine as the nucleobase.",
+  "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId" : [ "CHEBI:13222", "CHEBI:22244", "CHEBI:2342", "CHEBI:40553" ],
+  "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : [ {
+    "type" : [ "reification" ],
+    "value" : "cas:20398-34-9",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "cas"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "cas:58-64-0",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "cas"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "drugbank:DB03431",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "drugbank"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "gmelin:88452",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "gmelin"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "kegg.compound:C00008",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "kegg.glycan:G11113",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "kegg.glycan"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "knapsack:C00019353",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "knapsack"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pdb-ccd:ADP",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pdb-ccd"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "pubmed:16295522",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "pubmed"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "reaxys:67722",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#source" : "reaxys"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasExactSynonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "Adenosine 5'-diphosphate",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "KEGG_COMPOUND"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "adenosine 5'-(trihydrogen diphosphate)",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "IUPAC",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace" : "chebi_ontology",
+  "http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym" : [ {
+    "type" : [ "reification" ],
+    "value" : "5'-adenylphosphoric acid",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "chemidplus"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "ADENOSINE-5'-DIPHOSPHATE",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "pdb-ccd"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "ADP",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "Adenosine 5'-diphosphate",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "kegg.compound"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "H3adp",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "adenosine 5'-(trihydrogen diphosphate)",
+    "axioms" : [ {
+      "http://www.geneontology.org/formats/oboInOwl#hasDbXref" : "iupac",
+      "http://www.geneontology.org/formats/oboInOwl#hasSynonymType" : "http://purl.obolibrary.org/obo/chebi/IUPAC_NAME",
+      "oboSynonymTypeName" : "IUPAC NAME"
+    } ]
+  } ],
+  "http://www.geneontology.org/formats/oboInOwl#id" : "CHEBI:16761",
+  "http://www.geneontology.org/formats/oboInOwl#inSubset" : "http://purl.obolibrary.org/obo/chebi/3_STAR",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "ADP",
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ "http://purl.obolibrary.org/obo/CHEBI_37038", "http://purl.obolibrary.org/obo/CHEBI_37096", {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_77746",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0000087",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_78675",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0018034",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_456216",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://purl.obolibrary.org/obo/RO_0018034",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://purl.obolibrary.org/obo/CHEBI_87518",
+    "isObsolete" : false
+  } ],
+  "https://w3id.org/chemrof/charge" : 0.0,
+  "https://w3id.org/chemrof/generalized_empirical_formula" : "C10H15N5O10P2",
+  "https://w3id.org/chemrof/inchi_key_string" : "XTWYTFMLZFPYCI-KQYNXXCUSA-N",
+  "https://w3id.org/chemrof/inchi_string" : "InChI=1S/C10H15N5O10P2/c11-8-5-9(13-2-12-8)15(3-14-5)10-7(17)6(16)4(24-10)1-23-27(21,22)25-26(18,19)20/h2-4,6-7,10,16-17H,1H2,(H,21,22)(H2,11,12,13)(H2,18,19,20)/t4-,6-,7-,10-/m1/s1",
+  "https://w3id.org/chemrof/mass" : "427.203",
+  "https://w3id.org/chemrof/monoisotopic_mass" : "427.02941",
+  "https://w3id.org/chemrof/smiles_string" : "Nc1ncnc2c1ncn2[C@@H]1O[C@H](COP(=O)(O)OP(=O)(O)O)[C@@H](O)[C@H]1O"
+}

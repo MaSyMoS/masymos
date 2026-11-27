@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  OPN-2: the comp shapes the parser has to read. One <comp:submodel> that replaces two elements of
+  the composed document - a compartment (with a portRef and a conversionFactor) and a species (with
+  only its idRef) - plus a second submodel without replaced elements, so the fixture proves one
+  COMPOSED_FROM edge per submodel and a REPLACES edge only where a replaced element is stated. The
+  modelRef names a document that is not in the fixture on purpose: no cross-document resolution is
+  attempted (OPN-3).
+-->
+<sbml xmlns="http://www.sbml.org/sbml/level3/version1/core"
+      xmlns:comp="http://www.sbml.org/sbml/level3/version1/comp/version1"
+      level="3" version="1" comp:required="true">
+  <model id="comp_demo" name="Composed model">
+    <listOfCompartments>
+      <compartment id="cell" size="1" constant="true"/>
+    </listOfCompartments>
+    <listOfSpecies>
+      <species id="s1" compartment="cell" hasOnlySubstanceUnits="false"
+               boundaryCondition="false" constant="false"/>
+    </listOfSpecies>
+    <comp:listOfSubmodels>
+      <comp:submodel comp:id="sub" comp:modelRef="MODEL0000000001">
+        <comp:listOfReplacedElements>
+          <comp:replacedElement comp:idRef="cell" comp:portRef="cellPort" comp:conversionFactor="k_cf"/>
+          <comp:replacedElement comp:idRef="s1"/>
+        </comp:listOfReplacedElements>
+      </comp:submodel>
+      <comp:submodel comp:id="bare" comp:modelRef="MODEL0000000002"/>
+    </comp:listOfSubmodels>
+  </model>
+</sbml>

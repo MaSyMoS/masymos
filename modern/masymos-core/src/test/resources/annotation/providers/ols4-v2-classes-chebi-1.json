@@ -1,0 +1,62 @@
+{
+  "appearsIn" : [ "chebi", "slm" ],
+  "curie" : "CHEBI:1",
+  "definedBy" : [ "chebi" ],
+  "hasDirectChildren" : false,
+  "hasDirectParents" : false,
+  "hasHierarchicalChildren" : false,
+  "hasHierarchicalParents" : false,
+  "imported" : false,
+  "iri" : "http://purl.obolibrary.org/obo/CHEBI_1",
+  "isDefiningOntology" : true,
+  "isObsolete" : true,
+  "isPreferredRoot" : false,
+  "label" : [ "CHEBI_1" ],
+  "linkedEntities" : {
+    "http://purl.obolibrary.org/obo/CHEBI_18357" : {
+      "definedBy" : [ "chebi" ],
+      "numAppearsIn" : 17.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "(R)-noradrenaline" ],
+      "curie" : "CHEBI:18357",
+      "type" : [ "class", "entity" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000227" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 88.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "terms merged" ],
+      "curie" : "IAO:0000227",
+      "type" : [ "entity", "individual" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0000231" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 124.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has obsolescence reason" ],
+      "curie" : "IAO:0000231",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://purl.obolibrary.org/obo/IAO_0100001" : {
+      "definedBy" : [ "iao" ],
+      "numAppearsIn" : 167.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "term replaced by" ],
+      "curie" : "IAO:0100001",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    }
+  },
+  "linksTo" : [ "http://purl.obolibrary.org/obo/CHEBI_18357", "http://purl.obolibrary.org/obo/IAO_0000227", "http://purl.obolibrary.org/obo/IAO_0000231", "http://purl.obolibrary.org/obo/IAO_0100001" ],
+  "numDescendants" : 0.0,
+  "numHierarchicalDescendants" : 0.0,
+  "ontologyId" : "chebi",
+  "ontologyIri" : "http://purl.obolibrary.org/obo/chebi.owl",
+  "ontologyPreferredPrefix" : "CHEBI",
+  "searchableAnnotationValues" : false,
+  "shortForm" : "CHEBI_1",
+  "type" : [ "class", "entity" ],
+  "http://purl.obolibrary.org/obo/IAO_0000231" : "http://purl.obolibrary.org/obo/IAO_0000227",
+  "http://purl.obolibrary.org/obo/IAO_0100001" : "http://purl.obolibrary.org/obo/CHEBI_18357",
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2002/07/owl#deprecated" : true
+}

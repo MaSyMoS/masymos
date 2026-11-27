@@ -1,0 +1,460 @@
+{
+  "appearsIn" : [ "kisao" ],
+  "curie" : "KISAO:0000019",
+  "directAncestor" : [ "http://www.biomodels.net/kisao/KISAO#KISAO_0000000", "http://www.biomodels.net/kisao/KISAO#KISAO_0000433", "http://www.biomodels.net/kisao/KISAO#KISAO_0000694" ],
+  "directParent" : [ "http://www.biomodels.net/kisao/KISAO#KISAO_0000433" ],
+  "hasDirectChildren" : false,
+  "hasDirectParents" : true,
+  "hasHierarchicalChildren" : false,
+  "hasHierarchicalParents" : true,
+  "hierarchicalAncestor" : [ "http://www.biomodels.net/kisao/KISAO#KISAO_0000000", "http://www.biomodels.net/kisao/KISAO#KISAO_0000433", "http://www.biomodels.net/kisao/KISAO#KISAO_0000694" ],
+  "hierarchicalParent" : [ "http://www.biomodels.net/kisao/KISAO#KISAO_0000433" ],
+  "hierarchicalProperty" : "http://www.w3.org/2000/01/rdf-schema#subClassOf",
+  "imported" : false,
+  "iri" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000019",
+  "isDefiningOntology" : false,
+  "isObsolete" : false,
+  "isPreferredRoot" : false,
+  "label" : [ "CVODE" ],
+  "linkedEntities" : {
+    "http://purl.org/dc/terms/created" : {
+      "definedBy" : [ "dcterms" ],
+      "numAppearsIn" : 52.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Date Created" ],
+      "curie" : "DCTERMS:created",
+      "type" : [ "entity", "property" ]
+    },
+    "http://purl.org/dc/terms/creator" : {
+      "definedBy" : [ "dcterms" ],
+      "numAppearsIn" : 81.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "Creator" ],
+      "curie" : "DCTERMS:creator",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000000" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "modelling and simulation algorithm" ],
+      "curie" : "KISAO:0000000",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000020" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "PVODE" ],
+      "curie" : "KISAO:0000020",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000209" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "relative tolerance" ],
+      "curie" : "KISAO:0000209",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000211" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "absolute tolerance" ],
+      "curie" : "KISAO:0000211",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000259" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "has parameter" ],
+      "curie" : "KISAO:0000259",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000282" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "KINSOL" ],
+      "curie" : "KISAO:0000282",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000283" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ {
+        "type" : [ "reification" ],
+        "value" : "IDA",
+        "axioms" : [ {
+          "http://www.w3.org/2000/01/rdf-schema#comment" : "Alan C. Hindmarsh and Radu Serban (2007) Sundails equation solvers, Scholarpedia, 2(3):2860."
+        } ]
+      } ],
+      "curie" : "KISAO:0000283",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000355" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "DASPK" ],
+      "curie" : "KISAO:0000355",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000356" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "DASSL" ],
+      "curie" : "KISAO:0000356",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000359" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "is similar to" ],
+      "curie" : "KISAO:0000359",
+      "type" : [ "entity", "objectProperty", "property" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000415" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "maximum number of steps" ],
+      "curie" : "KISAO:0000415",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000433" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CVODE-like method" ],
+      "curie" : "KISAO:0000433",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000475" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "integration method" ],
+      "curie" : "KISAO:0000475",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000476" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "iteration type" ],
+      "curie" : "KISAO:0000476",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000477" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "linear solver" ],
+      "curie" : "KISAO:0000477",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000478" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "preconditioner" ],
+      "curie" : "KISAO:0000478",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000479" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "upper half-bandwidth" ],
+      "curie" : "KISAO:0000479",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000480" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "lower half-bandwidth" ],
+      "curie" : "KISAO:0000480",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000481" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "interpolate solution" ],
+      "curie" : "KISAO:0000481",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000496" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "CVODES" ],
+      "curie" : "KISAO:0000496",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000535" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "VODE" ],
+      "curie" : "KISAO:0000535",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000536" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ZVODE" ],
+      "curie" : "KISAO:0000536",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000543" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "stability limit detection flag" ],
+      "curie" : "KISAO:0000543",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000570" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "auto reduce tolerances" ],
+      "curie" : "KISAO:0000570",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000571" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "absolute tolerance adjustment factor" ],
+      "curie" : "KISAO:0000571",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#KISAO_0000694" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "ODE solver" ],
+      "curie" : "KISAO:0000694",
+      "type" : [ "class", "entity" ]
+    },
+    "http://www.biomodels.net/kisao/KISAO#isImplementedIn" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "isImplementedIn" ],
+      "curie" : "isImplementedIn",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#comment" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 179.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "comment" ],
+      "curie" : "RDFS:comment",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#label" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 202.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "label" ],
+      "curie" : "RDFS:label",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 87.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "seeAlso" ],
+      "curie" : "RDFS:seeAlso",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2000/01/rdf-schema#subClassOf" : {
+      "definedBy" : [ "rdfs" ],
+      "numAppearsIn" : 8.0,
+      "hasLocalDefinition" : false,
+      "label" : [ "subClassOf" ],
+      "curie" : "RDFS:subClassOf",
+      "type" : [ "entity", "property" ]
+    },
+    "http://www.w3.org/2001/XMLSchema#anyURI" : {
+      "numAppearsIn" : 2.0,
+      "hasLocalDefinition" : false,
+      "type" : [ "class", "entity" ],
+      "label" : [ "anyURI" ],
+      "curie" : "anyURI"
+    },
+    "http://www.w3.org/2001/XMLSchema#date" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : false,
+      "type" : [ "class", "entity" ],
+      "label" : [ "DATE" ],
+      "curie" : "date"
+    },
+    "http://www.w3.org/2001/XMLSchema#nonNegativeInteger" : {
+      "numAppearsIn" : 1.0,
+      "hasLocalDefinition" : false,
+      "type" : [ "class", "entity" ],
+      "label" : [ "nonNegativeInteger" ],
+      "curie" : "nonNegativeInteger"
+    },
+    "http://www.w3.org/2004/02/skos/core#altLabel" : {
+      "definedBy" : [ "skos" ],
+      "numAppearsIn" : 25.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "alternative label" ],
+      "curie" : "SKOS:altLabel",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    },
+    "http://www.w3.org/2004/02/skos/core#definition" : {
+      "definedBy" : [ "skos" ],
+      "numAppearsIn" : 22.0,
+      "hasLocalDefinition" : true,
+      "label" : [ "definition" ],
+      "curie" : "SKOS:definition",
+      "type" : [ "annotationProperty", "entity", "property" ]
+    }
+  },
+  "linksTo" : [ "http://purl.org/dc/terms/created", "http://purl.org/dc/terms/creator", "http://www.biomodels.net/kisao/KISAO#KISAO_0000000", "http://www.biomodels.net/kisao/KISAO#KISAO_0000020", "http://www.biomodels.net/kisao/KISAO#KISAO_0000209", "http://www.biomodels.net/kisao/KISAO#KISAO_0000211", "http://www.biomodels.net/kisao/KISAO#KISAO_0000259", "http://www.biomodels.net/kisao/KISAO#KISAO_0000282", "http://www.biomodels.net/kisao/KISAO#KISAO_0000283", "http://www.biomodels.net/kisao/KISAO#KISAO_0000355", "http://www.biomodels.net/kisao/KISAO#KISAO_0000356", "http://www.biomodels.net/kisao/KISAO#KISAO_0000359", "http://www.biomodels.net/kisao/KISAO#KISAO_0000415", "http://www.biomodels.net/kisao/KISAO#KISAO_0000433", "http://www.biomodels.net/kisao/KISAO#KISAO_0000475", "http://www.biomodels.net/kisao/KISAO#KISAO_0000476", "http://www.biomodels.net/kisao/KISAO#KISAO_0000477", "http://www.biomodels.net/kisao/KISAO#KISAO_0000478", "http://www.biomodels.net/kisao/KISAO#KISAO_0000479", "http://www.biomodels.net/kisao/KISAO#KISAO_0000480", "http://www.biomodels.net/kisao/KISAO#KISAO_0000481", "http://www.biomodels.net/kisao/KISAO#KISAO_0000496", "http://www.biomodels.net/kisao/KISAO#KISAO_0000535", "http://www.biomodels.net/kisao/KISAO#KISAO_0000536", "http://www.biomodels.net/kisao/KISAO#KISAO_0000543", "http://www.biomodels.net/kisao/KISAO#KISAO_0000570", "http://www.biomodels.net/kisao/KISAO#KISAO_0000571", "http://www.biomodels.net/kisao/KISAO#KISAO_0000694", "http://www.biomodels.net/kisao/KISAO#isImplementedIn", "http://www.w3.org/2000/01/rdf-schema#comment", "http://www.w3.org/2000/01/rdf-schema#label", "http://www.w3.org/2000/01/rdf-schema#seeAlso", "http://www.w3.org/2000/01/rdf-schema#subClassOf", "http://www.w3.org/2001/XMLSchema#anyURI", "http://www.w3.org/2001/XMLSchema#date", "http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "http://www.w3.org/2004/02/skos/core#altLabel", "http://www.w3.org/2004/02/skos/core#definition" ],
+  "numDescendants" : 0.0,
+  "numHierarchicalDescendants" : 0.0,
+  "ontologyId" : "kisao",
+  "ontologyIri" : "http://www.biomodels.net/kisao/KISAO#",
+  "ontologyPreferredPrefix" : "KISAO",
+  "relatedTo" : [ {
+    "property" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000359",
+    "value" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000020",
+    "type" : [ "related" ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000359",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000020",
+    "isObsolete" : false
+  } ],
+  "searchableAnnotationValues" : [ false, "SBML-SAT", "SUNDIALS", "The CVODE is a package written in C that solves ODE initial value problems, in real N-space, written as y'=f(t,y),  y(t0)=y0. It is capable for stiff and non-stiff systems and uses two different linear multi-step methods, namely the Adam-Moulton [http://identifiers.org/biomodels.kisao/KISAO_0000280] method and the backward differentiation formula [http://identifiers.org/biomodels.kisao/KISAO_0000288].", "dk", "libRoadRunner", {
+    "type" : [ "reification" ],
+    "value" : "VODE",
+    "axioms" : [ {
+      "http://www.w3.org/2000/01/rdf-schema#comment" : "RELATED"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "VODEPK",
+    "axioms" : [ {
+      "http://www.w3.org/2000/01/rdf-schema#comment" : "RELATED"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "code value ordinary differential equation solver",
+    "axioms" : [ {
+      "http://www.w3.org/2000/01/rdf-schema#comment" : "EXACT"
+    } ]
+  } ],
+  "shortForm" : "KISAO_0000019",
+  "type" : [ "class", "entity" ],
+  "http://purl.org/dc/terms/created" : "2007-11-30",
+  "http://purl.org/dc/terms/creator" : "dk",
+  "http://www.biomodels.net/kisao/KISAO#isImplementedIn" : [ "SBML-SAT", "SUNDIALS", "libRoadRunner" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Class",
+  "http://www.w3.org/2000/01/rdf-schema#label" : "CVODE",
+  "http://www.w3.org/2000/01/rdf-schema#seeAlso" : [ {
+    "type" : [ "reification" ],
+    "value" : "citeulike:1832863",
+    "axioms" : [ {
+      "http://www.w3.org/2000/01/rdf-schema#comment" : "Cohen S, Hindmarsh C. Cvode, A Stiff/nonstiff Ode Solver In C. Computers in Physics, Vol. 10 (2), pages 138-143 (1996)."
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "http://identifiers.org/doi/10.1145/1089014.1089020",
+    "axioms" : [ {
+      "http://www.w3.org/2000/01/rdf-schema#comment" : "Hindmarsh, A. C., et al., SUNDIALS: Suite of Nonlinear and Differential/Algebraic Equation Solvers, ACM Trans. Math. Softw., 31:363-396, 2005."
+    } ]
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ "http://www.biomodels.net/kisao/KISAO#KISAO_0000433", {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000209",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000211",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000415",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000475",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000476",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000477",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000478",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000479",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000480",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000481",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000543",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000570",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : "1",
+    "http://www.w3.org/2002/07/owl#onClass" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000571",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000259",
+    "isObsolete" : false
+  }, {
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : "http://www.w3.org/2002/07/owl#Restriction",
+    "http://www.w3.org/2002/07/owl#onProperty" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000359",
+    "http://www.w3.org/2002/07/owl#someValuesFrom" : "http://www.biomodels.net/kisao/KISAO#KISAO_0000020",
+    "isObsolete" : false
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ "http://www.biomodels.net/kisao/KISAO#KISAO_0000020", "http://www.biomodels.net/kisao/KISAO#KISAO_0000282", "http://www.biomodels.net/kisao/KISAO#KISAO_0000283", "http://www.biomodels.net/kisao/KISAO#KISAO_0000355", "http://www.biomodels.net/kisao/KISAO#KISAO_0000356", "http://www.biomodels.net/kisao/KISAO#KISAO_0000496", "http://www.biomodels.net/kisao/KISAO#KISAO_0000535", "http://www.biomodels.net/kisao/KISAO#KISAO_0000536" ],
+  "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+    "type" : [ "reification" ],
+    "value" : "VODE",
+    "axioms" : [ {
+      "http://www.w3.org/2000/01/rdf-schema#comment" : "RELATED"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "VODEPK",
+    "axioms" : [ {
+      "http://www.w3.org/2000/01/rdf-schema#comment" : "RELATED"
+    } ]
+  }, {
+    "type" : [ "reification" ],
+    "value" : "code value ordinary differential equation solver",
+    "axioms" : [ {
+      "http://www.w3.org/2000/01/rdf-schema#comment" : "EXACT"
+    } ]
+  } ],
+  "http://www.w3.org/2004/02/skos/core#definition" : "The CVODE is a package written in C that solves ODE initial value problems, in real N-space, written as y'=f(t,y),  y(t0)=y0. It is capable for stiff and non-stiff systems and uses two different linear multi-step methods, namely the Adam-Moulton [http://identifiers.org/biomodels.kisao/KISAO_0000280] method and the backward differentiation formula [http://identifiers.org/biomodels.kisao/KISAO_0000288]."
+}

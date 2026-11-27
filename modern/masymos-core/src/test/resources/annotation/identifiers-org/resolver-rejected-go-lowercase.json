@@ -1,0 +1,1 @@
+{"apiVersion":"1.0","errorMessage":"Resolution request 'go:GO:0008150' is NOT A NAMESPACE; For namespace 'go', provided local ID 'go:GO:0008150' DOES NOT MATCH local IDs definition pattern '^GO:\\d{7}$'","payload":{"resolvedResources":null,"parsedCompactIdentifier":null}}

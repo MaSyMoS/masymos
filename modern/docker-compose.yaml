@@ -1,0 +1,58 @@
+# Local operations packaging for the modern MaSyMoS service.
+# Start:  docker compose --env-file .env up -d --build   (required: MASYMOS_NEO4J_PASSWORD)
+# Stop:   docker compose --env-file .env down
+# Logs:   docker compose --env-file .env logs -f masymos-service
+# Build first: cd modern && mvn -q verify   (the image copies the fat jar from masymos-service/target/)
+#
+# version 2.4 is deliberate: the Docker CLI on this workstation is docker-compose 1.27.2, which
+# cannot read a spec-format file without a version key, and needs 2.x for depends_on:condition.
+# Modern Docker Compose v2 accepts it and only prints a deprecation warning.
+# security_opt: seccomp=unconfined is required on Docker 19.03 hosts, because that seccomp
+# profile lacks clone3 and JVM containers die with pthread_create (EPERM).
+version: "2.4"
+
+services:
+  neo4j:
+    image: neo4j:2026.05
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: "neo4j/${MASYMOS_NEO4J_PASSWORD:?set MASYMOS_NEO4J_PASSWORD}"
+    volumes:
+      - neo4j-data:/data
+      - neo4j-logs:/logs
+    security_opt:
+      - seccomp=unconfined
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q --spider http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 30s
+
+  masymos-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: masymos-service:local
+    ports:
+      - "8080:8080"
+    security_opt:
+      - seccomp=unconfined
+    environment:
+      MASYMOS_NEO4J_URI: "bolt://neo4j:7687"
+      MASYMOS_NEO4J_USERNAME: "neo4j"
+      MASYMOS_NEO4J_PASSWORD: "${MASYMOS_NEO4J_PASSWORD}"
+      MASYMOS_NEO4J_DATABASE: "neo4j"
+      MASYMOS_NEO4J_ENABLED: "true"
+      # The one credential the service can require (decision 48). Empty in .env means off, so a local
+      # workstation stack behaves exactly as before; a non-empty value must be sent as X-MaSyMoS-Token.
+      MASYMOS_SECURITY_SHARED_SECRET: "${MASYMOS_SECURITY_SHARED_SECRET:-}"
+    depends_on:
+      neo4j:
+        condition: service_healthy
+
+volumes:
+  neo4j-data:
+  neo4j-logs:

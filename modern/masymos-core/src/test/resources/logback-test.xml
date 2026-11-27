@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+
+  <root level="INFO">
+    <appender-ref ref="STDOUT"/>
+  </root>
+
+  <!-- OWLAPI logs the parse of a large ontology at DEBUG: one 1.1 MB ontology produced 578 lines.
+       Those lines say nothing about this project's behaviour and drown surefire output. -->
+  <logger name="org.semanticweb.owlapi" level="WARN"/>
+</configuration>

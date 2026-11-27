@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model xmlns="http://www.cellml.org/cellml/1.0#" xmlns:cmeta="http://www.cellml.org/metadata/1.0#"
+       xmlns:xlink="http://www.w3.org/1999/xlink" name="host">
+  <import xlink:href="sodium.cellml">
+    <component component_ref="sodium_channel" name="sodium_channel"/>
+    <units units_ref="per_ms" name="per_ms"/>
+  </import>
+  <import xlink:href="missing.cellml">
+    <component component_ref="potassium_channel" name="potassium_channel"/>
+  </import>
+  <component name="sodium_channel">
+    <variable name="m" units="dimensionless" initial_value="0.05"/>
+    <variable name="h" units="dimensionless" initial_value="0.6"/>
+  </component>
+</model>
